@@ -1,9 +1,66 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "17.08.2026 02:29",
+    "lastUpdated": "17.08.2026 03:12",
     "isOnlineBtnVisible": true
   },
+  "ANS__WER": [
+    {
+      "title": "Мгла",
+      "requestedSeason": 0,
+      "year": "2007",
+      "type": "Фильм",
+      "kinopoiskId": "273302",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/273302/",
+      "runtime": "2 ч 0 мин",
+      "genres": "ужасы, фантастика, триллер",
+      "studios": "🟢 Darkwoods Productions, 🟢 Dimension Films",
+      "budget": "18.000.000 $",
+      "revenue": "57.470.220 $",
+      "tmdbRating": "6.951",
+      "overview": "Маленький городок накрывает сверхъестественный туман, отрезая людей от внешнего мира. Группе героев, оказавшихся в этот момент в супермаркете, приходится вступить в неравный бой с обитающими в тумане монстрами.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/pCoraG5JrOtHujzbTy78zcCJKsJ.jpg",
+      "tagline": "«Страх меняет всё»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/76J14zgwVWyOciri7X7F3DGP3TA.jpg",
+      "cast": [
+        {
+          "name": "Томас Джейн",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/9frnlc2zoDcoeqZALB6aeYSQddl.jpg"
+        },
+        {
+          "name": "Лори Холден",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/rRhtmJsZ5IiE0lYrLDmYOCiPK1P.jpg"
+        },
+        {
+          "name": "Тоби Джонс",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/1qNisdp4f1KstdfvAgYXMdrhwfk.jpg"
+        },
+        {
+          "name": "Марсия Гей Харден",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/5vxcHIHABJxqhweAsTiXVOhT4SE.jpg"
+        }
+      ],
+      "director": {
+        "name": "Фрэнк Дарабонт",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/vZ50guP86otYTiBSGfi35GNHWVf.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=7_8p0ziEkjE",
+      "ageRating": "18+",
+      "keywords": "monster, based on novel or book, supermarket, fight, faith",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/dbdc9198-def8-11e9-8681-784f43822e80-profile_image-600x600.png",
+      "collection": "",
+      "id": 81,
+      "dateRequested": "17.08.2026 03:12",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    }
+  ],
   "streamelements": [],
   "DarudeFurystorm": [
     {
