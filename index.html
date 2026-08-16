@@ -131,10 +131,10 @@
         .creator-badge {
             position: absolute; top: 20px; right: 30px; display: flex; align-items: center; gap: 10px;
             background: rgba(12, 30, 91, 0.6); padding: 6px 16px 6px 6px; cursor: pointer;
-            transition: all 0.3s ease; opacity: 0.9; border: 1px solid rgba(254, 0, 0, 0.3);
+            transition: all 0.3s ease; opacity: 0.9; border: 1px solid rgba(254, 0, 0, 0.3); border-radius: 2px;
         }
         .creator-badge:hover { opacity: 1; background: rgba(254, 0, 0, 0.1); border-color: var(--accent-main); box-shadow: 0 0 15px rgba(254, 0, 0, 0.3); }
-        .creator-badge img { width: 35px; height: 35px; object-fit: cover; border: 2px solid var(--accent-main); transition: all 0.3s ease; }
+        .creator-badge img { width: 35px; height: 35px; object-fit: cover; border: 2px solid var(--accent-main); transition: all 0.3s ease; border-radius: 2px; }
         .creator-info { display: flex; flex-direction: column; text-align: left; transition: all 0.3s ease; }
         .creator-name { font-size: 20px; font-weight: 700; color: #fff; font-family: var(--font-title); transition: text-shadow 0.3s ease; letter-spacing: 1px;}
         .creator-badge:hover .creator-name { text-shadow: 0 0 8px rgba(254, 0, 0, 0.8); color: var(--text-main); }
@@ -212,7 +212,7 @@
         .req-avatar { width: 44px; height: 44px; border-radius: 2px; display: flex; align-items: center; justify-content: center; font-family: var(--font-title); font-size: 22px; color: var(--bg-deep); font-weight: 700; box-shadow: 0 5px 15px rgba(0,0,0,0.6); object-fit: cover; border: 2px solid var(--accent-main); transition: all 0.3s; background: var(--text-main); }
         .req-name { font-family: var(--font-title); font-size: 16px; font-weight: 700; color: var(--text-main); transition: all 0.3s; letter-spacing: 1px; }
         
-        .date-badge, .time-box { font-size: 12px; color: var(--accent-light); font-weight: 600; background: rgba(3, 6, 36, 0.9); border: 1px solid rgba(254, 0, 0, 0.3); padding: 6px 14px; border-radius: 2px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); display: inline-flex; justify-content: center; align-items: center; gap: 6px; font-family: var(--font-title); letter-spacing: 1px;}
+        .date-badge, .time-box { font-size: 12px; color: var(--accent-light); font-weight: 600; background: rgba(3, 6, 36, 0.9); border: 1px solid rgba(254, 0, 0, 0.3); padding: 4px 10px; border-radius: 2px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); display: inline-flex; justify-content: center; align-items: center; gap: 6px; font-family: var(--font-title); letter-spacing: 1px;}
         .date-badge { margin-top: 10px; }
         .time-box svg { stroke: var(--accent-main); width: 16px; height: 16px; }
         .time-box.episodes { font-size: 11px; flex-direction: column; gap: 3px; align-items: center; text-align: center; background: rgba(12, 30, 91, 0.6); border-color: rgba(254, 0, 0, 0.2); padding: 6px 12px; margin-top: 0; text-transform: uppercase; }
@@ -495,7 +495,7 @@
             <div class="header">
                 
                 <a href="https://sarachuma.github.io/links/" class="back-btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    <svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
                     В Архивы
                 </a>
 
@@ -842,7 +842,7 @@
         
         const sortMode = document.getElementById('sortSelect').value;
         const activeCount = currentViewData.filter(m => m.status === 'Не смотрели' || m.isWatching === true).length;
-        const showDivider = activeCount > 0;
+        const showDivider = activeCount >= 4;
 
         currentViewData.forEach((movie, index) => {
             
@@ -957,7 +957,7 @@
         
         const sortMode = document.getElementById('sortSelect').value;
         const activeCount = currentViewData.filter(m => m.status === 'Не смотрели' || m.isWatching === true).length;
-        const showDivider = activeCount > 0;
+        const showDivider = activeCount >= 4;
 
         currentViewData.forEach((movie, index) => {
             
@@ -1242,7 +1242,7 @@
         } else if (isWatched && movie.dateWatched) {
             watchedHtml = `<div class="modal-grid-box" style="margin-top: 0;">${movie.dateWatched.split(' ')[0]}</div>`;
         } else { 
-            watchedHtml = `<div class="modal-grid-box" style="background: rgba(254,0,0,0.1); border-color: transparent;">Еще не смотрели</div>`; 
+            watchedHtml = `<div class="modal-grid-box" style="background: rgba(254,0,0,0.1); border-color: transparent; margin-top: 0;">Еще не смотрели</div>`; 
         }
         dateWatchedEl.innerHTML = `<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 8px;">${watchedHtml}</div>`;
         
