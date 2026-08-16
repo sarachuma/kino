@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кинотеатр</title>
     
-    <!-- Подключаем Google Fonts как запасной вариант (fallback), если локальные шрифты недоступны -->
+    
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@400;600;700;900&display=swap" rel="stylesheet">
     
     <style>
-        /* ПОДКЛЮЧЕНИЕ ЛОКАЛЬНЫХ ШРИФТОВ ИЗ ПАПКИ FONTS */
+        
         @font-face {
             font-family: 'BOU COLLEGIATE RUS';
             src: url('fonts/Bou_Collegiate.ttf') format('truetype');
@@ -27,12 +27,12 @@
         }
 
         :root {
-            /* Синие оттенки для фона (строго фон!) */
+            
             --bg-deep: #030624;         
             --bg-velvet: #0C1E5B;       
             --bg-sunset: #002daa;       
             
-            /* Красные оттенки для акцентов (строго элементы!) */
+            
             --accent-light: #ff4d4d;      
             --accent-main: #fe0000;       
             --accent-dark: #741511;       
@@ -43,12 +43,12 @@
             --text-main: #f0edf5;       
             --text-muted: #8b9dc3;      
             
-            /* Шрифтовая пара: Локальный шрифт -> Google Шрифт -> Системный шрифт */
+            
             --font-title: 'Geologica Local', 'Geologica', sans-serif;
             --font-text: 'Geologica Local', 'Geologica', sans-serif;
         }
 
-        /* Эффект зернистости (film grain) на весь сайт поверх контента */
+        
         body::before {
             content: "";
             position: fixed;
@@ -117,17 +117,17 @@
             color: var(--accent-main); filter: drop-shadow(0 0 8px rgba(254, 0, 0, 0.6)); 
         }
 
-        /* Кнопка "В Архивы" как ссылка */
+        
         .back-btn {
             position: absolute; top: 20px; left: 30px; display: inline-flex; align-items: center; gap: 10px;
             background: rgba(254, 0, 0, 0.1); color: #ffffff; text-shadow: 2px 2px 0px var(--accent-dark), 0 0 15px var(--accent-main);
             padding: 10px 20px; border: 1px solid rgba(254, 0, 0, 0.3); border-radius: 2px;
             font-family: var(--font-title); font-weight: 700; font-size: 18px; transition: all 0.3s ease; z-index: 10;
-            text-decoration: none; /* Убираем подчеркивание */
+            text-decoration: none; 
         }
         .back-btn:hover { background: var(--accent-main); color: #ffffff; box-shadow: 0 0 20px rgba(254, 0, 0, 0.6); text-shadow: none; }
 
-        /* ИСПРАВЛЕНИЕ: Плашка создателя (sarachuma) теперь овальная */
+        
         .creator-badge {
             position: absolute; top: 20px; right: 30px; display: flex; align-items: center; gap: 10px;
             background: rgba(12, 30, 91, 0.6); padding: 6px 16px 6px 6px; cursor: pointer;
@@ -183,7 +183,7 @@
         
         .movie-info { display: flex; flex-direction: column; gap: 8px; padding-left: 10px; overflow: hidden; }
         .movie-header { display: flex; align-items: flex-start; justify-content: flex-start; gap: 12px; width: 100%; margin-bottom: 5px; } 
-        /* ЗДЕСЬ ПРАВИЛЬНЫЕ СТИЛИ ДЛЯ РЕСАЙЗА НАЗВАНИЙ В СПИСКЕ */
+        
         .movie-title { font-size: 28px; font-weight: 700; color: #fff; font-family: var(--font-title); text-shadow: 2px 2px 0 rgba(0,0,0,0.8); flex: 0 1 auto; min-width: 0; line-height: 1.1; letter-spacing: 1px; }
         .movie-meta-box { display: flex; align-items: center; gap: 10px; flex-shrink: 0; margin-top: 1px; }
         .movie-year { color: var(--accent-light); font-size: 20px; font-family: var(--font-title); white-space: nowrap; flex-shrink: 0; } 
@@ -193,7 +193,7 @@
         .copy-btn:hover { background: var(--accent-main); color: var(--bg-deep); box-shadow: 0 0 15px rgba(254, 0, 0, 0.5); } 
 
         .badges-container { display: flex; align-items: center; gap: 8px; margin: 2px 0; flex-wrap: wrap; }
-        /* Изменили размер шрифта для меток */
+        
         .content-type-badge { background: var(--bg-deep); color: #ffffff; padding: 3px 10px; font-size: 12px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; font-family: var(--font-title); border-radius: 2px; box-shadow: 0 2px 8px rgba(254, 0, 0, 0.5); border: 1px solid var(--accent-main); }
         .outline-badge, .tmdb-badge { border: 1px solid rgba(254, 0, 0, 0.5); color: var(--text-main); padding: 3px 10px; font-size: 11px; font-weight: 700; background: rgba(254, 0, 0, 0.05); border-radius: 2px; font-family: var(--font-title); letter-spacing: 1px; text-transform: uppercase; }
 
@@ -259,7 +259,7 @@
         }
 
         .card-badges-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 4px; width: 100%; box-sizing: border-box; overflow: hidden; white-space: nowrap; }
-        /* Темно-синий фон, красная обводка, белый текст для бейджа ФИЛЬМ/МУЛЬТ в плитке */
+        
         .card-type-badge { background: var(--bg-deep); border: 1px solid var(--accent-main); padding: 2px 4px; border-radius: 2px; font-size: 8px; font-family: var(--font-title); color: #ffffff; letter-spacing: 1px; box-shadow: 0 5px 15px rgba(0,0,0,0.8); max-width: 50%; overflow: hidden; text-overflow: ellipsis; text-transform: uppercase; }
         .card-status { background: var(--accent-main); color: var(--bg-deep); padding: 2px 4px; border-radius: 2px; font-size: 8px; font-family: var(--font-title); font-weight: 900; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 5px 15px rgba(0,0,0,0.8); max-width: 50%; overflow: hidden; text-overflow: ellipsis; }
         
@@ -471,13 +471,13 @@
             border-color: #ffd700 !important; color: #130f1c !important; font-weight: 900 !important; background: #ffd700 !important;
         }
 
-        /* Эффект 3D текста для дат и времени в списке */
+        
         .text-3d-effect {
             color: #ffffff;
             text-shadow: 2px 2px 0px var(--accent-dark), 0 0 10px rgba(254, 0, 0, 0.8);
         }
 
-        /* Эффект 3D для иконок */
+        
         .icon-3d-effect {
             filter: drop-shadow(2px 2px 0px var(--accent-dark)) drop-shadow(0 0 10px rgba(254, 0, 0, 0.8));
         }
@@ -493,7 +493,7 @@
     <div class="container">
         <div class="content-wrapper">
             <div class="header">
-                <!-- Кнопка "В Архивы" сделана как ссылка, но никуда не ведет (href="#") -->
+                
                 <a href="https://sarachuma.github.io/links/" class="back-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
                     В Архивы
@@ -704,20 +704,20 @@
         const r = parseFloat(rating);
         if (isNaN(r)) return 'var(--accent-main)';
         
-        // Округляем оценку, чтобы подобрать для неё конкретный цвет (например, 5.5 возьмет цвет шестерки)
+        
         const rounded = Math.round(r);
 
-        // Прописываем цвета для каждой оценки (меняй HEX-коды в кавычках на любые свои!)
-        if (rounded >= 10) return '#00d708'; // 10 - Ярко-зеленый (твой цвет)
-        if (rounded === 9) return '#32cd32'; // 9  - Лаймовый
-        if (rounded === 8) return '#80ff00'; // 8  - Салатовый
-        if (rounded === 7) return '#ccff00'; // 7  - Желто-зеленый
-        if (rounded === 6) return '#ffff00'; // 6  - Ярко-желтый
-        if (rounded === 5) return '#ffcc00'; // 5  - Желто-оранжевый
-        if (rounded === 4) return '#ffa500'; // 4  - Оранжевый
-        if (rounded === 3) return '#ff7300'; // 3  - Темно-оранжевый
-        if (rounded === 2) return '#ff4500'; // 2  - Красно-оранжевый
-        if (rounded <= 1)  return '#ff1f1f'; // 1  - Ярко-красный (твой цвет)
+        
+        if (rounded >= 10) return '#00d708'; 
+        if (rounded === 9) return '#32cd32'; 
+        if (rounded === 8) return '#80ff00'; 
+        if (rounded === 7) return '#ccff00'; 
+        if (rounded === 6) return '#ffff00'; 
+        if (rounded === 5) return '#ffcc00'; 
+        if (rounded === 4) return '#ffa500'; 
+        if (rounded === 3) return '#ff7300'; 
+        if (rounded === 2) return '#ff4500'; 
+        if (rounded <= 1)  return '#ff1f1f'; 
         
         return 'var(--accent-main)';
     }
@@ -1081,8 +1081,8 @@
 
     function autoResizeTitles() {
         setTimeout(() => {
-            // ЭТОТ БЛОК Я ОБНОВИЛ СТРОГО ДЛЯ РЕЖИМА СПИСКА (movie-row movie-title)
-            // Добавлена тонкость с overflow: hidden при разбитии на две строки (webkitLineClamp)
+            
+            
             document.querySelectorAll('.movie-row .movie-title').forEach(titleEl => {
                 let currentSize = 28; 
                 titleEl.style.fontSize = currentSize + "px"; 
@@ -1107,7 +1107,7 @@
                 }
             });
 
-            // ДАЛЬШЕ КОД ПЛИТОК И ПРОЧЕГО — АБСОЛЮТНО НЕ ТРОНУТ, КАК МЫ И ДОГОВАРИВАЛИСЬ
+            
             document.querySelectorAll('.card-title-container').forEach(container => {
                 let titleEl = container.querySelector('.resize-title');
                 if (!titleEl) return;
@@ -1119,7 +1119,7 @@
                 let currentSize = 20;
                 titleEl.style.fontSize = currentSize + "px";
                 
-                // Проверяем и высоту, И ширину контейнера, чтобы не было разрывов длинных слов
+                
                 while ((titleEl.scrollHeight > container.clientHeight || titleEl.scrollWidth > container.clientWidth) && currentSize > 9) {
                     currentSize -= 0.5;
                     titleEl.style.fontSize = currentSize + "px";
@@ -1190,7 +1190,7 @@
         let badgesHtml = '';
         let displayType = escapeHTML(movie.type || 'Фильм');
         if (displayType.toLowerCase().includes('мульт')) displayType = 'Мульт';
-        // Красная заливка, белый текст для бейджа ФИЛЬМ/МУЛЬТ в модалке
+        
         badgesHtml += `<span class="content-type-badge" style="background: var(--accent-main); color: #ffffff; border: none; box-shadow: 0 0 10px rgba(254,0,0,0.5); text-transform: uppercase;">${displayType}</span>`;
 
         if (movie.runtime && movie.runtime !== "Неизвестно" && movie.runtime !== "Нет данных") {
@@ -1226,7 +1226,7 @@
         if (movie.isWatching) {
             statusTextHTML = `<span class="badge-status" style="background: #ffd700; color: #130f1c; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4); margin:0; padding:6px 12px; font-size: 14px; text-transform: uppercase;">СМОТРИМ</span>`;
         } else if (isWatched) {
-            // Красная плашка, белый текст для СМОТРЕЛИ в модалке
+            
             statusTextHTML = `<span class="badge-status" style="margin:0; padding:6px 12px; font-size: 14px; background: var(--accent-main); color: #ffffff; border: 1px solid var(--accent-main); box-shadow: 0 0 10px rgba(254,0,0,0.5); text-transform: uppercase;">СМОТРЕЛИ</span>`;
         } else {
             statusTextHTML = `<span class="badge-status" style="background: rgba(12, 30, 91, 0.9); color: #ffffff; border: 1px solid rgba(254, 0, 0, 0.5); box-shadow: 0 4px 15px rgba(0,0,0,0.6); margin:0; padding:6px 12px; font-size: 14px; text-transform: uppercase;">В ОЧЕРЕДИ</span>`;
