@@ -1,66 +1,9 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "18.08.2026 14:39",
+    "lastUpdated": "18.08.2026 14:42",
     "isOnlineBtnVisible": true
   },
-  "puf_98": [
-    {
-      "title": "Профессионал",
-      "requestedSeason": 0,
-      "year": "1981",
-      "type": "Фильм",
-      "kinopoiskId": "39259",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/39259/",
-      "runtime": "1 ч 48 мин",
-      "genres": "боевик, приключения, триллер",
-      "studios": "🟢 Cerito Films, 🟢 Les Films Ariane",
-      "budget": "Нет данных",
-      "revenue": "Нет данных",
-      "tmdbRating": "7.2",
-      "overview": "Убить президента африканской республики. Такое задание получил секретный агент Жослен Бомон. Внезапно политика изменилась, и французское правительство сдает героя африканским властям. Сбежав с каторги, волк-одиночка возвращается на родину с одной целью: довести задание до конца. А чернокожий лидер как раз приезжает во Францию.",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/EmitWoB6C2YLFbaDC5ryU37rNr.jpg",
-      "tagline": "«Никогда не оставляйте месть на откуп дилетантам»",
-      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/vW3zPkA9OdSr2UvDfa4b0UGc1Id.jpg",
-      "cast": [
-        {
-          "name": "Жан-Поль Бельмондо",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/wTofz0bBIO7kKXATnZNNBF3Jxle.jpg"
-        },
-        {
-          "name": "Робер Оссейн",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/bbwKyCKB3QRHwL3ErMFS6kUEsFb.jpg"
-        },
-        {
-          "name": "Elisabeth Margoni",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/6o2ngqkLRvrTVqxiOSXl351MLVN.jpg"
-        },
-        {
-          "name": "Jean-Louis Richard",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/pT0vIOIESVdy1AincoVJowRksRI.jpg"
-        }
-      ],
-      "director": {
-        "name": "Жорж Лотнер",
-        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/9eX5ACCAv7nroWLValxB5qxgUt7.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=8OWVzd8Lq7g",
-      "ageRating": "Нет данных",
-      "keywords": "prison, sniper, homeless person, husband wife relationship, paris, france",
-      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-600x600.png",
-      "collection": "",
-      "id": 82,
-      "dateRequested": "17.08.2026 03:14",
-      "status": "Не смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false
-    }
-  ],
   "sarachuma": [
     {
       "title": "Отпуск по обмену",
@@ -1124,6 +1067,64 @@
       "isTheme": false,
       "isWatching": false,
       "isMarvel": true
+    }
+  ],
+  "puf_98": [
+    {
+      "title": "Профессионал",
+      "requestedSeason": 0,
+      "year": "1981",
+      "type": "Фильм",
+      "kinopoiskId": "39259",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/39259/",
+      "runtime": "1 ч 48 мин",
+      "genres": "боевик, приключения, триллер",
+      "studios": "🟢 Cerito Films, 🟢 Les Films Ariane",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "7.2",
+      "overview": "Убить президента африканской республики. Такое задание получил секретный агент Жослен Бомон. Внезапно политика изменилась, и французское правительство сдает героя африканским властям. Сбежав с каторги, волк-одиночка возвращается на родину с одной целью: довести задание до конца. А чернокожий лидер как раз приезжает во Францию.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/EmitWoB6C2YLFbaDC5ryU37rNr.jpg",
+      "tagline": "«Никогда не оставляйте месть на откуп дилетантам»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/vW3zPkA9OdSr2UvDfa4b0UGc1Id.jpg",
+      "cast": [
+        {
+          "name": "Жан-Поль Бельмондо",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/wTofz0bBIO7kKXATnZNNBF3Jxle.jpg"
+        },
+        {
+          "name": "Робер Оссейн",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/bbwKyCKB3QRHwL3ErMFS6kUEsFb.jpg"
+        },
+        {
+          "name": "Elisabeth Margoni",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/6o2ngqkLRvrTVqxiOSXl351MLVN.jpg"
+        },
+        {
+          "name": "Jean-Louis Richard",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/pT0vIOIESVdy1AincoVJowRksRI.jpg"
+        }
+      ],
+      "director": {
+        "name": "Жорж Лотнер",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/9eX5ACCAv7nroWLValxB5qxgUt7.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=8OWVzd8Lq7g",
+      "ageRating": "Нет данных",
+      "keywords": "prison, sniper, homeless person, husband wife relationship, paris, france",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-600x600.png",
+      "collection": "",
+      "id": 82,
+      "dateRequested": "17.08.2026 03:14",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "18.08.2026 14:42"
     }
   ],
   "ANS__WER": [
