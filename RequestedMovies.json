@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "17.08.2026 03:14",
+    "lastUpdated": "18.08.2026 14:39",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -59,909 +59,6 @@
       "isTheme": false,
       "isWatching": false,
       "isMarvel": false
-    }
-  ],
-  "ANS__WER": [
-    {
-      "title": "Мгла",
-      "requestedSeason": 0,
-      "year": "2007",
-      "type": "Фильм",
-      "kinopoiskId": "273302",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/273302/",
-      "runtime": "2 ч 0 мин",
-      "genres": "ужасы, фантастика, триллер",
-      "studios": "🟢 Darkwoods Productions, 🟢 Dimension Films",
-      "budget": "18.000.000 $",
-      "revenue": "57.470.220 $",
-      "tmdbRating": "6.951",
-      "overview": "Маленький городок накрывает сверхъестественный туман, отрезая людей от внешнего мира. Группе героев, оказавшихся в этот момент в супермаркете, приходится вступить в неравный бой с обитающими в тумане монстрами.",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/pCoraG5JrOtHujzbTy78zcCJKsJ.jpg",
-      "tagline": "«Страх меняет всё»",
-      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/76J14zgwVWyOciri7X7F3DGP3TA.jpg",
-      "cast": [
-        {
-          "name": "Томас Джейн",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/9frnlc2zoDcoeqZALB6aeYSQddl.jpg"
-        },
-        {
-          "name": "Лори Холден",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/rRhtmJsZ5IiE0lYrLDmYOCiPK1P.jpg"
-        },
-        {
-          "name": "Тоби Джонс",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/1qNisdp4f1KstdfvAgYXMdrhwfk.jpg"
-        },
-        {
-          "name": "Марсия Гей Харден",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/5vxcHIHABJxqhweAsTiXVOhT4SE.jpg"
-        }
-      ],
-      "director": {
-        "name": "Фрэнк Дарабонт",
-        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/vZ50guP86otYTiBSGfi35GNHWVf.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=7_8p0ziEkjE",
-      "ageRating": "18+",
-      "keywords": "monster, based on novel or book, supermarket, fight, faith",
-      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/dbdc9198-def8-11e9-8681-784f43822e80-profile_image-600x600.png",
-      "collection": "",
-      "id": 81,
-      "dateRequested": "15.08.2026 12:12",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "15.08.2026 22:13"
-    }
-  ],
-  "streamelements": [],
-  "DarudeFurystorm": [
-    {
-      "title": "Грань будущего",
-      "requestedSeason": 0,
-      "year": "2014",
-      "type": "Фильм",
-      "kinopoiskId": "505851",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/505851/",
-      "runtime": "1 ч 53 мин",
-      "genres": "боевик, фантастика",
-      "studios": "🔴 Warner Bros. Pictures | 🟢 RatPac Entertainment, 🟢 Village Roadshow Pictures, 🟢 VIZ Media, 🟢 3 Arts Entertainment",
-      "budget": "178.000.000 $",
-      "revenue": "370.541.256 $",
-      "tmdbRating": "7.641",
-      "overview": "В недалёком будущем раса инопланетян вторгается на Землю. Никакая армия в мире не может противостоять им. Майор Уильям Кейдж умирает в бою, но случается невозможное - он оказывается во времённой петле. Раз за разом он попадает в один и тот же бой, сражается и умирает... снова и снова. И каждое повторяющееся сражение приближает его к разгадке того, как победить врага.",
-      "poster": "https://image.tmdb.org/t/p/w500/98Ll6igWXdjHiKuZtCacTzRGyNX.jpg",
-      "tagline": "«Живи. Умри. И снова»",
-      "backdrop": "https://image.tmdb.org/t/p/original/4V1yIoAKPMRQwGBaSses8Bp2nsi.jpg",
-      "cast": [
-        {
-          "name": "Том Круз",
-          "photo": "https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg"
-        },
-        {
-          "name": "Эмили Блант",
-          "photo": "https://image.tmdb.org/t/p/w185/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
-        },
-        {
-          "name": "Брендан Глисон",
-          "photo": "https://image.tmdb.org/t/p/w185/ctPPJu5ZYDZr1IPmzoNpezczrm0.jpg"
-        },
-        {
-          "name": "Билл Пэкстон",
-          "photo": "https://image.tmdb.org/t/p/w185/aLdNe6mt1cSi2zWlUYRregzfis5.jpg"
-        }
-      ],
-      "director": {
-        "name": "Даг Лайман",
-        "photo": "https://image.tmdb.org/t/p/w185/5pPcmwI7GMZ45CyrYLJ3n0IXm6e.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=6l2yLRijoJM",
-      "ageRating": "12+",
-      "keywords": "deja vu, based on novel or book, restart, military officer, dystopia",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
-      "collection": "",
-      "id": 6,
-      "dateRequested": "06.01.2025 09:59",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "03.04.2025 10:45"
-    },
-    {
-      "title": "Джентльмены",
-      "requestedSeason": 0,
-      "year": "2020",
-      "type": "Фильм",
-      "kinopoiskId": "1143242",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/1143242/",
-      "runtime": "1 ч 53 мин",
-      "genres": "боевик, комедия, криминал",
-      "studios": "🟢 Miramax, 🟢 Toff Guy Films, 🟢 Coach Films",
-      "budget": "22.000.000 $",
-      "revenue": "115.171.795 $",
-      "tmdbRating": "7.656",
-      "overview": "Один ушлый американец ещё со студенческих лет приторговывал наркотиками, а теперь придумал схему нелегального обогащения с использованием поместий обедневшей английской аристократии и очень неплохо на этом разбогател. Другой пронырливый журналист приходит к Рэю, правой руке американца, и предлагает тому купить киносценарий, в котором подробно описаны преступления его босса при участии других представителей лондонского криминального мира — партнёра-еврея, китайской диаспоры, чернокожих спортсменов и даже русского олигарха.",
-      "poster": "https://image.tmdb.org/t/p/w500/vWxVVECgYDPSg5o0Rhw5u7KFa7X.jpg",
-      "tagline": "«Криминал. Класс»",
-      "backdrop": "https://image.tmdb.org/t/p/original/hClLP88yMIuhslwSVxtYrvWmxfp.jpg",
-      "cast": [
-        {
-          "name": "Мэттью Макконахи",
-          "photo": "https://image.tmdb.org/t/p/w185/lCySuYjhXix3FzQdS4oceDDrXKI.jpg"
-        },
-        {
-          "name": "Чарли Ханнэм",
-          "photo": "https://image.tmdb.org/t/p/w185/5WIDrnY25Ps2RYu0zIzHSVuSt5n.jpg"
-        },
-        {
-          "name": "Мишель Докери",
-          "photo": "https://image.tmdb.org/t/p/w185/pgPJGf2wAPgoC6Bp5PBJYQV7IVt.jpg"
-        },
-        {
-          "name": "Джереми Стронг",
-          "photo": "https://image.tmdb.org/t/p/w185/jcMhXWICSi4QjQttJVhFSiKVvpF.jpg"
-        }
-      ],
-      "director": {
-        "name": "Гай Ричи",
-        "photo": "https://image.tmdb.org/t/p/w185/9pLUnjMgIEWXi0mlHYzie9cKUTD.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=e-aiHVdRlJg",
-      "ageRating": "18+",
-      "keywords": "london, england, robbery, businessman, gangster, dark comedy",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
-      "collection": "",
-      "id": 8,
-      "dateRequested": "08.01.2025 09:59",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "30.04.2025 10:45"
-    },
-    {
-      "title": "Джек Ричер 2: Никогда не возвращайся",
-      "requestedSeason": 0,
-      "year": "2016",
-      "type": "Фильм",
-      "kinopoiskId": "817245",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/817245/",
-      "runtime": "1 ч 58 мин",
-      "genres": "боевик, триллер, драма, криминал",
-      "studios": "🟢 Skydance Media, 🟢 Huahua Media, 🟢 Shanghai Film Group, 🟢 TC Productions, 🟢 Paramount Pictures",
-      "budget": "60.000.000 $",
-      "revenue": "162.100.000 $",
-      "tmdbRating": "6.03",
-      "overview": "В центре сюжета Джек Ричер, отправившийся в Вирджинию, на место своей бывшей военной службы. Он встречается с женщиной, которая имела положение и вес в армии, однако как только они встретились — их арестовали. Причем Ричера обвинили в преступлении шестнадцатилетней давности, которое, разумеется тот не совершал.",
-      "poster": "https://image.tmdb.org/t/p/w500/u5Bl4EsRpe0gbb01OCA73NWePIy.jpg",
-      "tagline": "Не уступай, не сдавайся, не возвращайся",
-      "backdrop": "https://image.tmdb.org/t/p/original/ww1eIoywghjoMzRLRIcbJLuKnJH.jpg",
-      "cast": [
-        {
-          "name": "Том Круз",
-          "photo": "https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg"
-        },
-        {
-          "name": "Коби Смолдерс",
-          "photo": "https://image.tmdb.org/t/p/w185/1b0mYokcGsfFRge4bjXlS5ihtek.jpg"
-        },
-        {
-          "name": "Даника Ярош",
-          "photo": "https://image.tmdb.org/t/p/w185/i0Z0XnAFxf2BlhfJe26ach2HAVz.jpg"
-        },
-        {
-          "name": "Элдис Ходж",
-          "photo": "https://image.tmdb.org/t/p/w185/enDU0pemco1mFxxdLKUzWakC6sk.jpg"
-        }
-      ],
-      "director": {
-        "name": "Эдвард Цвик",
-        "photo": "https://image.tmdb.org/t/p/w185/RzRjOpqfob68smXTj5RPjankKr.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=qEY1egpXP68",
-      "ageRating": "16+",
-      "keywords": "based on novel or book, espionage, military officer, homicide, falsely accused",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
-      "collection": "Джек Ричер (Коллекция)",
-      "id": 12,
-      "dateRequested": "12.01.2025 10:00",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "22.05.2025 10:47"
-    },
-    {
-      "title": "Гладиатор",
-      "requestedSeason": 0,
-      "year": "2000",
-      "type": "Фильм",
-      "kinopoiskId": "474",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/474/",
-      "runtime": "2 ч 35 мин",
-      "genres": "боевик, драма, приключения",
-      "studios": "🟢 Universal Pictures, 🟢 Scott Free Productions, 🟢 Red Wagon Entertainment, 🟢 Mill Film, 🟢 DreamWorks Pictures",
-      "budget": "103.000.000 $",
-      "revenue": "465.516.248 $",
-      "tmdbRating": "8.23",
-      "overview": "Римская империя. Бесстрашного и благородного генерала Максимуса боготворят солдаты, а старый император Марк Аврелий безгранично доверяет ему и относится как к сыну. Однако опытный воин, готовый сразиться с любым противником в честном бою, оказывается бессильным перед коварными придворными интригами. Коммод, сын Марка Аврелия, убивает отца, который планировал сделать преемником не его, а Максимуса, и захватывает власть. Решив избавиться от опасного соперника, который к тому же отказывается присягнуть ему на верность, Коммод отдаёт приказ убить Максимуса и всю его семью. Чудом выжив, но не сумев спасти близких, Максимус попадает в плен к работорговцу, который продаёт его организатору гладиаторских боёв Проксимо. Так легендарный полководец становится гладиатором. Но вскоре ему представится шанс встретиться со своим смертельным врагом лицом к лицу.",
-      "poster": "https://image.tmdb.org/t/p/w500/1wjNqlfsuHNTXTpCt2ZOV2iPxaf.jpg",
-      "tagline": "«Генерал, ставший рабом. Раб, ставший гладиатором. Гладиатор, бросивший вызов империи»",
-      "backdrop": "https://image.tmdb.org/t/p/original/jhk6D8pim3yaByu1801kMoxXFaX.jpg",
-      "cast": [
-        {
-          "name": "Рассел Кроу",
-          "photo": "https://image.tmdb.org/t/p/w185/uxiXuVH4vNWrKlJMVVPG1sxAJFe.jpg"
-        },
-        {
-          "name": "Хоакин Феникс",
-          "photo": "https://image.tmdb.org/t/p/w185/u38k3hQBDwNX0VA22aQceDp9Iyv.jpg"
-        },
-        {
-          "name": "Конни Нильсен",
-          "photo": "https://image.tmdb.org/t/p/w185/gSQ3O3PJ6ly6nT63joOtfZyscFP.jpg"
-        },
-        {
-          "name": "Оливер Рид",
-          "photo": "https://image.tmdb.org/t/p/w185/dWfotc1X71wNCGyPO9hXpv8U9Gw.jpg"
-        }
-      ],
-      "director": {
-        "name": "Ридли Скотт",
-        "photo": "https://image.tmdb.org/t/p/w185/97SO7H0UlS3racqjeW5JTy8c6GM.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=k702zvK2zQg",
-      "ageRating": "16+",
-      "keywords": "gladiator, rome, italy, arena, senate, roman empire",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
-      "collection": "Гладиатор (Коллекция)",
-      "id": 15,
-      "dateRequested": "15.01.2025 10:00",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "29.05.2025 10:48"
-    },
-    {
-      "title": "Хищники",
-      "requestedSeason": 0,
-      "year": "2010",
-      "type": "Фильм",
-      "kinopoiskId": "460523",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/460523/",
-      "runtime": "1 ч 47 мин",
-      "genres": "фантастика, боевик, триллер",
-      "studios": "🟢 Davis Entertainment, 🟢 20th Century Fox, 🟢 Dune Entertainment, 🟢 Troublemaker Studios",
-      "budget": "40.000.000 $",
-      "revenue": "127.233.108 $",
-      "tmdbRating": "6.304",
-      "overview": "Наемник Ройс невольно вынужден возглавить группу профессионалов, выполняющих загадочную миссию на неизвестной планете. За исключением опального доктора все они - хладнокровные убийцы: наемники, гангстеры, осужденные и участники отрядов смерти - людские «хищники». Но когда их начинает систематически преследовать и истреблять невообразимое чудовище, становится очевидно, что теперь они в роли своих жертв.",
-      "poster": "https://image.tmdb.org/t/p/w500/l7oNiP5Oo89TqxNtHn9yExqsgYq.jpg",
-      "tagline": "«Они - самые опасные убийцы на планете. Но это не наша планета...»",
-      "backdrop": "https://image.tmdb.org/t/p/original/yVSgw4UyXWg0Edl7KMehdhhgIwL.jpg",
-      "cast": [
-        {
-          "name": "Эдриен Броуди",
-          "photo": "https://image.tmdb.org/t/p/w185/qBc7ahQrpVpcllaZ5hkivsOEb3C.jpg"
-        },
-        {
-          "name": "Тофер Грейс",
-          "photo": "https://image.tmdb.org/t/p/w185/y56aFmbJ8UmcOcGei5pswooumnp.jpg"
-        },
-        {
-          "name": "Алиси Брага",
-          "photo": "https://image.tmdb.org/t/p/w185/d9JdgvUiqyWuGQLmozNfGZOpIBz.jpg"
-        },
-        {
-          "name": "Уолтон Гоггинс",
-          "photo": "https://image.tmdb.org/t/p/w185/5lcVMJbWrNDFiWa1WxK4oR8zwev.jpg"
-        }
-      ],
-      "director": {
-        "name": "Нимрод Антал",
-        "photo": "https://image.tmdb.org/t/p/w185/x0fSNFKlhcAbbuvFPHPuTSUvOBY.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=LoLhRFlTOZ4",
-      "ageRating": "18+",
-      "keywords": "hunter, predator, yakuza, alien life-form, sequel",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
-      "collection": "Хищник (Коллекция)",
-      "id": 19,
-      "dateRequested": "19.01.2025 10:01",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "18.06.2025 10:48"
-    },
-    {
-      "title": "Ветер крепчает",
-      "requestedSeason": 0,
-      "year": "2013",
-      "type": "Аниме",
-      "kinopoiskId": "693969",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/693969/",
-      "runtime": "2 ч 6 мин",
-      "genres": "мультфильм, драма, история, мелодрама",
-      "studios": "🟢 Studio Ghibli, 🟢 Nippon Television Network Corporation, 🟢 dentsu, 🟢 Hakuhodo DY Media Partners, 🟢 The Walt Disney Company (Japan), 🟢 d-rights, 🟢 TOHO",
-      "budget": "30.000.000 $",
-      "revenue": "117.932.401 $",
-      "tmdbRating": "7.79",
-      "overview": "Мальчик Дзиро мечтает о полётах и красивых самолётах, способных обогнать ветер. Вот только пилотом ему не стать — он с рождения близорук. Но Дзиро не расстаётся с мечтой о небе, он начинает придумывать идеальный самолёт и со временем становится одним из лучших авиаконструкторов мира. На пути к успеху он не только встретит много интересных людей, переживёт Великое землетрясение в Токио и жестокие войны, но и обретёт любовь своей жизни — прекрасную Наоко.",
-      "poster": "https://image.tmdb.org/t/p/w500/hHzIDZUnhgsmNgbZlrH92fe5mWG.jpg",
-      "tagline": "«Мы должны жить»",
-      "backdrop": "https://image.tmdb.org/t/p/original/oTzps90guRdPVkUw7CmErG4nLDX.jpg",
-      "cast": [
-        {
-          "name": "Хидэаки Анно",
-          "photo": "https://image.tmdb.org/t/p/w185/AfV9h1RW6uALpx751APdUoX8ONc.jpg"
-        },
-        {
-          "name": "Хидэтоси Нисидзима",
-          "photo": "https://image.tmdb.org/t/p/w185/3FBdbeMMWfyKmHS5j8IECwsZWcY.jpg"
-        },
-        {
-          "name": "Миори Такимото",
-          "photo": "https://image.tmdb.org/t/p/w185/wosPsgZwQ9l15yHjrhsHhUTJah9.jpg"
-        },
-        {
-          "name": "Масахико Нишимура",
-          "photo": "https://image.tmdb.org/t/p/w185/qk7nO5RWFr2f3VeJNpf7sgsbsXR.jpg"
-        }
-      ],
-      "director": {
-        "name": "Хаяо Миядзаки",
-        "photo": "https://image.tmdb.org/t/p/w185/ouhjt9KugzhWtdEyBPipihB3ic8.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=u2J7EvnqFH0",
-      "ageRating": "12+",
-      "keywords": "japan, airplane, flying, world war ii, earthquake",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
-      "collection": "",
-      "id": 25,
-      "dateRequested": "25.01.2025 10:02",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "01.07.2025 10:49"
-    },
-    {
-      "title": "Воспоминания о Марни",
-      "requestedSeason": 0,
-      "year": "2014",
-      "type": "Аниме",
-      "kinopoiskId": "817623",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/817623/",
-      "runtime": "1 ч 43 мин",
-      "genres": "мультфильм, драма, семейный",
-      "studios": "🟢 Studio Ghibli, 🟢 Hakuhodo DY Media Partners, 🟢 KDDI, 🟢 Nippon Television Network Corporation, 🟢 TOHO, 🟢 dentsu, 🟢 The Walt Disney Company (Japan), 🟢 Mitsubishi",
-      "budget": "Нет данных",
-      "revenue": "34.949.567 $",
-      "tmdbRating": "7.9",
-      "overview": "12-летняя Анна — замкнутая и необщительная девочка. У неё нет друзей, и единственная её отдушина — это рисование. Из-за слабого здоровья Анну отправляют на лето в небольшой городок на Хоккайдо. Там она встречает Марни — девочку, живущую в большом богатом доме на отмели. Постепенно они становятся хорошими друзьями.",
-      "poster": "https://image.tmdb.org/t/p/w500/g39Suu7TBROtvHeWx4J4ROvJCan.jpg",
-      "tagline": "«Обещай, что это навсегда останется тайной»",
-      "backdrop": "https://image.tmdb.org/t/p/original/rVDOeOccg0K9tXuw6b9uOG6q4mf.jpg",
-      "cast": [
-        {
-          "name": "高月彩良",
-          "photo": "https://image.tmdb.org/t/p/w185/34QY7FS9cAizUOezKDiwSWGX0d4.jpg"
-        },
-        {
-          "name": "有村架純",
-          "photo": "https://image.tmdb.org/t/p/w185/wgRmACLMYhZWmMOaGUmUUMYPDTG.jpg"
-        },
-        {
-          "name": "松嶋菜々子",
-          "photo": "https://image.tmdb.org/t/p/w185/s8fAUcWvIBsax1chMjvNBFHV7qG.jpg"
-        },
-        {
-          "name": "Сусуму Тэрадзима",
-          "photo": "https://image.tmdb.org/t/p/w185/ls7hOjfFjOOTow7x0IP4GhcCeJf.jpg"
-        }
-      ],
-      "director": {
-        "name": "Хиромаса Ёнэбаяси",
-        "photo": "https://image.tmdb.org/t/p/w185/bV0Xg5JHzTdcCDaLX7fKHn3gYH2.jpg"
-      },
-      "trailer": "",
-      "ageRating": "PG",
-      "keywords": "friendship, based on novel or book, imaginary friend, flashback, photograph",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
-      "collection": "",
-      "id": 30,
-      "dateRequested": "30.01.2025 10:02",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "23.07.2025 10:49"
-    },
-    {
-      "title": "Клик: С пультом по жизни",
-      "requestedSeason": 0,
-      "year": "2006",
-      "type": "Фильм",
-      "kinopoiskId": "77576",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/77576/",
-      "runtime": "1 ч 47 мин",
-      "genres": "комедия, драма, фэнтези",
-      "studios": "🟢 Original Film, 🟢 Revolution Studios, 🟢 Columbia Pictures, 🟢 Happy Madison Productions",
-      "budget": "82.500.000 $",
-      "revenue": "240.685.326 $",
-      "tmdbRating": "6.31",
-      "overview": "Архитектору-трудоголику Майклу попадает в руки пульт дистанционного управления, с помощью которого можно перематывать или ставить на паузу жизненные ситуации. Но техника есть техника - у нее всегда сюрприз в запасе. Запомнив ускоренные моменты, пульт начинает самовольно перематывать Майклу жизнь.",
-      "poster": "https://image.tmdb.org/t/p/w500/yUt5heuYmrFiNGqElJrBnn3vw75.jpg",
-      "tagline": "«Представьте, что у вас появился уникальный пульт... Которым можно изменить всю вашу жизнь?»",
-      "backdrop": "https://image.tmdb.org/t/p/original/w7OBGj9YEA4DcpUnPU9OM6NufJJ.jpg",
-      "cast": [
-        {
-          "name": "Адам Сэндлер",
-          "photo": "https://image.tmdb.org/t/p/w185/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg"
-        },
-        {
-          "name": "Кейт Бекинсейл",
-          "photo": "https://image.tmdb.org/t/p/w185/lveqQgmEzW6ak5unOQi4md677kM.jpg"
-        },
-        {
-          "name": "Кристофер Уокен",
-          "photo": "https://image.tmdb.org/t/p/w185/ApgDL7nudR9T2GpjCG4vESgymO2.jpg"
-        },
-        {
-          "name": "Дэвид Хассельхофф",
-          "photo": "https://image.tmdb.org/t/p/w185/gRcqYNBUQWFxRoAVRNY7xHzOONP.jpg"
-        }
-      ],
-      "director": {
-        "name": "Frank Coraci",
-        "photo": "https://image.tmdb.org/t/p/w185/z280cWJmhWgPmR9HrTXUn4BK06o.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=86-NHBlFPPw",
-      "ageRating": "PG-13",
-      "keywords": "dying and death, regret, workaholic, heart attack, architect",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
-      "collection": "",
-      "id": 38,
-      "dateRequested": "08.02.2025 10:03",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "04.09.2025 10:51"
-    },
-    {
-      "title": "Джек Ричер",
-      "requestedSeason": 0,
-      "year": "2012",
-      "type": "Фильм",
-      "kinopoiskId": "417583",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/417583/",
-      "runtime": "2 ч 10 мин",
-      "genres": "криминал, драма, триллер, боевик",
-      "studios": "🟢 Paramount Pictures, 🟢 Skydance Media, 🟢 TC Productions",
-      "budget": "60.000.000 $",
-      "revenue": "218.300.000 $",
-      "tmdbRating": "6.675",
-      "overview": "Снайпер убивает нескольких случайных прохожих. Его находят и арестовывают. Все улики указывают на него. На допросе вместо признания он пишет имя — Джек Ричер. Больше обвиняемый не может ничего сказать, поскольку после избиения заключёнными впадает в кому. Загадочный Джек Ричер появляется незамедлительно. Что теперь будет с убийцей?",
-      "poster": "https://image.tmdb.org/t/p/w500/qw1RGKZDasgyJIA4yUbaQxAgxD8.jpg",
-      "tagline": "«У закона есть пределы. У него их нет»",
-      "backdrop": "https://image.tmdb.org/t/p/original/iwvP8XVpYVmJ3xfF9xdBi5uAOWl.jpg",
-      "cast": [
-        {
-          "name": "Том Круз",
-          "photo": "https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg"
-        },
-        {
-          "name": "Розамунд Пайк",
-          "photo": "https://image.tmdb.org/t/p/w185/pY6VunAZbaKerB8MJ3tWWNOv9dV.jpg"
-        },
-        {
-          "name": "Ричард Дженкинс",
-          "photo": "https://image.tmdb.org/t/p/w185/muT3RZG9hiKaKojD751RcQ5tGEy.jpg"
-        },
-        {
-          "name": "Дэвид Ойелоуо",
-          "photo": "https://image.tmdb.org/t/p/w185/7UZHRwOKe2cYxj8SeNUklyPYkns.jpg"
-        }
-      ],
-      "director": {
-        "name": "Кристофер МакКуорри",
-        "photo": "https://image.tmdb.org/t/p/w185/xVbQBRpqzKkllUAvjJbgnAmTwaZ.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=9Wk1h2r2uGM",
-      "ageRating": "16+",
-      "keywords": "sniper, coma, based on novel or book, detective, investigation",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
-      "collection": "Джек Ричер (Коллекция)",
-      "id": 9,
-      "dateRequested": "09.01.2025 09:59",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "03.05.2025 11:07"
-    }
-  ],
-  "SeRRRg0": [
-    {
-      "title": "Коралина в стране кошмаров",
-      "requestedSeason": 0,
-      "year": "2009",
-      "type": "Мультфильм",
-      "kinopoiskId": "49166",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/49166/",
-      "runtime": "1 ч 40 мин",
-      "genres": "мультфильм, семейный, фэнтези",
-      "studios": "🟢 LAIKA, 🟢 Pandemonium",
-      "budget": "60.000.000 $",
-      "revenue": "185.860.104 $",
-      "tmdbRating": "7.927",
-      "overview": "Любопытная Коралина открывает дверь в своем доме и попадает в мир, странно напоминающий её собственный — только лучше.",
-      "poster": "https://image.tmdb.org/t/p/w500/kwgBclQIcghtYYoJiDTw48bHWUK.jpg",
-      "tagline": "«Бойтесь своих желаний»",
-      "backdrop": "https://image.tmdb.org/t/p/original/hofnlIyF6bePkgQOpcuRWLvzf15.jpg",
-      "cast": [
-        {
-          "name": "Дакота Фаннинг",
-          "photo": "https://image.tmdb.org/t/p/w185/6bNiiHnZZfA7YYIxO5FszvNFBlI.jpg"
-        },
-        {
-          "name": "Тери Хэтчер",
-          "photo": "https://image.tmdb.org/t/p/w185/ySmnfZm8ZGabcwp4UwaMDeSzXqx.jpg"
-        },
-        {
-          "name": "Дженнифер Сондерс",
-          "photo": "https://image.tmdb.org/t/p/w185/pTgxwHcz9L8SNVYvPJS0o0lgHya.jpg"
-        },
-        {
-          "name": "Дон Френч",
-          "photo": "https://image.tmdb.org/t/p/w185/r6lZgGw4rRRSu6RGfalWh9fJSWM.jpg"
-        }
-      ],
-      "director": {
-        "name": "Генри Селик",
-        "photo": "https://image.tmdb.org/t/p/w185/2LvtcpV8njWrp2W9eXmTNjsAWev.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=WSuT6swO2Mo",
-      "ageRating": "12+",
-      "keywords": "friendship, dreams, based on novel or book, eye, stuffed animal",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
-      "collection": "Laika Studios Collection",
-      "id": 7,
-      "dateRequested": "07.01.2025 09:59",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "28.04.2025 10:45"
-    },
-    {
-      "title": "Мост в Терабитию",
-      "requestedSeason": 0,
-      "year": "2007",
-      "type": "Фильм",
-      "kinopoiskId": "78753",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/78753/",
-      "runtime": "1 ч 36 мин",
-      "genres": "приключения, драма, семейный",
-      "studios": "🟢 Lauren Levine Productions Inc., 🟢 Walden Media, 🟢 Hal Lieberman Company",
-      "budget": "60.000.000 $",
-      "revenue": "137.587.063 $",
-      "tmdbRating": "7.349",
-      "overview": "Надежды ученика пятого класса Джесса Аарона стать самым быстрым бегуном в классе разбились после того, как новичок Лесли Берк одержала победу в соревнованиях. Оснований для враждебности по отношению друг к друг у Джесса и Лесли более чем достаточно, и тем не менее между ними завязывается дружба. Как тут не подружиться, если приходится быть королем и королевой в обнаруженном в лесу волшебном царстве?",
-      "poster": "https://image.tmdb.org/t/p/w500/wrjb8LodEnIDxNcENrVJfkYbrHJ.jpg",
-      "tagline": "",
-      "backdrop": "https://image.tmdb.org/t/p/original/tH2SoOS2HqOJCOImbeGkmKSdCMz.jpg",
-      "cast": [
-        {
-          "name": "Джош Хатчерсон",
-          "photo": "https://image.tmdb.org/t/p/w185/f0eosZ1Fx0VBUyspq8K2f8sUSBn.jpg"
-        },
-        {
-          "name": "Аннасофия Робб",
-          "photo": "https://image.tmdb.org/t/p/w185/tWlnAuyQeFidHcAo2zUVxNv0G0T.jpg"
-        },
-        {
-          "name": "Зоуи Дешанель",
-          "photo": "https://image.tmdb.org/t/p/w185/30KQyjsXfrdm4Dcori7bDFTg9Le.jpg"
-        },
-        {
-          "name": "Роберт Патрик",
-          "photo": "https://image.tmdb.org/t/p/w185/qRv2Es9rZoloullTbzss3I5j1Mp.jpg"
-        }
-      ],
-      "director": {
-        "name": "Gábor Csupó",
-        "photo": "https://image.tmdb.org/t/p/w185/h78onamy0s7rDWtlbarRVGZqWF.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=lDF45sSJcYY",
-      "ageRating": "PG",
-      "keywords": "friendship, sibling relationship, based on novel or book, bullying, neighbor",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
-      "collection": "",
-      "id": 21,
-      "dateRequested": "21.01.2025 10:01",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "20.06.2025 10:48"
-    },
-    {
-      "title": "Сокровище нации",
-      "requestedSeason": 0,
-      "year": "2004",
-      "type": "Фильм",
-      "kinopoiskId": "61333",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/61333/",
-      "runtime": "2 ч 11 мин",
-      "genres": "приключения, боевик, детектив",
-      "studios": "🟢 Walt Disney Pictures, 🟢 Jerry Bruckheimer Films, 🟢 Saturn Films, 🟢 Junction Entertainment",
-      "budget": "100.000.000 $",
-      "revenue": "347.500.000 $",
-      "tmdbRating": "6.653",
-      "overview": "Современные охотники за сокровищами во главе с Беном Франклином Гейтсом узнают старинную легенду о сокровище, спрятанном еще отцами-основателями американского государства Джорджем Вашингтоном, Бенджамином Франклином и Томасом Джефферсоном. Узнать тайну клада можно с помощью Декларации Независимости США, в которой зашифрована разгадка. Но помимо разгадывания изощренной головоломки, нашим героям предстоит сразиться с любителями легкой наживы, жаждущим погреть руки на достоянии республики…",
-      "poster": "https://image.tmdb.org/t/p/w500/lV8AmdmCivVFxG4Rw4bNwqZMqJN.jpg",
-      "tagline": "Эта тайна хранилась веками... Он думал, что почти разгадал её... Но она оказалась лишь ещё одним звеном на пути к сокровищу",
-      "backdrop": "https://image.tmdb.org/t/p/original/9EnZD3ZWjpJy4IPoQkqTzxvZrso.jpg",
-      "cast": [
-        {
-          "name": "Николас Кейдж",
-          "photo": "https://image.tmdb.org/t/p/w185/y1RtezurZYveYkVNRht7CwEgSYY.jpg"
-        },
-        {
-          "name": "Диана Крюгер",
-          "photo": "https://image.tmdb.org/t/p/w185/o5gVowcjVw4ThYi0L3883Y4X7kH.jpg"
-        },
-        {
-          "name": "Джастин Барта",
-          "photo": "https://image.tmdb.org/t/p/w185/AalKjN8nR8RZ8g6ZdWV2smnQq4d.jpg"
-        },
-        {
-          "name": "Шон Бин",
-          "photo": "https://image.tmdb.org/t/p/w185/kTjiABk3TJ3yI0Cto5RsvyT6V3o.jpg"
-        }
-      ],
-      "director": {
-        "name": "Джон Тёртелтауб",
-        "photo": "https://image.tmdb.org/t/p/w185/embHCkQj1fs1PaISQSQQbi9TjHj.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=Wd3FJqQIU-c",
-      "ageRating": "12+",
-      "keywords": "new york city, treasure, philadelphia, pennsylvania, washington dc, usa, riddle",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
-      "collection": "Сокровище нации (Коллекция)",
-      "id": 58,
-      "dateRequested": "01.03.2025 10:07",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": true,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "02.04.2026 10:54"
-    },
-    {
-      "title": "Я - легенда",
-      "requestedSeason": 0,
-      "year": "2007",
-      "type": "Фильм",
-      "kinopoiskId": "195524",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/195524/",
-      "runtime": "1 ч 36 мин",
-      "genres": "драма, фантастика, триллер",
-      "studios": "🔴 Warner Bros. Pictures | 🟢 Village Roadshow Pictures, 🟢 Weed Road Pictures, 🟢 Overbrook Entertainment, 🟢 Heyday Films, 🟢 Original Film",
-      "budget": "150.000.000 $",
-      "revenue": "585.410.052 $",
-      "tmdbRating": "7.223",
-      "overview": "Неизвестный вирус унёс жизни половины населения земного шара, а остальную половину превратил в вампиров. Единственный уцелевший человек с иммунитетом к заболеванию ночами держит осаду упырей, а днём пытается найти противоядие и докопаться до причин эпидемии.",
-      "poster": "https://image.tmdb.org/t/p/w500/bTTsdXhaZmLyT5nRy3yRuLaqLN0.jpg",
-      "tagline": "«Последний человек на Земле не одинок»",
-      "backdrop": "https://image.tmdb.org/t/p/original/ePgD1cwmklyrFBjl6z96IuixuSY.jpg",
-      "cast": [
-        {
-          "name": "Уилл Смит",
-          "photo": "https://image.tmdb.org/t/p/w185/8TlKqbXYgHmmaEoPBJ7djJ8Rxxa.jpg"
-        },
-        {
-          "name": "Алиси Брага",
-          "photo": "https://image.tmdb.org/t/p/w185/d9JdgvUiqyWuGQLmozNfGZOpIBz.jpg"
-        },
-        {
-          "name": "Чарльз Тахан",
-          "photo": "https://image.tmdb.org/t/p/w185/isCdDBAxrSOjugK3HjgESi6rXcn.jpg"
-        },
-        {
-          "name": "Дэш Майок",
-          "photo": "https://image.tmdb.org/t/p/w185/jnruNUJv57nNtO66SR3oJ5tQuM5.jpg"
-        }
-      ],
-      "director": {
-        "name": "Фрэнсис Лоуренс",
-        "photo": "https://image.tmdb.org/t/p/w185/pyGWo5mAwZ2Koe6leB2RjKd7vmc.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=hjScKaQI8t4",
-      "ageRating": "18+",
-      "keywords": "new york city, saving the world, based on novel or book, dystopia, post-apocalyptic future",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
-      "collection": "Я - легенда (Коллекция)",
-      "id": 64,
-      "dateRequested": "07.03.2025 10:07",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "12.05.2026 10:56"
-    },
-    {
-      "title": "Роботы",
-      "requestedSeason": 0,
-      "year": "2005",
-      "type": "Мультфильм",
-      "kinopoiskId": "40666",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/40666/",
-      "runtime": "1 ч 31 мин",
-      "genres": "мультфильм, комедия, семейный, фантастика",
-      "studios": "🟢 Blue Sky Studios, 🟢 20th Century Fox Animation",
-      "budget": "75.000.000 $",
-      "revenue": "262.511.490 $",
-      "tmdbRating": "6.503",
-      "overview": "Действие фильма разворачивается в мире, населённом исключительно роботами. Как и в мире людей у них есть своя социальная лестница, свои герои и изгои. Молодой гений Родни мечтает сделать мир роботов лучше. А ещё ему очень нравится одна молоденькая сексапильная роботша Каппи. Но на пути всех его планов стоит ведущий дизайнер роботов Биг Велд, принадлежащий к тому же сословию, что и Каппи...",
-      "poster": "https://image.tmdb.org/t/p/w500/cxQWos3VQvYysu2bMF9nwa0lUG5.jpg",
-      "tagline": "",
-      "backdrop": "https://image.tmdb.org/t/p/original/8p4gCdDT55PMY3UMDvo6ybzMrai.jpg",
-      "cast": [
-        {
-          "name": "Юэн Макгрегор",
-          "photo": "https://image.tmdb.org/t/p/w185/aEmyadfRXTmmR7UW7OXsm5a6smS.jpg"
-        },
-        {
-          "name": "Хэлли Берри",
-          "photo": "https://image.tmdb.org/t/p/w185/84HRDZodRCuBSpYGSc3ow8WucI4.jpg"
-        },
-        {
-          "name": "Грег Киннир",
-          "photo": "https://image.tmdb.org/t/p/w185/iJezGc9XjY0DFPs00SypkuKImFK.jpg"
-        },
-        {
-          "name": "Mel Brooks",
-          "photo": "https://image.tmdb.org/t/p/w185/c21qNcMJlHnRolfhQhZOVacjtwI.jpg"
-        }
-      ],
-      "director": {
-        "name": "Крис Уэдж",
-        "photo": "https://image.tmdb.org/t/p/w185/mB0lfkbJEQ6lNsGgIcCMszAZYbu.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=Z-qzShJBJls",
-      "ageRating": "6+",
-      "keywords": "inventor, businessman, villain, steampunk, robot",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
-      "collection": "",
-      "id": 68,
-      "dateRequested": "11.03.2025 10:08",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "08.06.2026 10:57"
-    },
-    {
-      "title": "Лекарство от здоровья",
-      "requestedSeason": 0,
-      "year": "2017",
-      "type": "Фильм",
-      "kinopoiskId": "915111",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/915111/",
-      "runtime": "2 ч 26 мин",
-      "genres": "ужасы, детектив, фантастика",
-      "studios": "🟢 Regency Enterprises, 🟢 New Regency Pictures, 🟢 Blind Wink",
-      "budget": "40.000.000 $",
-      "revenue": "26.620.002 $",
-      "tmdbRating": "6.349",
-      "overview": "Молодой, но перспективный брокер из динамично развивающейся компании приезжает в закрытый санаторий в Альпах, чтобы срочно забрать и вернуть в лоно родного офиса своего босса. Но тот категорически не хочет никуда уезжать, так как давно и плотно подсел на местную лечебную воду с витаминами и биодобавками. Тем более, в результате несчастного случая молодой человек и сам становится вынужденным пациентом водной здравницы. После приема внутрь нескольких стаканов с чудодейственной амброзией бедняге начинает казаться, будто бы у него вытекли глаза и выпали передние зубы, а под кожей завелись черви. Терзаемый смутными сомнениями, он начинает собственное расследование.",
-      "poster": "https://image.tmdb.org/t/p/w500/qN67d5SCiilDe8caBHi4GH6Ih8o.jpg",
-      "tagline": "Лекарство для хорошего самочувствия",
-      "backdrop": "https://image.tmdb.org/t/p/original/uXx9wjfJEzLlfqB8GW67SYBrhVT.jpg",
-      "cast": [
-        {
-          "name": "Дэйн Дехаан",
-          "photo": "https://image.tmdb.org/t/p/w185/vZ7ix8UeRYgepFPFc4FIVKDLKDX.jpg"
-        },
-        {
-          "name": "Джейсон Айзекс",
-          "photo": "https://image.tmdb.org/t/p/w185/s6XRFjqUsrDJfDQuXPOoExAYPmb.jpg"
-        },
-        {
-          "name": "Миа Гот",
-          "photo": "https://image.tmdb.org/t/p/w185/rwko7XVaKFcJH1dtAIIsrgLMzHb.jpg"
-        },
-        {
-          "name": "Гарри Грёнер",
-          "photo": "https://image.tmdb.org/t/p/w185/3MAsDC1JtNqef1O4MwqakGjJkkI.jpg"
-        }
-      ],
-      "director": {
-        "name": "Гор Вербински",
-        "photo": "https://image.tmdb.org/t/p/w185/rSQRdmLNAwdKxrtvBSSlBmWeSsj.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=8P3rVzyLZyw",
-      "ageRating": "16+",
-      "keywords": "darkness, therapist, switzerland, mountain, wellness",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
-      "collection": "",
-      "id": 80,
-      "dateRequested": "23.03.2025 10:10",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": true,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "28.07.2026 11:00"
     }
   ],
   "sarachuma": [
@@ -1972,6 +1069,964 @@
       "isWatching": false,
       "isMarvel": false,
       "dateWatched": "22.07.2026 11:00"
+    },
+    {
+      "title": "Человек-паук",
+      "requestedSeason": 0,
+      "year": "2002",
+      "type": "Фильм",
+      "kinopoiskId": "838",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/838/",
+      "runtime": "2 ч 1 мин",
+      "genres": "боевик, фантастика",
+      "studios": "🔴 Columbia Pictures | 🟢 Marvel Enterprises, 🟢 Laura Ziskin Productions",
+      "budget": "139.000.000 $",
+      "revenue": "821.708.551 $",
+      "tmdbRating": "7.3",
+      "overview": "После укуса генетически изменённого паука, застенчивый школьник Питер Паркер обнаруживает у себя невероятные способности: сверхчеловеческую силу, ловкость и умение передвигаться по городу на паутине. Решив использовать свой дар во благо, он становится Человеком-пауком и начинает защищать жителей Нью-Йорка от преступности. Но настоящим испытанием для героя становится появление опасного Зелёного гоблина - могущественного противника, который угрожает всему городу и заставляет Питера сделать непростой выбор между личной жизнью и ответственностью, которую несут его новые способности.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/uxNYgyfM9zeIQevvLON8zlPLocS.jpg",
+      "tagline": "«Переверните свой мир вверх дном»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
+      "cast": [
+        {
+          "name": "Тоби Магуайр",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/1EtXu72Cuo7YX4IqIaEslwOhEQ9.jpg"
+        },
+        {
+          "name": "Уиллем Дефо",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg"
+        },
+        {
+          "name": "Кирстен Данст",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/yhLKGjuiMMdbGnFrR8AREkCZcVF.jpg"
+        },
+        {
+          "name": "Джеймс Франко",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/bjmAntHGiibLZixH8nTNVBzaFQn.jpg"
+        }
+      ],
+      "director": {
+        "name": "Сэм Рэйми",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/8gssvwiPrFRuFRlr5ruKx68k1Jl.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=yPPrM4Iq6E4",
+      "ageRating": "12+",
+      "keywords": "new york city, adolescence, photographer, loss of loved one, photography",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
+      "collection": "Человек-паук [Сэм Рэйми] (Коллекция)",
+      "id": 83,
+      "dateRequested": "18.08.2026 14:39",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": true
+    }
+  ],
+  "ANS__WER": [
+    {
+      "title": "Мгла",
+      "requestedSeason": 0,
+      "year": "2007",
+      "type": "Фильм",
+      "kinopoiskId": "273302",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/273302/",
+      "runtime": "2 ч 0 мин",
+      "genres": "ужасы, фантастика, триллер",
+      "studios": "🟢 Darkwoods Productions, 🟢 Dimension Films",
+      "budget": "18.000.000 $",
+      "revenue": "57.470.220 $",
+      "tmdbRating": "6.951",
+      "overview": "Маленький городок накрывает сверхъестественный туман, отрезая людей от внешнего мира. Группе героев, оказавшихся в этот момент в супермаркете, приходится вступить в неравный бой с обитающими в тумане монстрами.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/pCoraG5JrOtHujzbTy78zcCJKsJ.jpg",
+      "tagline": "«Страх меняет всё»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/76J14zgwVWyOciri7X7F3DGP3TA.jpg",
+      "cast": [
+        {
+          "name": "Томас Джейн",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/9frnlc2zoDcoeqZALB6aeYSQddl.jpg"
+        },
+        {
+          "name": "Лори Холден",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/rRhtmJsZ5IiE0lYrLDmYOCiPK1P.jpg"
+        },
+        {
+          "name": "Тоби Джонс",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/1qNisdp4f1KstdfvAgYXMdrhwfk.jpg"
+        },
+        {
+          "name": "Марсия Гей Харден",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/5vxcHIHABJxqhweAsTiXVOhT4SE.jpg"
+        }
+      ],
+      "director": {
+        "name": "Фрэнк Дарабонт",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/vZ50guP86otYTiBSGfi35GNHWVf.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=7_8p0ziEkjE",
+      "ageRating": "18+",
+      "keywords": "monster, based on novel or book, supermarket, fight, faith",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/dbdc9198-def8-11e9-8681-784f43822e80-profile_image-600x600.png",
+      "collection": "",
+      "id": 81,
+      "dateRequested": "15.08.2026 12:12",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "15.08.2026 22:13"
+    }
+  ],
+  "streamelements": [],
+  "DarudeFurystorm": [
+    {
+      "title": "Грань будущего",
+      "requestedSeason": 0,
+      "year": "2014",
+      "type": "Фильм",
+      "kinopoiskId": "505851",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/505851/",
+      "runtime": "1 ч 53 мин",
+      "genres": "боевик, фантастика",
+      "studios": "🔴 Warner Bros. Pictures | 🟢 RatPac Entertainment, 🟢 Village Roadshow Pictures, 🟢 VIZ Media, 🟢 3 Arts Entertainment",
+      "budget": "178.000.000 $",
+      "revenue": "370.541.256 $",
+      "tmdbRating": "7.641",
+      "overview": "В недалёком будущем раса инопланетян вторгается на Землю. Никакая армия в мире не может противостоять им. Майор Уильям Кейдж умирает в бою, но случается невозможное - он оказывается во времённой петле. Раз за разом он попадает в один и тот же бой, сражается и умирает... снова и снова. И каждое повторяющееся сражение приближает его к разгадке того, как победить врага.",
+      "poster": "https://image.tmdb.org/t/p/w500/98Ll6igWXdjHiKuZtCacTzRGyNX.jpg",
+      "tagline": "«Живи. Умри. И снова»",
+      "backdrop": "https://image.tmdb.org/t/p/original/4V1yIoAKPMRQwGBaSses8Bp2nsi.jpg",
+      "cast": [
+        {
+          "name": "Том Круз",
+          "photo": "https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg"
+        },
+        {
+          "name": "Эмили Блант",
+          "photo": "https://image.tmdb.org/t/p/w185/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
+        },
+        {
+          "name": "Брендан Глисон",
+          "photo": "https://image.tmdb.org/t/p/w185/ctPPJu5ZYDZr1IPmzoNpezczrm0.jpg"
+        },
+        {
+          "name": "Билл Пэкстон",
+          "photo": "https://image.tmdb.org/t/p/w185/aLdNe6mt1cSi2zWlUYRregzfis5.jpg"
+        }
+      ],
+      "director": {
+        "name": "Даг Лайман",
+        "photo": "https://image.tmdb.org/t/p/w185/5pPcmwI7GMZ45CyrYLJ3n0IXm6e.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=6l2yLRijoJM",
+      "ageRating": "12+",
+      "keywords": "deja vu, based on novel or book, restart, military officer, dystopia",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
+      "collection": "",
+      "id": 6,
+      "dateRequested": "06.01.2025 09:59",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "03.04.2025 10:45"
+    },
+    {
+      "title": "Джентльмены",
+      "requestedSeason": 0,
+      "year": "2020",
+      "type": "Фильм",
+      "kinopoiskId": "1143242",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/1143242/",
+      "runtime": "1 ч 53 мин",
+      "genres": "боевик, комедия, криминал",
+      "studios": "🟢 Miramax, 🟢 Toff Guy Films, 🟢 Coach Films",
+      "budget": "22.000.000 $",
+      "revenue": "115.171.795 $",
+      "tmdbRating": "7.656",
+      "overview": "Один ушлый американец ещё со студенческих лет приторговывал наркотиками, а теперь придумал схему нелегального обогащения с использованием поместий обедневшей английской аристократии и очень неплохо на этом разбогател. Другой пронырливый журналист приходит к Рэю, правой руке американца, и предлагает тому купить киносценарий, в котором подробно описаны преступления его босса при участии других представителей лондонского криминального мира — партнёра-еврея, китайской диаспоры, чернокожих спортсменов и даже русского олигарха.",
+      "poster": "https://image.tmdb.org/t/p/w500/vWxVVECgYDPSg5o0Rhw5u7KFa7X.jpg",
+      "tagline": "«Криминал. Класс»",
+      "backdrop": "https://image.tmdb.org/t/p/original/hClLP88yMIuhslwSVxtYrvWmxfp.jpg",
+      "cast": [
+        {
+          "name": "Мэттью Макконахи",
+          "photo": "https://image.tmdb.org/t/p/w185/lCySuYjhXix3FzQdS4oceDDrXKI.jpg"
+        },
+        {
+          "name": "Чарли Ханнэм",
+          "photo": "https://image.tmdb.org/t/p/w185/5WIDrnY25Ps2RYu0zIzHSVuSt5n.jpg"
+        },
+        {
+          "name": "Мишель Докери",
+          "photo": "https://image.tmdb.org/t/p/w185/pgPJGf2wAPgoC6Bp5PBJYQV7IVt.jpg"
+        },
+        {
+          "name": "Джереми Стронг",
+          "photo": "https://image.tmdb.org/t/p/w185/jcMhXWICSi4QjQttJVhFSiKVvpF.jpg"
+        }
+      ],
+      "director": {
+        "name": "Гай Ричи",
+        "photo": "https://image.tmdb.org/t/p/w185/9pLUnjMgIEWXi0mlHYzie9cKUTD.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=e-aiHVdRlJg",
+      "ageRating": "18+",
+      "keywords": "london, england, robbery, businessman, gangster, dark comedy",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
+      "collection": "",
+      "id": 8,
+      "dateRequested": "08.01.2025 09:59",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "30.04.2025 10:45"
+    },
+    {
+      "title": "Джек Ричер 2: Никогда не возвращайся",
+      "requestedSeason": 0,
+      "year": "2016",
+      "type": "Фильм",
+      "kinopoiskId": "817245",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/817245/",
+      "runtime": "1 ч 58 мин",
+      "genres": "боевик, триллер, драма, криминал",
+      "studios": "🟢 Skydance Media, 🟢 Huahua Media, 🟢 Shanghai Film Group, 🟢 TC Productions, 🟢 Paramount Pictures",
+      "budget": "60.000.000 $",
+      "revenue": "162.100.000 $",
+      "tmdbRating": "6.03",
+      "overview": "В центре сюжета Джек Ричер, отправившийся в Вирджинию, на место своей бывшей военной службы. Он встречается с женщиной, которая имела положение и вес в армии, однако как только они встретились — их арестовали. Причем Ричера обвинили в преступлении шестнадцатилетней давности, которое, разумеется тот не совершал.",
+      "poster": "https://image.tmdb.org/t/p/w500/u5Bl4EsRpe0gbb01OCA73NWePIy.jpg",
+      "tagline": "Не уступай, не сдавайся, не возвращайся",
+      "backdrop": "https://image.tmdb.org/t/p/original/ww1eIoywghjoMzRLRIcbJLuKnJH.jpg",
+      "cast": [
+        {
+          "name": "Том Круз",
+          "photo": "https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg"
+        },
+        {
+          "name": "Коби Смолдерс",
+          "photo": "https://image.tmdb.org/t/p/w185/1b0mYokcGsfFRge4bjXlS5ihtek.jpg"
+        },
+        {
+          "name": "Даника Ярош",
+          "photo": "https://image.tmdb.org/t/p/w185/i0Z0XnAFxf2BlhfJe26ach2HAVz.jpg"
+        },
+        {
+          "name": "Элдис Ходж",
+          "photo": "https://image.tmdb.org/t/p/w185/enDU0pemco1mFxxdLKUzWakC6sk.jpg"
+        }
+      ],
+      "director": {
+        "name": "Эдвард Цвик",
+        "photo": "https://image.tmdb.org/t/p/w185/RzRjOpqfob68smXTj5RPjankKr.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=qEY1egpXP68",
+      "ageRating": "16+",
+      "keywords": "based on novel or book, espionage, military officer, homicide, falsely accused",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
+      "collection": "Джек Ричер (Коллекция)",
+      "id": 12,
+      "dateRequested": "12.01.2025 10:00",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "22.05.2025 10:47"
+    },
+    {
+      "title": "Гладиатор",
+      "requestedSeason": 0,
+      "year": "2000",
+      "type": "Фильм",
+      "kinopoiskId": "474",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/474/",
+      "runtime": "2 ч 35 мин",
+      "genres": "боевик, драма, приключения",
+      "studios": "🟢 Universal Pictures, 🟢 Scott Free Productions, 🟢 Red Wagon Entertainment, 🟢 Mill Film, 🟢 DreamWorks Pictures",
+      "budget": "103.000.000 $",
+      "revenue": "465.516.248 $",
+      "tmdbRating": "8.23",
+      "overview": "Римская империя. Бесстрашного и благородного генерала Максимуса боготворят солдаты, а старый император Марк Аврелий безгранично доверяет ему и относится как к сыну. Однако опытный воин, готовый сразиться с любым противником в честном бою, оказывается бессильным перед коварными придворными интригами. Коммод, сын Марка Аврелия, убивает отца, который планировал сделать преемником не его, а Максимуса, и захватывает власть. Решив избавиться от опасного соперника, который к тому же отказывается присягнуть ему на верность, Коммод отдаёт приказ убить Максимуса и всю его семью. Чудом выжив, но не сумев спасти близких, Максимус попадает в плен к работорговцу, который продаёт его организатору гладиаторских боёв Проксимо. Так легендарный полководец становится гладиатором. Но вскоре ему представится шанс встретиться со своим смертельным врагом лицом к лицу.",
+      "poster": "https://image.tmdb.org/t/p/w500/1wjNqlfsuHNTXTpCt2ZOV2iPxaf.jpg",
+      "tagline": "«Генерал, ставший рабом. Раб, ставший гладиатором. Гладиатор, бросивший вызов империи»",
+      "backdrop": "https://image.tmdb.org/t/p/original/jhk6D8pim3yaByu1801kMoxXFaX.jpg",
+      "cast": [
+        {
+          "name": "Рассел Кроу",
+          "photo": "https://image.tmdb.org/t/p/w185/uxiXuVH4vNWrKlJMVVPG1sxAJFe.jpg"
+        },
+        {
+          "name": "Хоакин Феникс",
+          "photo": "https://image.tmdb.org/t/p/w185/u38k3hQBDwNX0VA22aQceDp9Iyv.jpg"
+        },
+        {
+          "name": "Конни Нильсен",
+          "photo": "https://image.tmdb.org/t/p/w185/gSQ3O3PJ6ly6nT63joOtfZyscFP.jpg"
+        },
+        {
+          "name": "Оливер Рид",
+          "photo": "https://image.tmdb.org/t/p/w185/dWfotc1X71wNCGyPO9hXpv8U9Gw.jpg"
+        }
+      ],
+      "director": {
+        "name": "Ридли Скотт",
+        "photo": "https://image.tmdb.org/t/p/w185/97SO7H0UlS3racqjeW5JTy8c6GM.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=k702zvK2zQg",
+      "ageRating": "16+",
+      "keywords": "gladiator, rome, italy, arena, senate, roman empire",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
+      "collection": "Гладиатор (Коллекция)",
+      "id": 15,
+      "dateRequested": "15.01.2025 10:00",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "29.05.2025 10:48"
+    },
+    {
+      "title": "Хищники",
+      "requestedSeason": 0,
+      "year": "2010",
+      "type": "Фильм",
+      "kinopoiskId": "460523",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/460523/",
+      "runtime": "1 ч 47 мин",
+      "genres": "фантастика, боевик, триллер",
+      "studios": "🟢 Davis Entertainment, 🟢 20th Century Fox, 🟢 Dune Entertainment, 🟢 Troublemaker Studios",
+      "budget": "40.000.000 $",
+      "revenue": "127.233.108 $",
+      "tmdbRating": "6.304",
+      "overview": "Наемник Ройс невольно вынужден возглавить группу профессионалов, выполняющих загадочную миссию на неизвестной планете. За исключением опального доктора все они - хладнокровные убийцы: наемники, гангстеры, осужденные и участники отрядов смерти - людские «хищники». Но когда их начинает систематически преследовать и истреблять невообразимое чудовище, становится очевидно, что теперь они в роли своих жертв.",
+      "poster": "https://image.tmdb.org/t/p/w500/l7oNiP5Oo89TqxNtHn9yExqsgYq.jpg",
+      "tagline": "«Они - самые опасные убийцы на планете. Но это не наша планета...»",
+      "backdrop": "https://image.tmdb.org/t/p/original/yVSgw4UyXWg0Edl7KMehdhhgIwL.jpg",
+      "cast": [
+        {
+          "name": "Эдриен Броуди",
+          "photo": "https://image.tmdb.org/t/p/w185/qBc7ahQrpVpcllaZ5hkivsOEb3C.jpg"
+        },
+        {
+          "name": "Тофер Грейс",
+          "photo": "https://image.tmdb.org/t/p/w185/y56aFmbJ8UmcOcGei5pswooumnp.jpg"
+        },
+        {
+          "name": "Алиси Брага",
+          "photo": "https://image.tmdb.org/t/p/w185/d9JdgvUiqyWuGQLmozNfGZOpIBz.jpg"
+        },
+        {
+          "name": "Уолтон Гоггинс",
+          "photo": "https://image.tmdb.org/t/p/w185/5lcVMJbWrNDFiWa1WxK4oR8zwev.jpg"
+        }
+      ],
+      "director": {
+        "name": "Нимрод Антал",
+        "photo": "https://image.tmdb.org/t/p/w185/x0fSNFKlhcAbbuvFPHPuTSUvOBY.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=LoLhRFlTOZ4",
+      "ageRating": "18+",
+      "keywords": "hunter, predator, yakuza, alien life-form, sequel",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
+      "collection": "Хищник (Коллекция)",
+      "id": 19,
+      "dateRequested": "19.01.2025 10:01",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "18.06.2025 10:48"
+    },
+    {
+      "title": "Ветер крепчает",
+      "requestedSeason": 0,
+      "year": "2013",
+      "type": "Аниме",
+      "kinopoiskId": "693969",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/693969/",
+      "runtime": "2 ч 6 мин",
+      "genres": "мультфильм, драма, история, мелодрама",
+      "studios": "🟢 Studio Ghibli, 🟢 Nippon Television Network Corporation, 🟢 dentsu, 🟢 Hakuhodo DY Media Partners, 🟢 The Walt Disney Company (Japan), 🟢 d-rights, 🟢 TOHO",
+      "budget": "30.000.000 $",
+      "revenue": "117.932.401 $",
+      "tmdbRating": "7.79",
+      "overview": "Мальчик Дзиро мечтает о полётах и красивых самолётах, способных обогнать ветер. Вот только пилотом ему не стать — он с рождения близорук. Но Дзиро не расстаётся с мечтой о небе, он начинает придумывать идеальный самолёт и со временем становится одним из лучших авиаконструкторов мира. На пути к успеху он не только встретит много интересных людей, переживёт Великое землетрясение в Токио и жестокие войны, но и обретёт любовь своей жизни — прекрасную Наоко.",
+      "poster": "https://image.tmdb.org/t/p/w500/hHzIDZUnhgsmNgbZlrH92fe5mWG.jpg",
+      "tagline": "«Мы должны жить»",
+      "backdrop": "https://image.tmdb.org/t/p/original/oTzps90guRdPVkUw7CmErG4nLDX.jpg",
+      "cast": [
+        {
+          "name": "Хидэаки Анно",
+          "photo": "https://image.tmdb.org/t/p/w185/AfV9h1RW6uALpx751APdUoX8ONc.jpg"
+        },
+        {
+          "name": "Хидэтоси Нисидзима",
+          "photo": "https://image.tmdb.org/t/p/w185/3FBdbeMMWfyKmHS5j8IECwsZWcY.jpg"
+        },
+        {
+          "name": "Миори Такимото",
+          "photo": "https://image.tmdb.org/t/p/w185/wosPsgZwQ9l15yHjrhsHhUTJah9.jpg"
+        },
+        {
+          "name": "Масахико Нишимура",
+          "photo": "https://image.tmdb.org/t/p/w185/qk7nO5RWFr2f3VeJNpf7sgsbsXR.jpg"
+        }
+      ],
+      "director": {
+        "name": "Хаяо Миядзаки",
+        "photo": "https://image.tmdb.org/t/p/w185/ouhjt9KugzhWtdEyBPipihB3ic8.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=u2J7EvnqFH0",
+      "ageRating": "12+",
+      "keywords": "japan, airplane, flying, world war ii, earthquake",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
+      "collection": "",
+      "id": 25,
+      "dateRequested": "25.01.2025 10:02",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "01.07.2025 10:49"
+    },
+    {
+      "title": "Воспоминания о Марни",
+      "requestedSeason": 0,
+      "year": "2014",
+      "type": "Аниме",
+      "kinopoiskId": "817623",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/817623/",
+      "runtime": "1 ч 43 мин",
+      "genres": "мультфильм, драма, семейный",
+      "studios": "🟢 Studio Ghibli, 🟢 Hakuhodo DY Media Partners, 🟢 KDDI, 🟢 Nippon Television Network Corporation, 🟢 TOHO, 🟢 dentsu, 🟢 The Walt Disney Company (Japan), 🟢 Mitsubishi",
+      "budget": "Нет данных",
+      "revenue": "34.949.567 $",
+      "tmdbRating": "7.9",
+      "overview": "12-летняя Анна — замкнутая и необщительная девочка. У неё нет друзей, и единственная её отдушина — это рисование. Из-за слабого здоровья Анну отправляют на лето в небольшой городок на Хоккайдо. Там она встречает Марни — девочку, живущую в большом богатом доме на отмели. Постепенно они становятся хорошими друзьями.",
+      "poster": "https://image.tmdb.org/t/p/w500/g39Suu7TBROtvHeWx4J4ROvJCan.jpg",
+      "tagline": "«Обещай, что это навсегда останется тайной»",
+      "backdrop": "https://image.tmdb.org/t/p/original/rVDOeOccg0K9tXuw6b9uOG6q4mf.jpg",
+      "cast": [
+        {
+          "name": "高月彩良",
+          "photo": "https://image.tmdb.org/t/p/w185/34QY7FS9cAizUOezKDiwSWGX0d4.jpg"
+        },
+        {
+          "name": "有村架純",
+          "photo": "https://image.tmdb.org/t/p/w185/wgRmACLMYhZWmMOaGUmUUMYPDTG.jpg"
+        },
+        {
+          "name": "松嶋菜々子",
+          "photo": "https://image.tmdb.org/t/p/w185/s8fAUcWvIBsax1chMjvNBFHV7qG.jpg"
+        },
+        {
+          "name": "Сусуму Тэрадзима",
+          "photo": "https://image.tmdb.org/t/p/w185/ls7hOjfFjOOTow7x0IP4GhcCeJf.jpg"
+        }
+      ],
+      "director": {
+        "name": "Хиромаса Ёнэбаяси",
+        "photo": "https://image.tmdb.org/t/p/w185/bV0Xg5JHzTdcCDaLX7fKHn3gYH2.jpg"
+      },
+      "trailer": "",
+      "ageRating": "PG",
+      "keywords": "friendship, based on novel or book, imaginary friend, flashback, photograph",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
+      "collection": "",
+      "id": 30,
+      "dateRequested": "30.01.2025 10:02",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "23.07.2025 10:49"
+    },
+    {
+      "title": "Клик: С пультом по жизни",
+      "requestedSeason": 0,
+      "year": "2006",
+      "type": "Фильм",
+      "kinopoiskId": "77576",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/77576/",
+      "runtime": "1 ч 47 мин",
+      "genres": "комедия, драма, фэнтези",
+      "studios": "🟢 Original Film, 🟢 Revolution Studios, 🟢 Columbia Pictures, 🟢 Happy Madison Productions",
+      "budget": "82.500.000 $",
+      "revenue": "240.685.326 $",
+      "tmdbRating": "6.31",
+      "overview": "Архитектору-трудоголику Майклу попадает в руки пульт дистанционного управления, с помощью которого можно перематывать или ставить на паузу жизненные ситуации. Но техника есть техника - у нее всегда сюрприз в запасе. Запомнив ускоренные моменты, пульт начинает самовольно перематывать Майклу жизнь.",
+      "poster": "https://image.tmdb.org/t/p/w500/yUt5heuYmrFiNGqElJrBnn3vw75.jpg",
+      "tagline": "«Представьте, что у вас появился уникальный пульт... Которым можно изменить всю вашу жизнь?»",
+      "backdrop": "https://image.tmdb.org/t/p/original/w7OBGj9YEA4DcpUnPU9OM6NufJJ.jpg",
+      "cast": [
+        {
+          "name": "Адам Сэндлер",
+          "photo": "https://image.tmdb.org/t/p/w185/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg"
+        },
+        {
+          "name": "Кейт Бекинсейл",
+          "photo": "https://image.tmdb.org/t/p/w185/lveqQgmEzW6ak5unOQi4md677kM.jpg"
+        },
+        {
+          "name": "Кристофер Уокен",
+          "photo": "https://image.tmdb.org/t/p/w185/ApgDL7nudR9T2GpjCG4vESgymO2.jpg"
+        },
+        {
+          "name": "Дэвид Хассельхофф",
+          "photo": "https://image.tmdb.org/t/p/w185/gRcqYNBUQWFxRoAVRNY7xHzOONP.jpg"
+        }
+      ],
+      "director": {
+        "name": "Frank Coraci",
+        "photo": "https://image.tmdb.org/t/p/w185/z280cWJmhWgPmR9HrTXUn4BK06o.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=86-NHBlFPPw",
+      "ageRating": "PG-13",
+      "keywords": "dying and death, regret, workaholic, heart attack, architect",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
+      "collection": "",
+      "id": 38,
+      "dateRequested": "08.02.2025 10:03",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "04.09.2025 10:51"
+    },
+    {
+      "title": "Джек Ричер",
+      "requestedSeason": 0,
+      "year": "2012",
+      "type": "Фильм",
+      "kinopoiskId": "417583",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/417583/",
+      "runtime": "2 ч 10 мин",
+      "genres": "криминал, драма, триллер, боевик",
+      "studios": "🟢 Paramount Pictures, 🟢 Skydance Media, 🟢 TC Productions",
+      "budget": "60.000.000 $",
+      "revenue": "218.300.000 $",
+      "tmdbRating": "6.675",
+      "overview": "Снайпер убивает нескольких случайных прохожих. Его находят и арестовывают. Все улики указывают на него. На допросе вместо признания он пишет имя — Джек Ричер. Больше обвиняемый не может ничего сказать, поскольку после избиения заключёнными впадает в кому. Загадочный Джек Ричер появляется незамедлительно. Что теперь будет с убийцей?",
+      "poster": "https://image.tmdb.org/t/p/w500/qw1RGKZDasgyJIA4yUbaQxAgxD8.jpg",
+      "tagline": "«У закона есть пределы. У него их нет»",
+      "backdrop": "https://image.tmdb.org/t/p/original/iwvP8XVpYVmJ3xfF9xdBi5uAOWl.jpg",
+      "cast": [
+        {
+          "name": "Том Круз",
+          "photo": "https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg"
+        },
+        {
+          "name": "Розамунд Пайк",
+          "photo": "https://image.tmdb.org/t/p/w185/pY6VunAZbaKerB8MJ3tWWNOv9dV.jpg"
+        },
+        {
+          "name": "Ричард Дженкинс",
+          "photo": "https://image.tmdb.org/t/p/w185/muT3RZG9hiKaKojD751RcQ5tGEy.jpg"
+        },
+        {
+          "name": "Дэвид Ойелоуо",
+          "photo": "https://image.tmdb.org/t/p/w185/7UZHRwOKe2cYxj8SeNUklyPYkns.jpg"
+        }
+      ],
+      "director": {
+        "name": "Кристофер МакКуорри",
+        "photo": "https://image.tmdb.org/t/p/w185/xVbQBRpqzKkllUAvjJbgnAmTwaZ.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=9Wk1h2r2uGM",
+      "ageRating": "16+",
+      "keywords": "sniper, coma, based on novel or book, detective, investigation",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/65630fcf-9f80-4ae7-a3ec-76d99ae90877-profile_image-600x600.png",
+      "collection": "Джек Ричер (Коллекция)",
+      "id": 9,
+      "dateRequested": "09.01.2025 09:59",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "03.05.2025 11:07"
+    }
+  ],
+  "SeRRRg0": [
+    {
+      "title": "Коралина в стране кошмаров",
+      "requestedSeason": 0,
+      "year": "2009",
+      "type": "Мультфильм",
+      "kinopoiskId": "49166",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/49166/",
+      "runtime": "1 ч 40 мин",
+      "genres": "мультфильм, семейный, фэнтези",
+      "studios": "🟢 LAIKA, 🟢 Pandemonium",
+      "budget": "60.000.000 $",
+      "revenue": "185.860.104 $",
+      "tmdbRating": "7.927",
+      "overview": "Любопытная Коралина открывает дверь в своем доме и попадает в мир, странно напоминающий её собственный — только лучше.",
+      "poster": "https://image.tmdb.org/t/p/w500/kwgBclQIcghtYYoJiDTw48bHWUK.jpg",
+      "tagline": "«Бойтесь своих желаний»",
+      "backdrop": "https://image.tmdb.org/t/p/original/hofnlIyF6bePkgQOpcuRWLvzf15.jpg",
+      "cast": [
+        {
+          "name": "Дакота Фаннинг",
+          "photo": "https://image.tmdb.org/t/p/w185/6bNiiHnZZfA7YYIxO5FszvNFBlI.jpg"
+        },
+        {
+          "name": "Тери Хэтчер",
+          "photo": "https://image.tmdb.org/t/p/w185/ySmnfZm8ZGabcwp4UwaMDeSzXqx.jpg"
+        },
+        {
+          "name": "Дженнифер Сондерс",
+          "photo": "https://image.tmdb.org/t/p/w185/pTgxwHcz9L8SNVYvPJS0o0lgHya.jpg"
+        },
+        {
+          "name": "Дон Френч",
+          "photo": "https://image.tmdb.org/t/p/w185/r6lZgGw4rRRSu6RGfalWh9fJSWM.jpg"
+        }
+      ],
+      "director": {
+        "name": "Генри Селик",
+        "photo": "https://image.tmdb.org/t/p/w185/2LvtcpV8njWrp2W9eXmTNjsAWev.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=WSuT6swO2Mo",
+      "ageRating": "12+",
+      "keywords": "friendship, dreams, based on novel or book, eye, stuffed animal",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
+      "collection": "Laika Studios Collection",
+      "id": 7,
+      "dateRequested": "07.01.2025 09:59",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "28.04.2025 10:45"
+    },
+    {
+      "title": "Мост в Терабитию",
+      "requestedSeason": 0,
+      "year": "2007",
+      "type": "Фильм",
+      "kinopoiskId": "78753",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/78753/",
+      "runtime": "1 ч 36 мин",
+      "genres": "приключения, драма, семейный",
+      "studios": "🟢 Lauren Levine Productions Inc., 🟢 Walden Media, 🟢 Hal Lieberman Company",
+      "budget": "60.000.000 $",
+      "revenue": "137.587.063 $",
+      "tmdbRating": "7.349",
+      "overview": "Надежды ученика пятого класса Джесса Аарона стать самым быстрым бегуном в классе разбились после того, как новичок Лесли Берк одержала победу в соревнованиях. Оснований для враждебности по отношению друг к друг у Джесса и Лесли более чем достаточно, и тем не менее между ними завязывается дружба. Как тут не подружиться, если приходится быть королем и королевой в обнаруженном в лесу волшебном царстве?",
+      "poster": "https://image.tmdb.org/t/p/w500/wrjb8LodEnIDxNcENrVJfkYbrHJ.jpg",
+      "tagline": "",
+      "backdrop": "https://image.tmdb.org/t/p/original/tH2SoOS2HqOJCOImbeGkmKSdCMz.jpg",
+      "cast": [
+        {
+          "name": "Джош Хатчерсон",
+          "photo": "https://image.tmdb.org/t/p/w185/f0eosZ1Fx0VBUyspq8K2f8sUSBn.jpg"
+        },
+        {
+          "name": "Аннасофия Робб",
+          "photo": "https://image.tmdb.org/t/p/w185/tWlnAuyQeFidHcAo2zUVxNv0G0T.jpg"
+        },
+        {
+          "name": "Зоуи Дешанель",
+          "photo": "https://image.tmdb.org/t/p/w185/30KQyjsXfrdm4Dcori7bDFTg9Le.jpg"
+        },
+        {
+          "name": "Роберт Патрик",
+          "photo": "https://image.tmdb.org/t/p/w185/qRv2Es9rZoloullTbzss3I5j1Mp.jpg"
+        }
+      ],
+      "director": {
+        "name": "Gábor Csupó",
+        "photo": "https://image.tmdb.org/t/p/w185/h78onamy0s7rDWtlbarRVGZqWF.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=lDF45sSJcYY",
+      "ageRating": "PG",
+      "keywords": "friendship, sibling relationship, based on novel or book, bullying, neighbor",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
+      "collection": "",
+      "id": 21,
+      "dateRequested": "21.01.2025 10:01",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "20.06.2025 10:48"
+    },
+    {
+      "title": "Сокровище нации",
+      "requestedSeason": 0,
+      "year": "2004",
+      "type": "Фильм",
+      "kinopoiskId": "61333",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/61333/",
+      "runtime": "2 ч 11 мин",
+      "genres": "приключения, боевик, детектив",
+      "studios": "🟢 Walt Disney Pictures, 🟢 Jerry Bruckheimer Films, 🟢 Saturn Films, 🟢 Junction Entertainment",
+      "budget": "100.000.000 $",
+      "revenue": "347.500.000 $",
+      "tmdbRating": "6.653",
+      "overview": "Современные охотники за сокровищами во главе с Беном Франклином Гейтсом узнают старинную легенду о сокровище, спрятанном еще отцами-основателями американского государства Джорджем Вашингтоном, Бенджамином Франклином и Томасом Джефферсоном. Узнать тайну клада можно с помощью Декларации Независимости США, в которой зашифрована разгадка. Но помимо разгадывания изощренной головоломки, нашим героям предстоит сразиться с любителями легкой наживы, жаждущим погреть руки на достоянии республики…",
+      "poster": "https://image.tmdb.org/t/p/w500/lV8AmdmCivVFxG4Rw4bNwqZMqJN.jpg",
+      "tagline": "Эта тайна хранилась веками... Он думал, что почти разгадал её... Но она оказалась лишь ещё одним звеном на пути к сокровищу",
+      "backdrop": "https://image.tmdb.org/t/p/original/9EnZD3ZWjpJy4IPoQkqTzxvZrso.jpg",
+      "cast": [
+        {
+          "name": "Николас Кейдж",
+          "photo": "https://image.tmdb.org/t/p/w185/y1RtezurZYveYkVNRht7CwEgSYY.jpg"
+        },
+        {
+          "name": "Диана Крюгер",
+          "photo": "https://image.tmdb.org/t/p/w185/o5gVowcjVw4ThYi0L3883Y4X7kH.jpg"
+        },
+        {
+          "name": "Джастин Барта",
+          "photo": "https://image.tmdb.org/t/p/w185/AalKjN8nR8RZ8g6ZdWV2smnQq4d.jpg"
+        },
+        {
+          "name": "Шон Бин",
+          "photo": "https://image.tmdb.org/t/p/w185/kTjiABk3TJ3yI0Cto5RsvyT6V3o.jpg"
+        }
+      ],
+      "director": {
+        "name": "Джон Тёртелтауб",
+        "photo": "https://image.tmdb.org/t/p/w185/embHCkQj1fs1PaISQSQQbi9TjHj.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=Wd3FJqQIU-c",
+      "ageRating": "12+",
+      "keywords": "new york city, treasure, philadelphia, pennsylvania, washington dc, usa, riddle",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
+      "collection": "Сокровище нации (Коллекция)",
+      "id": 58,
+      "dateRequested": "01.03.2025 10:07",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": true,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "02.04.2026 10:54"
+    },
+    {
+      "title": "Я - легенда",
+      "requestedSeason": 0,
+      "year": "2007",
+      "type": "Фильм",
+      "kinopoiskId": "195524",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/195524/",
+      "runtime": "1 ч 36 мин",
+      "genres": "драма, фантастика, триллер",
+      "studios": "🔴 Warner Bros. Pictures | 🟢 Village Roadshow Pictures, 🟢 Weed Road Pictures, 🟢 Overbrook Entertainment, 🟢 Heyday Films, 🟢 Original Film",
+      "budget": "150.000.000 $",
+      "revenue": "585.410.052 $",
+      "tmdbRating": "7.223",
+      "overview": "Неизвестный вирус унёс жизни половины населения земного шара, а остальную половину превратил в вампиров. Единственный уцелевший человек с иммунитетом к заболеванию ночами держит осаду упырей, а днём пытается найти противоядие и докопаться до причин эпидемии.",
+      "poster": "https://image.tmdb.org/t/p/w500/bTTsdXhaZmLyT5nRy3yRuLaqLN0.jpg",
+      "tagline": "«Последний человек на Земле не одинок»",
+      "backdrop": "https://image.tmdb.org/t/p/original/ePgD1cwmklyrFBjl6z96IuixuSY.jpg",
+      "cast": [
+        {
+          "name": "Уилл Смит",
+          "photo": "https://image.tmdb.org/t/p/w185/8TlKqbXYgHmmaEoPBJ7djJ8Rxxa.jpg"
+        },
+        {
+          "name": "Алиси Брага",
+          "photo": "https://image.tmdb.org/t/p/w185/d9JdgvUiqyWuGQLmozNfGZOpIBz.jpg"
+        },
+        {
+          "name": "Чарльз Тахан",
+          "photo": "https://image.tmdb.org/t/p/w185/isCdDBAxrSOjugK3HjgESi6rXcn.jpg"
+        },
+        {
+          "name": "Дэш Майок",
+          "photo": "https://image.tmdb.org/t/p/w185/jnruNUJv57nNtO66SR3oJ5tQuM5.jpg"
+        }
+      ],
+      "director": {
+        "name": "Фрэнсис Лоуренс",
+        "photo": "https://image.tmdb.org/t/p/w185/pyGWo5mAwZ2Koe6leB2RjKd7vmc.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=hjScKaQI8t4",
+      "ageRating": "18+",
+      "keywords": "new york city, saving the world, based on novel or book, dystopia, post-apocalyptic future",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
+      "collection": "Я - легенда (Коллекция)",
+      "id": 64,
+      "dateRequested": "07.03.2025 10:07",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "12.05.2026 10:56"
+    },
+    {
+      "title": "Роботы",
+      "requestedSeason": 0,
+      "year": "2005",
+      "type": "Мультфильм",
+      "kinopoiskId": "40666",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/40666/",
+      "runtime": "1 ч 31 мин",
+      "genres": "мультфильм, комедия, семейный, фантастика",
+      "studios": "🟢 Blue Sky Studios, 🟢 20th Century Fox Animation",
+      "budget": "75.000.000 $",
+      "revenue": "262.511.490 $",
+      "tmdbRating": "6.503",
+      "overview": "Действие фильма разворачивается в мире, населённом исключительно роботами. Как и в мире людей у них есть своя социальная лестница, свои герои и изгои. Молодой гений Родни мечтает сделать мир роботов лучше. А ещё ему очень нравится одна молоденькая сексапильная роботша Каппи. Но на пути всех его планов стоит ведущий дизайнер роботов Биг Велд, принадлежащий к тому же сословию, что и Каппи...",
+      "poster": "https://image.tmdb.org/t/p/w500/cxQWos3VQvYysu2bMF9nwa0lUG5.jpg",
+      "tagline": "",
+      "backdrop": "https://image.tmdb.org/t/p/original/8p4gCdDT55PMY3UMDvo6ybzMrai.jpg",
+      "cast": [
+        {
+          "name": "Юэн Макгрегор",
+          "photo": "https://image.tmdb.org/t/p/w185/aEmyadfRXTmmR7UW7OXsm5a6smS.jpg"
+        },
+        {
+          "name": "Хэлли Берри",
+          "photo": "https://image.tmdb.org/t/p/w185/84HRDZodRCuBSpYGSc3ow8WucI4.jpg"
+        },
+        {
+          "name": "Грег Киннир",
+          "photo": "https://image.tmdb.org/t/p/w185/iJezGc9XjY0DFPs00SypkuKImFK.jpg"
+        },
+        {
+          "name": "Mel Brooks",
+          "photo": "https://image.tmdb.org/t/p/w185/c21qNcMJlHnRolfhQhZOVacjtwI.jpg"
+        }
+      ],
+      "director": {
+        "name": "Крис Уэдж",
+        "photo": "https://image.tmdb.org/t/p/w185/mB0lfkbJEQ6lNsGgIcCMszAZYbu.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=Z-qzShJBJls",
+      "ageRating": "6+",
+      "keywords": "inventor, businessman, villain, steampunk, robot",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
+      "collection": "",
+      "id": 68,
+      "dateRequested": "11.03.2025 10:08",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "08.06.2026 10:57"
+    },
+    {
+      "title": "Лекарство от здоровья",
+      "requestedSeason": 0,
+      "year": "2017",
+      "type": "Фильм",
+      "kinopoiskId": "915111",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/915111/",
+      "runtime": "2 ч 26 мин",
+      "genres": "ужасы, детектив, фантастика",
+      "studios": "🟢 Regency Enterprises, 🟢 New Regency Pictures, 🟢 Blind Wink",
+      "budget": "40.000.000 $",
+      "revenue": "26.620.002 $",
+      "tmdbRating": "6.349",
+      "overview": "Молодой, но перспективный брокер из динамично развивающейся компании приезжает в закрытый санаторий в Альпах, чтобы срочно забрать и вернуть в лоно родного офиса своего босса. Но тот категорически не хочет никуда уезжать, так как давно и плотно подсел на местную лечебную воду с витаминами и биодобавками. Тем более, в результате несчастного случая молодой человек и сам становится вынужденным пациентом водной здравницы. После приема внутрь нескольких стаканов с чудодейственной амброзией бедняге начинает казаться, будто бы у него вытекли глаза и выпали передние зубы, а под кожей завелись черви. Терзаемый смутными сомнениями, он начинает собственное расследование.",
+      "poster": "https://image.tmdb.org/t/p/w500/qN67d5SCiilDe8caBHi4GH6Ih8o.jpg",
+      "tagline": "Лекарство для хорошего самочувствия",
+      "backdrop": "https://image.tmdb.org/t/p/original/uXx9wjfJEzLlfqB8GW67SYBrhVT.jpg",
+      "cast": [
+        {
+          "name": "Дэйн Дехаан",
+          "photo": "https://image.tmdb.org/t/p/w185/vZ7ix8UeRYgepFPFc4FIVKDLKDX.jpg"
+        },
+        {
+          "name": "Джейсон Айзекс",
+          "photo": "https://image.tmdb.org/t/p/w185/s6XRFjqUsrDJfDQuXPOoExAYPmb.jpg"
+        },
+        {
+          "name": "Миа Гот",
+          "photo": "https://image.tmdb.org/t/p/w185/rwko7XVaKFcJH1dtAIIsrgLMzHb.jpg"
+        },
+        {
+          "name": "Гарри Грёнер",
+          "photo": "https://image.tmdb.org/t/p/w185/3MAsDC1JtNqef1O4MwqakGjJkkI.jpg"
+        }
+      ],
+      "director": {
+        "name": "Гор Вербински",
+        "photo": "https://image.tmdb.org/t/p/w185/rSQRdmLNAwdKxrtvBSSlBmWeSsj.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=8P3rVzyLZyw",
+      "ageRating": "16+",
+      "keywords": "darkness, therapist, switzerland, mountain, wellness",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/51e15def-2f0e-4692-ae48-f922021be13f-profile_image-600x600.png",
+      "collection": "",
+      "id": 80,
+      "dateRequested": "23.03.2025 10:10",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": true,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "28.07.2026 11:00"
     }
   ],
   "pollux2292": [
