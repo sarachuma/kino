@@ -448,6 +448,8 @@
             .movies-grid { grid-template-columns: repeat(4, 1fr); }
         }
         @media (max-width: 768px) {
+			#viewToggleBtn { display: none !important; }
+		
             th:nth-child(4), td:nth-child(4) { display: none; }
             .movies-grid { grid-template-columns: repeat(2, 1fr); padding: 10px; gap: 10px; }
             .modal-body { flex-direction: column; margin-top: -60px; padding: 20px; }
@@ -810,17 +812,23 @@
     }
 
     function renderView() {
-        const renderArea = document.getElementById('render-area');
-        renderArea.innerHTML = '';
-        
-        if (currentViewData.length === 0) {
-            renderArea.innerHTML = '<div style="text-align: center; padding: 60px; font-size: 24px; font-family: var(--font-title); color: var(--text-muted); text-transform: uppercase;">Архив пуст ✦</div>';
-            return;
-        }
+		const renderArea = document.getElementById('render-area');
+		renderArea.innerHTML = '';
+    
+		if (currentViewData.length === 0) {
+			renderArea.innerHTML = '<div style="text-align: center; padding: 60px; font-size: 24px; font-family: var(--font-title); color: var(--text-muted); text-transform: uppercase;">Архив пуст ✦</div>';
+			return;
+		}
 
-        if (viewMode === 'list') renderTableMode(renderArea);
-        else renderGridMode(renderArea);
-    }
+		
+		if (window.innerWidth <= 768) {
+			renderGridMode(renderArea);
+		} else {
+			
+			if (viewMode === 'list') renderTableMode(renderArea);
+			else renderGridMode(renderArea);
+		}
+	}
 
     function renderTableMode(renderArea) {
         let tableHTML = `
@@ -1153,7 +1161,10 @@
         }, 10); 
     }
 
-    window.addEventListener('resize', autoResizeTitles);
+    window.addEventListener('resize', () => {
+		autoResizeTitles();
+		renderView(); // Перерисовываем вид при изменении размера окна
+	});
 
     function openModal(index) {
         const movie = currentViewData[index]; currentModalMovie = movie; 
