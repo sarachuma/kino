@@ -464,8 +464,38 @@
             .flex-row-responsive { flex-direction: column; }
             .flex-col-half.border-right-dashed { border-right: none; border-bottom: 1px solid rgba(254, 0, 0, 0.3); }
 
-            .header-top h1 { font-size: 38px; }
-            .header-top h1::before, .header-top h1::after { display: none; }
+
+			.header {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 15px; /* Расстояние между элементами */
+				padding: 20px 10px; /* Уменьшаем отступы для мобилок */
+			}
+
+			/* Возвращаем кнопку "В архивы" в общий поток (убираем абсолютное позиционирование) */
+			.back-btn {
+				position: relative;
+				top: 0;
+				left: 0;
+			}
+
+			/* Возвращаем бейдж Twitch в общий поток */
+			.creator-badge {
+				position: relative;
+				top: 0;
+				right: 0;
+			}
+
+			/* Настраиваем и уменьшаем главный заголовок */
+			.header-top h1 { 
+				font-size: 28px; /* Сделали шрифт меньше (было 38px) */
+				margin: 5px 0 10px 0;
+			}
+			.header-top h1::before, .header-top h1::after { 
+				display: none; 
+			}
+
         }
     
         .legendary-badge {
