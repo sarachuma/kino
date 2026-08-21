@@ -117,6 +117,63 @@
       "isTheme": false,
       "isWatching": false,
       "isMarvel": false
+    },
+    {
+      "title": "Поцелуй навылет",
+      "requestedSeason": 0,
+      "year": "2005",
+      "type": "Фильм",
+      "kinopoiskId": "51439",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/51439/",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "1 ч 43 мин",
+      "genres": "комедия, криминал, детектив, триллер",
+      "studios": "🟢 Silver Pictures",
+      "budget": "15.000.000 $",
+      "revenue": "15.785.148 $",
+      "tmdbRating": "7.158",
+      "overview": "Зайдя на Рождество в нью-йоркский магазин игрушек, симпатичный вор Гарри Локхарт случайно нажимает на сигнализацию и, спасаясь бегством от полиции, попадает на кинопробы в детективный фильм. Продюсеру нравится его напористость, и он приглашает Гарри в Голливуд. Готовит Локхарта к кинопробе Перри ван Шрайк, настоящий сыщик, оказавшийся к тому же еще и гомосексуалистом. На роль главной героини претендует актриса Хармони Фэйт, с которой Гарри связывает общая любовь к детективным историям Джонни Госсамера. Однажды ночью Перри берет Гарри с собой на задание, и в итоге им приходится заняться расследованием убийства некоей женщины. Затем, как и в романе Госсамера, возникает еще одна детективная линия: сестра Хармони совершает самоубийство, которое, как выясняется, имеет прямое отношение к обнаруженному Перри и Гарри трупу…",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/pl2KmW3QwODLUgECSrXnl6vAZDn.jpg",
+      "tagline": "",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/kKdBNPXfjENj3wG5qtiCrZ2wflp.jpg",
+      "cast": [
+        {
+          "name": "Роберт Дауни мл.",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+        },
+        {
+          "name": "Вэл Килмер",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/sWH9jTD0bC5gWhhceUlzfNiNup0.jpg"
+        },
+        {
+          "name": "Мишель Монахэн",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/uK1qhSzKd9gkDh3p1H5e2PWMYyH.jpg"
+        },
+        {
+          "name": "Корбин Бернсен",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/zkftLlEO5fmKmcKienRKw9Gx0U9.jpg"
+        }
+      ],
+      "director": {
+        "name": "Шейн Блэк",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/fafBg8LjtQqsXyFg8ZgW7DHQXKt.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=z-XoMuAMudc",
+      "ageRating": "16+",
+      "keywords": "detective, loser, thief, crush, whodunit",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-600x600.png",
+      "collection": "",
+      "id": 87,
+      "dateRequested": "22.08.2026 01:15",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
     }
   ],
   "sarachuma": [
