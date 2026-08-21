@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "22.08.2026 01:10",
+    "lastUpdated": "22.08.2026 01:13",
     "isOnlineBtnVisible": true
   },
   "sarachuma": [
@@ -1072,63 +1072,6 @@
       "dateWatched": "21.08.2026 23:47"
     },
     {
-      "title": "Человек-паук 3: Враг в отражении",
-      "requestedSeason": 0,
-      "year": "2007",
-      "type": "Фильм",
-      "kinopoiskId": "82441",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/82441/",
-      "altPoster": "",
-      "postUrl": "",
-      "runtime": "2 ч 19 мин",
-      "genres": "боевик, приключения, фантастика",
-      "studios": "🔴 Columbia Pictures | 🟢 Laura Ziskin Productions, 🟢 Marvel Studios",
-      "budget": "258.000.000 $",
-      "revenue": "894.983.373 $",
-      "tmdbRating": "6.476",
-      "overview": "Питер наконец находит гармонию между жизнью супергероя и личным счастьем, но новые испытания снова меняют всё. Таинственная чёрная субстанция усиливает его способности, одновременно пробуждая тёмную сторону его характера. В это же время на его пути появляются сразу несколько опасных противников - Песочный человек, Новый Гоблин и Веном. Чтобы защитить близких и спасти город, Питеру предстоит справиться не только с врагами, но и с собственными внутренними демонами.",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/ngNCHBZgNdbGisLbi1hImGh2SHl.jpg",
-      "tagline": "«Величайшая битва происходит внутри»",
-      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/FfAU0PUs8AJkMU2VbkVNFtRXR4.jpg",
-      "cast": [
-        {
-          "name": "Тоби Магуайр",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/1EtXu72Cuo7YX4IqIaEslwOhEQ9.jpg"
-        },
-        {
-          "name": "Кирстен Данст",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/yhLKGjuiMMdbGnFrR8AREkCZcVF.jpg"
-        },
-        {
-          "name": "Джеймс Франко",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/bjmAntHGiibLZixH8nTNVBzaFQn.jpg"
-        },
-        {
-          "name": "Томас Хейден Чёрч",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/74NK9HCYvNafMggSp1PAK5Nwkpe.jpg"
-        }
-      ],
-      "director": {
-        "name": "Сэм Рэйми",
-        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/8gssvwiPrFRuFRlr5ruKx68k1Jl.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=5P9hYR81eIM",
-      "ageRating": "PG-13",
-      "keywords": "amnesia, dual identity, love of one's life, loss of loved one, forgiveness",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
-      "collection": "Человек-паук [Сэм Рэйми] (Коллекция)",
-      "id": 85,
-      "dateRequested": "21.08.2026 23:48",
-      "status": "Не смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": true
-    },
-    {
       "title": "Человек-паук",
       "requestedSeason": 0,
       "year": "2002",
@@ -1183,6 +1126,64 @@
       "isWatching": false,
       "isMarvel": true,
       "dateWatched": "22.08.2026 01:10"
+    },
+    {
+      "title": "Человек-паук 3: Враг в отражении",
+      "requestedSeason": 0,
+      "year": "2007",
+      "type": "Фильм",
+      "kinopoiskId": "82441",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/82441/",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "2 ч 19 мин",
+      "genres": "боевик, приключения, фантастика",
+      "studios": "🔴 Columbia Pictures | 🟢 Laura Ziskin Productions, 🟢 Marvel Studios",
+      "budget": "258.000.000 $",
+      "revenue": "894.983.373 $",
+      "tmdbRating": "6.476",
+      "overview": "Питер наконец находит гармонию между жизнью супергероя и личным счастьем, но новые испытания снова меняют всё. Таинственная чёрная субстанция усиливает его способности, одновременно пробуждая тёмную сторону его характера. В это же время на его пути появляются сразу несколько опасных противников - Песочный человек, Новый Гоблин и Веном. Чтобы защитить близких и спасти город, Питеру предстоит справиться не только с врагами, но и с собственными внутренними демонами.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/ngNCHBZgNdbGisLbi1hImGh2SHl.jpg",
+      "tagline": "«Величайшая битва происходит внутри»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/FfAU0PUs8AJkMU2VbkVNFtRXR4.jpg",
+      "cast": [
+        {
+          "name": "Тоби Магуайр",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/1EtXu72Cuo7YX4IqIaEslwOhEQ9.jpg"
+        },
+        {
+          "name": "Кирстен Данст",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/yhLKGjuiMMdbGnFrR8AREkCZcVF.jpg"
+        },
+        {
+          "name": "Джеймс Франко",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/bjmAntHGiibLZixH8nTNVBzaFQn.jpg"
+        },
+        {
+          "name": "Томас Хейден Чёрч",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/74NK9HCYvNafMggSp1PAK5Nwkpe.jpg"
+        }
+      ],
+      "director": {
+        "name": "Сэм Рэйми",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/8gssvwiPrFRuFRlr5ruKx68k1Jl.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=5P9hYR81eIM",
+      "ageRating": "PG-13",
+      "keywords": "amnesia, dual identity, love of one's life, loss of loved one, forgiveness",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
+      "collection": "Человек-паук [Сэм Рэйми] (Коллекция)",
+      "id": 85,
+      "dateRequested": "21.08.2026 23:48",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": true,
+      "dateWatched": "22.08.2026 01:13"
     }
   ],
   "puf_98": [
