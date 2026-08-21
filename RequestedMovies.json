@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "18.08.2026 14:42",
+    "lastUpdated": "21.08.2026 23:47",
     "isOnlineBtnVisible": true
   },
   "sarachuma": [
@@ -1059,6 +1059,63 @@
       "collection": "Человек-паук [Сэм Рэйми] (Коллекция)",
       "id": 83,
       "dateRequested": "18.08.2026 14:39",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": true
+    },
+    {
+      "title": "Человек-паук 2",
+      "requestedSeason": 0,
+      "year": "2004",
+      "type": "Фильм",
+      "kinopoiskId": "2898",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/2898/",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "2 ч 7 мин",
+      "genres": "боевик, приключения, фантастика",
+      "studios": "🔴 Columbia Pictures | 🟢 Marvel Enterprises, 🟢 Laura Ziskin Productions",
+      "budget": "200.000.000 $",
+      "revenue": "788.976.453 $",
+      "tmdbRating": "7.327",
+      "overview": "Питер пытается совмещать обычную жизнь, учёбу и обязанности Человека-паука, но постоянные жертвы начинают разрушать его отношения с близкими. Когда талантливый учёный Отто Октавиус превращается в опасного Доктора Осьминога, городу вновь требуется его защитник. Питеру предстоит сделать трудный выбор между личным счастьем и ответственностью, ведь иногда быть героем значит отказаться от того, чего хочешь больше всего.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/VBS4TFi0R7nhrPeDAc6TmBt8XC.jpg",
+      "tagline": "«В каждом из нас есть герой»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/6al048Lat3eLVQOuKtc9h6Tu94d.jpg",
+      "cast": [
+        {
+          "name": "Тоби Магуайр",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/1EtXu72Cuo7YX4IqIaEslwOhEQ9.jpg"
+        },
+        {
+          "name": "Кирстен Данст",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/yhLKGjuiMMdbGnFrR8AREkCZcVF.jpg"
+        },
+        {
+          "name": "Джеймс Франко",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/bjmAntHGiibLZixH8nTNVBzaFQn.jpg"
+        },
+        {
+          "name": "Альфред Молина",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/nJo91Czesn6z0d0pkfbDoVZY3sg.jpg"
+        }
+      ],
+      "director": {
+        "name": "Сэм Рэйми",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/8gssvwiPrFRuFRlr5ruKx68k1Jl.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=naXEdXPR8ME",
+      "ageRating": "12+",
+      "keywords": "new york city, dual identity, love of one's life, secret identity, superhero",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
+      "collection": "Человек-паук [Сэм Рэйми] (Коллекция)",
+      "id": 84,
+      "dateRequested": "21.08.2026 23:47",
       "status": "Не смотрели",
       "ourRating": "Без оценки",
       "cried": false,
