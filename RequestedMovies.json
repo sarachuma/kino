@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "21.08.2026 23:48",
+    "lastUpdated": "22.08.2026 01:10",
     "isOnlineBtnVisible": true
   },
   "sarachuma": [
@@ -1014,61 +1014,6 @@
       "dateWatched": "22.07.2026 11:00"
     },
     {
-      "title": "Человек-паук",
-      "requestedSeason": 0,
-      "year": "2002",
-      "type": "Фильм",
-      "kinopoiskId": "838",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/838/",
-      "runtime": "2 ч 1 мин",
-      "genres": "боевик, фантастика",
-      "studios": "🔴 Columbia Pictures | 🟢 Marvel Enterprises, 🟢 Laura Ziskin Productions",
-      "budget": "139.000.000 $",
-      "revenue": "821.708.551 $",
-      "tmdbRating": "7.3",
-      "overview": "После укуса генетически изменённого паука, застенчивый школьник Питер Паркер обнаруживает у себя невероятные способности: сверхчеловеческую силу, ловкость и умение передвигаться по городу на паутине. Решив использовать свой дар во благо, он становится Человеком-пауком и начинает защищать жителей Нью-Йорка от преступности. Но настоящим испытанием для героя становится появление опасного Зелёного гоблина - могущественного противника, который угрожает всему городу и заставляет Питера сделать непростой выбор между личной жизнью и ответственностью, которую несут его новые способности.",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/uxNYgyfM9zeIQevvLON8zlPLocS.jpg",
-      "tagline": "«Переверните свой мир вверх дном»",
-      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
-      "cast": [
-        {
-          "name": "Тоби Магуайр",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/1EtXu72Cuo7YX4IqIaEslwOhEQ9.jpg"
-        },
-        {
-          "name": "Уиллем Дефо",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg"
-        },
-        {
-          "name": "Кирстен Данст",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/yhLKGjuiMMdbGnFrR8AREkCZcVF.jpg"
-        },
-        {
-          "name": "Джеймс Франко",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/bjmAntHGiibLZixH8nTNVBzaFQn.jpg"
-        }
-      ],
-      "director": {
-        "name": "Сэм Рэйми",
-        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/8gssvwiPrFRuFRlr5ruKx68k1Jl.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=yPPrM4Iq6E4",
-      "ageRating": "12+",
-      "keywords": "new york city, adolescence, photographer, loss of loved one, photography",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
-      "collection": "Человек-паук [Сэм Рэйми] (Коллекция)",
-      "id": 83,
-      "dateRequested": "18.08.2026 14:39",
-      "status": "Не смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": true
-    },
-    {
       "title": "Человек-паук 2",
       "requestedSeason": 0,
       "year": "2004",
@@ -1182,6 +1127,62 @@
       "isTheme": false,
       "isWatching": false,
       "isMarvel": true
+    },
+    {
+      "title": "Человек-паук",
+      "requestedSeason": 0,
+      "year": "2002",
+      "type": "Фильм",
+      "kinopoiskId": "838",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/838/",
+      "runtime": "2 ч 1 мин",
+      "genres": "боевик, фантастика",
+      "studios": "🔴 Columbia Pictures | 🟢 Marvel Enterprises, 🟢 Laura Ziskin Productions",
+      "budget": "139.000.000 $",
+      "revenue": "821.708.551 $",
+      "tmdbRating": "7.3",
+      "overview": "После укуса генетически изменённого паука, застенчивый школьник Питер Паркер обнаруживает у себя невероятные способности: сверхчеловеческую силу, ловкость и умение передвигаться по городу на паутине. Решив использовать свой дар во благо, он становится Человеком-пауком и начинает защищать жителей Нью-Йорка от преступности. Но настоящим испытанием для героя становится появление опасного Зелёного гоблина - могущественного противника, который угрожает всему городу и заставляет Питера сделать непростой выбор между личной жизнью и ответственностью, которую несут его новые способности.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/uxNYgyfM9zeIQevvLON8zlPLocS.jpg",
+      "tagline": "«Переверните свой мир вверх дном»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
+      "cast": [
+        {
+          "name": "Тоби Магуайр",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/1EtXu72Cuo7YX4IqIaEslwOhEQ9.jpg"
+        },
+        {
+          "name": "Уиллем Дефо",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg"
+        },
+        {
+          "name": "Кирстен Данст",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/yhLKGjuiMMdbGnFrR8AREkCZcVF.jpg"
+        },
+        {
+          "name": "Джеймс Франко",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/bjmAntHGiibLZixH8nTNVBzaFQn.jpg"
+        }
+      ],
+      "director": {
+        "name": "Сэм Рэйми",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/8gssvwiPrFRuFRlr5ruKx68k1Jl.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=yPPrM4Iq6E4",
+      "ageRating": "12+",
+      "keywords": "new york city, adolescence, photographer, loss of loved one, photography",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
+      "collection": "Человек-паук [Сэм Рэйми] (Коллекция)",
+      "id": 83,
+      "dateRequested": "18.08.2026 14:39",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": true,
+      "dateWatched": "22.08.2026 01:10"
     }
   ],
   "puf_98": [
