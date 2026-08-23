@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "23.08.2026 23:17",
+    "lastUpdated": "23.08.2026 23:18",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -1358,63 +1358,6 @@
       "dateWatched": "22.08.2026 01:13"
     },
     {
-      "title": "Новый Человек-паук: Высокое напряжение",
-      "requestedSeason": 0,
-      "year": "2014",
-      "type": "Фильм",
-      "kinopoiskId": "602409",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/602409/",
-      "altPoster": "",
-      "postUrl": "",
-      "runtime": "2 ч 22 мин",
-      "genres": "боевик, приключения, фантастика",
-      "studios": "🔴 Columbia Pictures | 🟢 Matt Tolmach Productions, 🟢 Arad Productions, 🟢 Marvel Entertainment",
-      "budget": "200.000.000 $",
-      "revenue": "716.934.779 $",
-      "tmdbRating": "6.6",
-      "overview": "Питер Паркер продолжает защищать Нью-Йорк в образе Человека-паука, одновременно пытаясь сохранить отношения с Гвен Стейси и сдержать обещание, данное её отцу. Вскоре он сталкивается сразу с несколькими опасными противниками, включая Электро — бывшего инженера, получившего невероятные способности после несчастного случая, — и своего старого друга Гарри Озборна, который отчаянно ищет способ спасти собственную жизнь. Пока угрозы становятся всё серьёзнее, Питеру приходится сделать выбор между личным счастьем и долгом героя.",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/ydQMjes6xheS1kC0lJ6DZl54Yva.jpg",
-      "tagline": "«Битва, которая изменит всё»",
-      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/k0hlAzTryCYX1O1LyC6P8tAa8s0.jpg",
-      "cast": [
-        {
-          "name": "Эндрю Гарфилд",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/beO5YvbTjrr5yy8hW26KVDMSr35.jpg"
-        },
-        {
-          "name": "Эмма Стоун",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/t7EYLBMWQiIDtCoOYZjvqXV84S5.jpg"
-        },
-        {
-          "name": "Джейми Фокс",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/zD8Nsy4Xrghp7WunwpCj5JKBPeU.jpg"
-        },
-        {
-          "name": "Дэйн Дехаан",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/vZ7ix8UeRYgepFPFc4FIVKDLKDX.jpg"
-        }
-      ],
-      "director": {
-        "name": "Марк Уэбб",
-        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/95FAAT150Mi6DB8VcJgEeOplOsU.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=IU1oK8aC-hU",
-      "ageRating": "16+",
-      "keywords": "new york city, experiment, obsession, secret identity, superhero",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
-      "collection": "Новый Человек-паук (Коллекция)",
-      "id": 89,
-      "dateRequested": "23.08.2026 20:17",
-      "status": "Не смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": true
-    },
-    {
       "title": "Новый Человек-паук",
       "requestedSeason": 0,
       "year": "2012",
@@ -1471,6 +1414,64 @@
       "isWatching": false,
       "isMarvel": true,
       "dateWatched": "23.08.2026 23:17"
+    },
+    {
+      "title": "Новый Человек-паук: Высокое напряжение",
+      "requestedSeason": 0,
+      "year": "2014",
+      "type": "Фильм",
+      "kinopoiskId": "602409",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/602409/",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "2 ч 22 мин",
+      "genres": "боевик, приключения, фантастика",
+      "studios": "🔴 Columbia Pictures | 🟢 Matt Tolmach Productions, 🟢 Arad Productions, 🟢 Marvel Entertainment",
+      "budget": "200.000.000 $",
+      "revenue": "716.934.779 $",
+      "tmdbRating": "6.6",
+      "overview": "Питер Паркер продолжает защищать Нью-Йорк в образе Человека-паука, одновременно пытаясь сохранить отношения с Гвен Стейси и сдержать обещание, данное её отцу. Вскоре он сталкивается сразу с несколькими опасными противниками, включая Электро — бывшего инженера, получившего невероятные способности после несчастного случая, — и своего старого друга Гарри Озборна, который отчаянно ищет способ спасти собственную жизнь. Пока угрозы становятся всё серьёзнее, Питеру приходится сделать выбор между личным счастьем и долгом героя.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/ydQMjes6xheS1kC0lJ6DZl54Yva.jpg",
+      "tagline": "«Битва, которая изменит всё»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/k0hlAzTryCYX1O1LyC6P8tAa8s0.jpg",
+      "cast": [
+        {
+          "name": "Эндрю Гарфилд",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/beO5YvbTjrr5yy8hW26KVDMSr35.jpg"
+        },
+        {
+          "name": "Эмма Стоун",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/t7EYLBMWQiIDtCoOYZjvqXV84S5.jpg"
+        },
+        {
+          "name": "Джейми Фокс",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/zD8Nsy4Xrghp7WunwpCj5JKBPeU.jpg"
+        },
+        {
+          "name": "Дэйн Дехаан",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/vZ7ix8UeRYgepFPFc4FIVKDLKDX.jpg"
+        }
+      ],
+      "director": {
+        "name": "Марк Уэбб",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/95FAAT150Mi6DB8VcJgEeOplOsU.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=IU1oK8aC-hU",
+      "ageRating": "16+",
+      "keywords": "new york city, experiment, obsession, secret identity, superhero",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
+      "collection": "Новый Человек-паук (Коллекция)",
+      "id": 89,
+      "dateRequested": "23.08.2026 20:17",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": true,
+      "dateWatched": "23.08.2026 23:18"
     }
   ],
   "ANS__WER": [
