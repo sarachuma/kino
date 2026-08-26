@@ -1474,63 +1474,6 @@
       "dateWatched": "23.08.2026 23:18"
     },
     {
-      "title": "Человек-паук: Возвращение домой",
-      "requestedSeason": 0,
-      "year": "2017",
-      "type": "Фильм",
-      "kinopoiskId": "690593",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/690593/",
-      "altPoster": "",
-      "postUrl": "",
-      "runtime": "2 ч 13 мин",
-      "genres": "боевик, приключения, фантастика",
-      "studios": "🔴 Columbia Pictures | 🟢 Marvel Studios, 🟢 Pascal Pictures, 🟢 LStar Capital",
-      "budget": "175.000.000 $",
-      "revenue": "880.978.185 $",
-      "tmdbRating": "7.3",
-      "overview": "Питер Паркер - обычный школьник из Нью-Йорка, который после укуса генетически изменённого паука получает сверхспособности и становится Человеком-пауком. Под маской он защищает жителей города, используя невероятную силу, ловкость и способность цепляться за стены, а также созданные им веб-шутеры для перемещения между зданиями. После встречи с Тони Старком, Питер получает новый высокотехнологичный костюм и пытается доказать, что способен стать настоящим супергероем. Однако появление опасного преступника Стервятника превращает его обычную жизнь в серьёзное испытание, где Питеру предстоит одновременно оставаться школьником и Человеком-пауком.",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/s0DiivKEQWKZzIaw5JWbrkDGVyv.jpg",
-      "tagline": "«Домашняя работа может подождать. Город - нет»",
-      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
-      "cast": [
-        {
-          "name": "Том Холланд",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg"
-        },
-        {
-          "name": "Майкл Китон",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/tYSja1KByFnZ4Hkp3stPqkKHnNL.jpg"
-        },
-        {
-          "name": "Роберт Дауни мл.",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
-        },
-        {
-          "name": "Мариса Томей",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/vAQ10fvGfVyuJdMNKVMA4ZkacWL.jpg"
-        }
-      ],
-      "director": {
-        "name": "Джон Уоттс",
-        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/fkXChMX6CUXY1yOxBehAzvaTCl7.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=6_OfTFyUj9I",
-      "ageRating": "16+",
-      "keywords": "high school, new york city, washington dc, usa, secret identity, superhero",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
-      "collection": "Человек-паук [КВМ] (Коллекция)",
-      "id": 90,
-      "dateRequested": "25.08.2026 19:23",
-      "status": "Не смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": true
-    },
-    {
       "title": "Человек-паук: Вдали от дома",
       "requestedSeason": 0,
       "year": "2019",
@@ -1643,6 +1586,64 @@
       "isTheme": false,
       "isWatching": false,
       "isMarvel": true
+    },
+    {
+      "title": "Человек-паук: Возвращение домой",
+      "requestedSeason": 0,
+      "year": "2017",
+      "type": "Фильм",
+      "kinopoiskId": "690593",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/690593/",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "2 ч 13 мин",
+      "genres": "боевик, приключения, фантастика",
+      "studios": "🔴 Columbia Pictures | 🟢 Marvel Studios, 🟢 Pascal Pictures, 🟢 LStar Capital",
+      "budget": "175.000.000 $",
+      "revenue": "880.978.185 $",
+      "tmdbRating": "7.3",
+      "overview": "Питер Паркер - обычный школьник из Нью-Йорка, который после укуса генетически изменённого паука получает сверхспособности и становится Человеком-пауком. Под маской он защищает жителей города, используя невероятную силу, ловкость и способность цепляться за стены, а также созданные им веб-шутеры для перемещения между зданиями. После встречи с Тони Старком, Питер получает новый высокотехнологичный костюм и пытается доказать, что способен стать настоящим супергероем. Однако появление опасного преступника Стервятника превращает его обычную жизнь в серьёзное испытание, где Питеру предстоит одновременно оставаться школьником и Человеком-пауком.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/s0DiivKEQWKZzIaw5JWbrkDGVyv.jpg",
+      "tagline": "«Домашняя работа может подождать. Город - нет»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
+      "cast": [
+        {
+          "name": "Том Холланд",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg"
+        },
+        {
+          "name": "Майкл Китон",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/tYSja1KByFnZ4Hkp3stPqkKHnNL.jpg"
+        },
+        {
+          "name": "Роберт Дауни мл.",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+        },
+        {
+          "name": "Мариса Томей",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/vAQ10fvGfVyuJdMNKVMA4ZkacWL.jpg"
+        }
+      ],
+      "director": {
+        "name": "Джон Уоттс",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/fkXChMX6CUXY1yOxBehAzvaTCl7.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=6_OfTFyUj9I",
+      "ageRating": "16+",
+      "keywords": "high school, new york city, washington dc, usa, secret identity, superhero",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
+      "collection": "Человек-паук [КВМ] (Коллекция)",
+      "id": 90,
+      "dateRequested": "25.08.2026 19:23",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": true,
+      "dateWatched": "26.08.2026 19:02"
     }
   ],
   "ANS__WER": [
