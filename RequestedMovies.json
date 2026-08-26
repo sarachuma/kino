@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "26.08.2026 19:02",
+    "lastUpdated": "26.08.2026 19:03",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -1474,63 +1474,6 @@
       "dateWatched": "23.08.2026 23:18"
     },
     {
-      "title": "Человек-паук: Вдали от дома",
-      "requestedSeason": 0,
-      "year": "2019",
-      "type": "Фильм",
-      "kinopoiskId": "1008445",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/1008445/",
-      "altPoster": "",
-      "postUrl": "",
-      "runtime": "3 ч 32 мин",
-      "genres": "боевик, приключения, фантастика",
-      "studios": "🔴 Columbia Pictures | 🟢 Marvel Studios, 🟢 Pascal Pictures",
-      "budget": "160.000.000 $",
-      "revenue": "1.132.723.226 $",
-      "tmdbRating": "7.394",
-      "overview": "После битвы с Таносом и возвращения всех исчезнувших после щелчка, Питер пытается вернуться к обычной жизни. Мир переживает последствия грандиозной битвы, а сам Питер тяжело переживает гибель Тони Старка, который стал для него наставником и близким человеком. Чтобы немного отвлечься от супергеройской жизни, Питер отправляется вместе с одноклассниками в школьную поездку по Европе. Однако путешествие неожиданно прерывается, когда появляется загадочный супергерой Мистерио и просит Человека-паука помочь остановить опасных существ, угрожающих миру.",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/wL1S9750WaxxvbbuUBfkbAskDd8.jpg",
-      "tagline": "«Пришло время сделать шаг вперёд»",
-      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg",
-      "cast": [
-        {
-          "name": "Том Холланд",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg"
-        },
-        {
-          "name": "Джейк Джилленхол",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/ct2Gh2sJSxd4yaMrSsqSt1HpIC3.jpg"
-        },
-        {
-          "name": "Сэмюэл Л. Джексон",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/qdfRtvPCj51C9Uy5VEgjgj69JyV.jpg"
-        },
-        {
-          "name": "Мариса Томей",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/vAQ10fvGfVyuJdMNKVMA4ZkacWL.jpg"
-        }
-      ],
-      "director": {
-        "name": "Джон Уоттс",
-        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/fkXChMX6CUXY1yOxBehAzvaTCl7.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=zx9vpIzH1u4",
-      "ageRating": "12+",
-      "keywords": "venice, italy, secret identity, superhero, school trip, europe",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
-      "collection": "Человек-паук [КВМ] (Коллекция)",
-      "id": 91,
-      "dateRequested": "25.08.2026 21:34",
-      "status": "Не смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": true
-    },
-    {
       "title": "Человек-паук: Нет пути домой",
       "requestedSeason": 0,
       "year": "2021",
@@ -1644,6 +1587,64 @@
       "isWatching": false,
       "isMarvel": true,
       "dateWatched": "26.08.2026 19:02"
+    },
+    {
+      "title": "Человек-паук: Вдали от дома",
+      "requestedSeason": 0,
+      "year": "2019",
+      "type": "Фильм",
+      "kinopoiskId": "1008445",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/1008445/",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "3 ч 32 мин",
+      "genres": "боевик, приключения, фантастика",
+      "studios": "🔴 Columbia Pictures | 🟢 Marvel Studios, 🟢 Pascal Pictures",
+      "budget": "160.000.000 $",
+      "revenue": "1.132.723.226 $",
+      "tmdbRating": "7.394",
+      "overview": "После битвы с Таносом и возвращения всех исчезнувших после щелчка, Питер пытается вернуться к обычной жизни. Мир переживает последствия грандиозной битвы, а сам Питер тяжело переживает гибель Тони Старка, который стал для него наставником и близким человеком. Чтобы немного отвлечься от супергеройской жизни, Питер отправляется вместе с одноклассниками в школьную поездку по Европе. Однако путешествие неожиданно прерывается, когда появляется загадочный супергерой Мистерио и просит Человека-паука помочь остановить опасных существ, угрожающих миру.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/wL1S9750WaxxvbbuUBfkbAskDd8.jpg",
+      "tagline": "«Пришло время сделать шаг вперёд»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg",
+      "cast": [
+        {
+          "name": "Том Холланд",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg"
+        },
+        {
+          "name": "Джейк Джилленхол",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/ct2Gh2sJSxd4yaMrSsqSt1HpIC3.jpg"
+        },
+        {
+          "name": "Сэмюэл Л. Джексон",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/qdfRtvPCj51C9Uy5VEgjgj69JyV.jpg"
+        },
+        {
+          "name": "Мариса Томей",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/vAQ10fvGfVyuJdMNKVMA4ZkacWL.jpg"
+        }
+      ],
+      "director": {
+        "name": "Джон Уоттс",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/fkXChMX6CUXY1yOxBehAzvaTCl7.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=zx9vpIzH1u4",
+      "ageRating": "12+",
+      "keywords": "venice, italy, secret identity, superhero, school trip, europe",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
+      "collection": "Человек-паук [КВМ] (Коллекция)",
+      "id": 91,
+      "dateRequested": "25.08.2026 21:34",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": true,
+      "dateWatched": "26.08.2026 19:03"
     }
   ],
   "ANS__WER": [
