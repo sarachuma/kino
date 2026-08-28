@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "26.08.2026 19:03",
+    "lastUpdated": "28.08.2026 18:12",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -1645,6 +1645,64 @@
       "isWatching": false,
       "isMarvel": true,
       "dateWatched": "26.08.2026 19:03"
+    },
+    {
+      "title": "Человек-паук: Через вселенные",
+      "requestedSeason": 0,
+      "year": "2018",
+      "type": "Мультфильм",
+      "tmdbId": 324857,
+      "kinopoiskId": "920265",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/920265/",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "1 ч 57 мин",
+      "genres": "мультфильм, боевик, приключения, фантастика",
+      "studios": "🔴 Columbia Pictures, 🔴 Sony Pictures Animation | 🟢 Lord Miller, 🟢 Pascal Pictures, 🟢 Arad Productions, 🟢 Marvel Entertainment",
+      "budget": "90.000.000 $",
+      "revenue": "394.884.133 $",
+      "tmdbRating": "8.398",
+      "overview": "Майлз Моралес - обычный подросток из Бруклина, который после укуса радиоактивного паука получает сверхспособности: он становится сильнее, быстрее, может цепляться за стены и чувствовать опасность. Пытаясь разобраться с новыми силами, Майлз сталкивается с настоящим Человеком-пауком, Питером Паркером. После трагической гибели Питера, Майлз решает продолжить его дело, но вскоре узнаёт, что существует не один Человек-паук. Из-за эксперимента с коллайдером в его мир начинают проникать герои-пауки из параллельных вселенных, и Майлзу вместе с ними предстоит остановить угрозу, способную разрушить границы между мирами.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/oCAi3NdfXNYLd8PROu5ycUhVety.jpg",
+      "tagline": "«Не он один носит маску»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/8mnXR9rey5uQ08rZAvzojKWbDQS.jpg",
+      "cast": [
+        {
+          "name": "Шамик Мур",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/ovUKfVOwJ7CadEHaG3NDsfA5xRq.jpg"
+        },
+        {
+          "name": "Джейк Джонсон",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/3UNfW2qZgRkW81neNVfQvaRC92K.jpg"
+        },
+        {
+          "name": "Хейли Стайнфелд",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/qDInsG0cxWNxS1X4t59TBZ5S6x5.jpg"
+        },
+        {
+          "name": "Махершала Али",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/9ZmSejm5lnUVY5IJ1iNx2QEjnHb.jpg"
+        }
+      ],
+      "director": {
+        "name": "Боб Персичетти",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/jmpNVUvvhJB2X2eOSKpveFnetM8.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=dJ90IyXLG-Q",
+      "ageRating": "18+",
+      "keywords": "superhero, based on comic, aftercreditsstinger, alternate universe",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
+      "collection": "Человек-паук: Через вселенные (Коллекция)",
+      "id": 93,
+      "dateRequested": "28.08.2026 18:12",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": true
     }
   ],
   "ANS__WER": [
