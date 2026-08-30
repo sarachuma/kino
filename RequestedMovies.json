@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "30.08.2026 16:44",
+    "lastUpdated": "30.08.2026 16:45",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -1755,14 +1755,15 @@
       "collection": "Человек-паук: Через вселенные (Коллекция)",
       "id": 94,
       "dateRequested": "30.08.2026 16:44",
-      "status": "Не смотрели",
+      "status": "Смотрели",
       "ourRating": "Без оценки",
       "cried": false,
       "isAuction": false,
       "isBanned": false,
       "isTheme": false,
       "isWatching": false,
-      "isMarvel": true
+      "isMarvel": true,
+      "dateWatched": "30.08.2026 16:45"
     }
   ],
   "ANS__WER": [
