@@ -309,7 +309,7 @@
             white-space: nowrap; overflow: hidden; text-overflow: clip; 
         }
 
-        /* --- Обновленные стили кнопок на постере (Плиточный режим) --- */
+        
         .banned-dot {
             position: absolute; right: 13px; bottom: 10px; width: 14px; height: 14px;
             background-color: var(--accent-main); border-radius: 50%; z-index: 15;
@@ -334,7 +334,7 @@
         .card-view-item:hover .card-copy-btn { opacity: 1; transform: scale(1); }
         .card-copy-btn:hover { background: var(--accent-main); color: var(--bg-deep); box-shadow: 0 0 15px rgba(254, 0, 0, 0.6); }
 
-        /* СТИЛЬ КНОПКИ ТГ ДЛЯ СПИСКА */
+        
         .steam-link-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: rgba(41, 128, 185, 0.3); color: #ffffff !important; border: 1px solid rgba(41, 128, 185, 0.6); padding: 4px 10px; border-radius: 2px; text-decoration: none; font-family: var(--font-title); font-size: 11px; font-weight: 700; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.5); text-transform: uppercase; letter-spacing: 1px; width: fit-content; box-sizing: border-box; margin-top: 4px;}
         .steam-link-btn:hover { background: rgba(41, 128, 185, 0.8); color: #ffffff !important; box-shadow: 0 0 15px rgba(41, 128, 185, 0.6); transform: translateY(-1px); }
         
@@ -1278,14 +1278,14 @@
         const telegramLink = movie.postUrl;
         const hasOnlineBtn = movie.kinopoiskId && isOnlineBtnVisible;
         
-        // 1. Сначала добавляем "Смотреть онлайн" (она будет слева)
+        
         if (hasOnlineBtn) {
             nextLineBadges += `<a href="https://kinomix.web.app/movie/${movie.kinopoiskId}" target="_blank" class="watch-online-btn" onclick="event.stopPropagation();">Смотреть Онлайн</a>`;
         }
         
-        // 2. Затем добавляем "ТГ ПОСТ" (он будет справа)
+        
         if (telegramLink) {
-            // Если кнопка "Онлайн" уже вывелась, делаем отступ слева для ТГ
+            
             const marginLeft = hasOnlineBtn ? 'margin-left: 6px;' : '';
             nextLineBadges += `<a href="${escapeHTML(telegramLink)}" target="_blank" class="outline-badge tg-modal-badge" style="background: rgba(41, 128, 185, 0.3); border-color: rgba(41, 128, 185, 0.6); ${marginLeft}"><svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:2px;"><path d="M22 2L11 13"></path><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg> ТГ ПОСТ </a>`;
         }
