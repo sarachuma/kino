@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "30.08.2026 13:40",
+    "lastUpdated": "30.08.2026 16:44",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -1705,6 +1705,64 @@
       "isWatching": false,
       "isMarvel": true,
       "dateWatched": "30.08.2026 13:40"
+    },
+    {
+      "title": "Человек-паук: Паутина вселенных",
+      "requestedSeason": 0,
+      "year": "2023",
+      "type": "Мультфильм",
+      "tmdbId": 569094,
+      "kinopoiskId": "1219177",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/1219177/",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "2 ч 20 мин",
+      "genres": "мультфильм, боевик, приключения, фантастика",
+      "studios": "🔴 Columbia Pictures, 🔴 Sony Pictures Animation | 🟢 Lord Miller, 🟢 Pascal Pictures, 🟢 Arad Productions, 🟢 Marvel Entertainment",
+      "budget": "100.000.000 $",
+      "revenue": "690.897.910 $",
+      "tmdbRating": "8.346",
+      "overview": "Майлз уже привык к двойной жизни школьника и Человека-паука, однако его встреча с Гвен Стейси вновь меняет всё. Вскоре Майлз попадает в штаб Паучьего сообщества, где знакомится с сотнями Людей-пауков из разных вселенных и узнаёт о правилах, которые должны сохранять целостность мультивселенной. Когда становится известно, что судьба его отца связана с одним из таких ключевых событий, Майлз отказывается мириться с неизбежностью и пытается изменить предначертанное. Теперь ему предстоит противостоять самому Паучьему сообществу и найти собственный путь, даже если ради этого придётся бросить вызов всей Паутине вселенных.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/wH0kbTvbrvtlCygso7Ye2ZfGfM1.jpg",
+      "tagline": "«Важно то, как вы носите маску»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+      "cast": [
+        {
+          "name": "Шамик Мур",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/ovUKfVOwJ7CadEHaG3NDsfA5xRq.jpg"
+        },
+        {
+          "name": "Хейли Стайнфелд",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/qDInsG0cxWNxS1X4t59TBZ5S6x5.jpg"
+        },
+        {
+          "name": "Брайан Тайри Генри",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/2MsJh0bpyzwvOUnXOltHp3j85Pb.jpg"
+        },
+        {
+          "name": "Луна Лорен Велес",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/98BvmTJCZHx0jPv0oNcv04Jkmfb.jpg"
+        }
+      ],
+      "director": {
+        "name": "Джастин Томпсон",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/mRMi8Q2fmlfbDYkE7A63gzFtGsZ.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=2aA298Sk4gY",
+      "ageRating": "PG",
+      "keywords": "new york city, hero, double life, sacrifice, secret identity",
+      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
+      "collection": "Человек-паук: Через вселенные (Коллекция)",
+      "id": 94,
+      "dateRequested": "30.08.2026 16:44",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": true
     }
   ],
   "ANS__WER": [
