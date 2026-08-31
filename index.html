@@ -561,6 +561,10 @@
                         <option value="newest">По дате заказов (Новые)</option>
                         <option value="waiting">В ожидании</option>
                         <option value="watched">Смотрели</option>
+						<option value="type_movie">Фильмы</option>
+						<option value="type_cartoon">Мультфильмы</option>
+						<option value="type_anime">Аниме</option>
+						<option value="type_series">Сериалы</option>
                         <option value="auction">Аукцион</option>
                         <option value="theme">Тем. неделя</option>
                         <option value="marvel">Марвел</option>
@@ -844,6 +848,12 @@
         else if (sortMode === 'marvel') { filtered = filtered.filter(m => m.isMarvel === true).sort(sortByOrder); }
         else if (sortMode === 'banned') { filtered = filtered.filter(m => m.isBanned === true).sort(sortByOrder); }
         else if (sortMode === 'cried') { filtered = filtered.filter(m => m.cried === true).sort(sortByOrder); }
+		
+		else if (sortMode === 'type_movie') { filtered = filtered.filter(m => m.type === 'Фильм').sort(sortByOrder); }
+        else if (sortMode === 'type_cartoon') { filtered = filtered.filter(m => m.type === 'Мультфильм').sort(sortByOrder); }
+        else if (sortMode === 'type_anime') { filtered = filtered.filter(m => m.type === 'Аниме').sort(sortByOrder); }
+        else if (sortMode === 'type_series') { filtered = filtered.filter(m => m.type === 'Сериал').sort(sortByOrder); }
+		
         else if (sortMode === 'newest') { filtered.sort((a, b) => b.parsedDate - a.parsedDate); }
         else if (sortMode === 'date_asc') { filtered.sort((a, b) => a.parsedDate - b.parsedDate); }
         else { filtered.sort(sortByOrder); }
@@ -894,7 +904,7 @@
 
         currentViewData.forEach((movie, index) => {
             
-            if (sortMode === 'order' && index > 0 && showDivider) {
+            if (['order', 'type_movie', 'type_cartoon', 'type_anime', 'type_series'].includes(sortMode) && index > 0 && showDivider) {
                 const prevMovie = currentViewData[index - 1];
                 if ((prevMovie.status === 'Не смотрели' || prevMovie.isWatching === true) && movie.status === 'Смотрели') {
                     const dividerTr = document.createElement('tr');
@@ -1016,7 +1026,7 @@
 
         currentViewData.forEach((movie, index) => {
             
-            if (sortMode === 'order' && index > 0 && showDivider) {
+            if (['order', 'type_movie', 'type_cartoon', 'type_anime', 'type_series'].includes(sortMode) && index > 0 && showDivider) {
                 const prevMovie = currentViewData[index - 1];
                 if ((prevMovie.status === 'Не смотрели' || prevMovie.isWatching === true) && movie.status === 'Смотрели') {
                     const dividerDiv = document.createElement('div');
