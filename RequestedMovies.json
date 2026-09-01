@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "01.09.2026 20:03",
+    "lastUpdated": "01.09.2026 20:05",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -226,6 +226,64 @@
       "collection": "Схватка (Коллекция)",
       "id": 95,
       "dateRequested": "01.09.2026 19:57",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    },
+    {
+      "title": "Схватка",
+      "requestedSeason": 0,
+      "year": "2012",
+      "type": "Фильм",
+      "tmdbId": 75174,
+      "kinopoiskId": "503853",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/503853/",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "1 ч 57 мин",
+      "genres": "боевик, приключения, триллер",
+      "studios": "🟢 Open Road Films, 🟢 Scott Free Productions, 🟢 1984 Private Defense Contractors, 🟢 Inferno Distribution, 🟢 Chambara Pictures, 🟢 LD Entertainment",
+      "budget": "25.000.000 $",
+      "revenue": "79.781.695 $",
+      "tmdbRating": "6.577",
+      "overview": "На Аляске потерпел крушение самолёт, и оставшиеся в живых пассажиры оказались посреди безлюдной снежной пустыни, где скрашивает пейзаж лишь волчья стая. Люди хотят выжить любой ценой, и теперь им предстоит смертельная схватка.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/zrn9vYLHHwUMBnNmhjeqP2OLw2b.jpg",
+      "tagline": "«Один на один со смертью»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/g8ArhdKmms7TKGX1SgvXf5d1RXG.jpg",
+      "cast": [
+        {
+          "name": "Лиам Нисон",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/sRLev3wJioBgun3ZoeAUFpkLy0D.jpg"
+        },
+        {
+          "name": "Дермот Малруни",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/kkrMKD6b4vEdphVgKsenRY4NgiC.jpg"
+        },
+        {
+          "name": "Фрэнк Грилло",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/kuEco4vo1xrsM8DyrNSZUEi593P.jpg"
+        },
+        {
+          "name": "Даллас Робертс",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/b7jMTaNJ9aBTXXy7gdwqn9jb6EF.jpg"
+        }
+      ],
+      "director": {
+        "name": "Джо Карнахан",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/e6cnnUqh6mGIjnRFI4xFc30AqVr.jpg"
+      },
+      "trailer": "",
+      "ageRating": "16+",
+      "keywords": "wolf, flashback, alaska, airplane crash, struggle for survival",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-600x600.png",
+      "collection": "",
+      "id": 96,
+      "dateRequested": "01.09.2026 20:05",
       "status": "Не смотрели",
       "ourRating": "Без оценки",
       "cried": false,
