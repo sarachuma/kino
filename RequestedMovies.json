@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "01.09.2026 19:55",
+    "lastUpdated": "01.09.2026 19:56",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -176,49 +176,7 @@
       "isMarvel": false
     }
   ],
-  "pel1mew1k": [
-    {
-      "title": "The Grey",
-      "requestedSeason": 0,
-      "year": "2004",
-      "type": "Фильм",
-      "tmdbId": 1416720,
-      "kinopoiskId": "",
-      "kinopoiskUrl": "",
-      "altPoster": "",
-      "postUrl": "",
-      "runtime": "1 ч 26 мин",
-      "genres": "Без жанра",
-      "studios": "Нет данных",
-      "budget": "Нет данных",
-      "revenue": "Нет данных",
-      "tmdbRating": "5.5",
-      "overview": "",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/uY4qDSdNg5eEMaZp4dR5GbS4RFz.jpg",
-      "tagline": "",
-      "backdrop": "",
-      "cast": [],
-      "director": {
-        "name": "Shane Dax Taylor",
-        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/z8pT1ioVlAvrpvfXQS4nSDCMHOz.jpg"
-      },
-      "trailer": "",
-      "ageRating": "Нет данных",
-      "keywords": "",
-      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-600x600.png",
-      "collection": "",
-      "id": 95,
-      "dateRequested": "01.09.2026 19:55",
-      "status": "Не смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false
-    }
-  ],
+  "pel1mew1k": [],
   "sarachuma": [
     {
       "title": "Отпуск по обмену",
