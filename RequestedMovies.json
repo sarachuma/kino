@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "01.09.2026 19:47",
+    "lastUpdated": "01.09.2026 19:49",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -1814,6 +1814,66 @@
       "collection": "Схватка (Коллекция)",
       "id": 95,
       "dateRequested": "01.09.2026 19:47",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    }
+  ],
+  "pel1mew1k": [
+    {
+      "title": "Решающая схватка",
+      "requestedSeason": 0,
+      "year": "2011",
+      "type": "Фильм",
+      "tmdbId": 52421,
+      "kinopoiskId": "617043",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/617043/",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "1 ч 51 мин",
+      "genres": "боевик, драма",
+      "studios": "🟢 Bidangil Pictures, 🟢 Sidus",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "6.542",
+      "overview": "Китайская Маньчжурия, 1619 год. Шел 11-й год правления короля Чосона Кванхэ-гуна. После жестокого сражения, которое больше походило на кровавую бойню, трое военных — генерал армии Чосона, командир подразделения и рядовой — покинули поле битвы до конца боя, чтобы остаться в живых. По дороге домой всех трёх застает жестокая пурга. И единственным спасением для них оказался постоялый двор, в котором останавливались купцы, торговавшие между Чосоном и Минь.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/8mXw7ORi2YwTZvLJU24aagApFGE.jpg",
+      "tagline": "",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/afHABoWG7rmZJYbKqIKBmDRyisd.jpg",
+      "cast": [
+        {
+          "name": "Пак Хи-сун",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/s2SSzvlsSfCPP5EXhCoWUr8970F.jpg"
+        },
+        {
+          "name": "진구",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/jL0bhHE8vIEomP1Zdz3a0ryXXgk.jpg"
+        },
+        {
+          "name": "최일화",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/rprN9L7E6sKym1JYbLrgwac2aqj.jpg"
+        },
+        {
+          "name": "Чан Хи Джин",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/kHoM8wW7IDpTfyfB0ohXCBgzobi.jpg"
+        }
+      ],
+      "director": {
+        "name": "박훈정",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/sIfrrVBKzaNE4K84NJ46GLggszn.jpg"
+      },
+      "trailer": "",
+      "ageRating": "Нет данных",
+      "keywords": "joseon dynasty (1392–1910), chinese invasion of korea",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-600x600.png",
+      "collection": "",
+      "id": 96,
+      "dateRequested": "01.09.2026 19:49",
       "status": "Не смотрели",
       "ourRating": "Без оценки",
       "cried": false,
