@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "01.09.2026 19:52",
+    "lastUpdated": "01.09.2026 19:53",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -166,6 +166,62 @@
       "collection": "",
       "id": 87,
       "dateRequested": "22.08.2026 01:15",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    }
+  ],
+  "pel1mew1k": [
+    {
+      "title": "The Gray",
+      "requestedSeason": 0,
+      "year": "2021",
+      "type": "Фильм",
+      "tmdbId": 843609,
+      "kinopoiskId": "",
+      "kinopoiskUrl": "",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "11 мин",
+      "genres": "комедия, фэнтези",
+      "studios": "🟢 UCLA School of Film and Television",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "6.5",
+      "overview": "",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/iioIvX0WyfywozLrUmdCzQB2LLx.jpg",
+      "tagline": "",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/aNXJ5dJDZu81qMsDWsqHuXMxHmU.jpg",
+      "cast": [
+        {
+          "name": "Caesar James",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/f2fQSUrmRRZO1B4XiuBrTOSkJwa.jpg"
+        },
+        {
+          "name": "Nand Mahasuwan",
+          "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+        },
+        {
+          "name": "Monique Chachere",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/e74mIeK8vRGxRVCQoMOO5uTUbNB.jpg"
+        }
+      ],
+      "director": {
+        "name": "Myra Aquino",
+        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+      },
+      "trailer": "",
+      "ageRating": "Нет данных",
+      "keywords": "",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-600x600.png",
+      "collection": "",
+      "id": 96,
+      "dateRequested": "01.09.2026 19:52",
       "status": "Не смотрели",
       "ourRating": "Без оценки",
       "cried": false,
@@ -1764,120 +1820,6 @@
       "isWatching": false,
       "isMarvel": true,
       "dateWatched": "30.08.2026 16:45"
-    },
-    {
-      "title": "Схватка",
-      "requestedSeason": 0,
-      "year": "1995",
-      "type": "Фильм",
-      "tmdbId": 949,
-      "kinopoiskId": "571",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/571/",
-      "altPoster": "",
-      "postUrl": "",
-      "runtime": "2 ч 51 мин",
-      "genres": "криминал, драма, боевик",
-      "studios": "🔴 Warner Bros. Pictures | 🟢 Regency Enterprises, 🟢 Forward Pass",
-      "budget": "60.000.000 $",
-      "revenue": "187.400.000 $",
-      "tmdbRating": "7.944",
-      "overview": "Нил МакКоли - один из лучших преступников Лос-Анджелеса. Ему противостоит лучший детектив Винсент Ханна. Две сильнейшие команды сходятся друг против друга в смертельной схватке.",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/7gptuyzW0HZkVDXpF1y1enaKNNb.jpg",
-      "tagline": "Криминальная сага Лос-Анджелеса",
-      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/xKsnZDERG1dk95wuZ5q9iks3OL3.jpg",
-      "cast": [
-        {
-          "name": "Аль Пачино",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/m8HAAjq1T75JypKk0v1FFQn4ysZ.jpg"
-        },
-        {
-          "name": "Роберт Де Ниро",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
-        },
-        {
-          "name": "Вэл Килмер",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/sWH9jTD0bC5gWhhceUlzfNiNup0.jpg"
-        },
-        {
-          "name": "Джон Войт",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/bmfwKaLxUt4qck2UJgm2maWVMTR.jpg"
-        }
-      ],
-      "director": {
-        "name": "Michael Mann",
-        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/kEYrCk6y6siUOxUlMD2KyFuRBQK.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=mf1rP-wqJp4",
-      "ageRating": "18+",
-      "keywords": "robbery, chase, gangster, obsession, detective",
-      "userAvatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53bb5aa-a7ce-42e0-bc1a-5b9321a8f7ca-profile_image-600x600.png",
-      "collection": "Схватка (Коллекция)",
-      "id": 95,
-      "dateRequested": "01.09.2026 19:47",
-      "status": "Не смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false
-    }
-  ],
-  "pel1mew1k": [
-    {
-      "title": "The Gray",
-      "requestedSeason": 0,
-      "year": "2021",
-      "type": "Фильм",
-      "tmdbId": 843609,
-      "kinopoiskId": "",
-      "kinopoiskUrl": "",
-      "altPoster": "",
-      "postUrl": "",
-      "runtime": "11 мин",
-      "genres": "комедия, фэнтези",
-      "studios": "🟢 UCLA School of Film and Television",
-      "budget": "Нет данных",
-      "revenue": "Нет данных",
-      "tmdbRating": "6.5",
-      "overview": "",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/iioIvX0WyfywozLrUmdCzQB2LLx.jpg",
-      "tagline": "",
-      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/aNXJ5dJDZu81qMsDWsqHuXMxHmU.jpg",
-      "cast": [
-        {
-          "name": "Caesar James",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/f2fQSUrmRRZO1B4XiuBrTOSkJwa.jpg"
-        },
-        {
-          "name": "Nand Mahasuwan",
-          "photo": "https://via.placeholder.com/185x278?text=No+Photo"
-        },
-        {
-          "name": "Monique Chachere",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/e74mIeK8vRGxRVCQoMOO5uTUbNB.jpg"
-        }
-      ],
-      "director": {
-        "name": "Myra Aquino",
-        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
-      },
-      "trailer": "",
-      "ageRating": "Нет данных",
-      "keywords": "",
-      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-600x600.png",
-      "collection": "",
-      "id": 96,
-      "dateRequested": "01.09.2026 19:52",
-      "status": "Не смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false
     }
   ],
   "ANS__WER": [
