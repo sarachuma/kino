@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "01.09.2026 20:13",
+    "lastUpdated": "01.09.2026 20:28",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -177,64 +177,6 @@
     }
   ],
   "pel1mew1k": [
-    {
-      "title": "Схватка",
-      "requestedSeason": 0,
-      "year": "1995",
-      "type": "Фильм",
-      "tmdbId": 949,
-      "kinopoiskId": "503853",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/503853/",
-      "altPoster": "",
-      "postUrl": "",
-      "runtime": "2 ч 51 мин",
-      "genres": "криминал, драма, боевик",
-      "studios": "🔴 Warner Bros. Pictures | 🟢 Regency Enterprises, 🟢 Forward Pass",
-      "budget": "60.000.000 $",
-      "revenue": "187.400.000 $",
-      "tmdbRating": "7.944",
-      "overview": "Нил МакКоли - один из лучших преступников Лос-Анджелеса. Ему противостоит лучший детектив Винсент Ханна. Две сильнейшие команды сходятся друг против друга в смертельной схватке.",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/7gptuyzW0HZkVDXpF1y1enaKNNb.jpg",
-      "tagline": "Криминальная сага Лос-Анджелеса",
-      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/xKsnZDERG1dk95wuZ5q9iks3OL3.jpg",
-      "cast": [
-        {
-          "name": "Аль Пачино",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/m8HAAjq1T75JypKk0v1FFQn4ysZ.jpg"
-        },
-        {
-          "name": "Роберт Де Ниро",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
-        },
-        {
-          "name": "Вэл Килмер",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/sWH9jTD0bC5gWhhceUlzfNiNup0.jpg"
-        },
-        {
-          "name": "Джон Войт",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/bmfwKaLxUt4qck2UJgm2maWVMTR.jpg"
-        }
-      ],
-      "director": {
-        "name": "Michael Mann",
-        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/kEYrCk6y6siUOxUlMD2KyFuRBQK.jpg"
-      },
-      "trailer": "https://www.youtube.com/watch?v=mf1rP-wqJp4",
-      "ageRating": "18+",
-      "keywords": "robbery, chase, gangster, obsession, detective",
-      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-600x600.png",
-      "collection": "Схватка (Коллекция)",
-      "id": 95,
-      "dateRequested": "01.09.2026 19:57",
-      "status": "Не смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false
-    },
     {
       "title": "Схватка",
       "requestedSeason": 0,
