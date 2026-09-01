@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "01.09.2026 19:57",
+    "lastUpdated": "01.09.2026 20:02",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -226,6 +226,64 @@
       "collection": "Схватка (Коллекция)",
       "id": 95,
       "dateRequested": "01.09.2026 19:57",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    },
+    {
+      "title": "Documenting the Grey Man",
+      "requestedSeason": 0,
+      "year": "2011",
+      "type": "Фильм",
+      "tmdbId": 120881,
+      "kinopoiskId": "",
+      "kinopoiskUrl": "",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "1 ч 13 мин",
+      "genres": "ужасы",
+      "studios": "🟢 Reserve Productions",
+      "budget": "32.000 $",
+      "revenue": "Нет данных",
+      "tmdbRating": "1.8",
+      "overview": "",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/ch1DjAkWOaiWf5zFTiQwbaYnpxW.jpg",
+      "tagline": "",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/emo9YYJ8u5Kr5dMuajDZH1dWryY.jpg",
+      "cast": [
+        {
+          "name": "Patrick Hussion",
+          "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+        },
+        {
+          "name": "Kelly Coulter",
+          "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+        },
+        {
+          "name": "Jillian Walzer",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/jEVRcBeePZmQDdr6HktNXcxDFhj.jpg"
+        },
+        {
+          "name": "Wayne Capps",
+          "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+        }
+      ],
+      "director": {
+        "name": "Wayne Capps",
+        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+      },
+      "trailer": "",
+      "ageRating": "NR",
+      "keywords": "found footage, low budget",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-600x600.png",
+      "collection": "",
+      "id": 96,
+      "dateRequested": "01.09.2026 20:02",
       "status": "Не смотрели",
       "ourRating": "Без оценки",
       "cried": false,
