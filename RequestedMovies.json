@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "01.09.2026 19:51",
+    "lastUpdated": "01.09.2026 19:52",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -1824,7 +1824,62 @@
       "isMarvel": false
     }
   ],
-  "pel1mew1k": [],
+  "pel1mew1k": [
+    {
+      "title": "The Gray",
+      "requestedSeason": 0,
+      "year": "2021",
+      "type": "Фильм",
+      "tmdbId": 843609,
+      "kinopoiskId": "",
+      "kinopoiskUrl": "",
+      "altPoster": "",
+      "postUrl": "",
+      "runtime": "11 мин",
+      "genres": "комедия, фэнтези",
+      "studios": "🟢 UCLA School of Film and Television",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "6.5",
+      "overview": "",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/iioIvX0WyfywozLrUmdCzQB2LLx.jpg",
+      "tagline": "",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/aNXJ5dJDZu81qMsDWsqHuXMxHmU.jpg",
+      "cast": [
+        {
+          "name": "Caesar James",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/f2fQSUrmRRZO1B4XiuBrTOSkJwa.jpg"
+        },
+        {
+          "name": "Nand Mahasuwan",
+          "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+        },
+        {
+          "name": "Monique Chachere",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/e74mIeK8vRGxRVCQoMOO5uTUbNB.jpg"
+        }
+      ],
+      "director": {
+        "name": "Myra Aquino",
+        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+      },
+      "trailer": "",
+      "ageRating": "Нет данных",
+      "keywords": "",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-600x600.png",
+      "collection": "",
+      "id": 96,
+      "dateRequested": "01.09.2026 19:52",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    }
+  ],
   "ANS__WER": [
     {
       "title": "Мгла",
