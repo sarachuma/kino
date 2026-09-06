@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "01.09.2026 20:28",
+    "lastUpdated": "06.09.2026 22:41",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -166,6 +166,69 @@
       "collection": "",
       "id": 87,
       "dateRequested": "22.08.2026 01:15",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    },
+    {
+      "title": "Дом у озера",
+      "requestedSeason": 0,
+      "requestedEpisodes": 0,
+      "year": "2006",
+      "type": "Фильм",
+      "tmdbId": 2044,
+      "kinopoiskId": "102130",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/102130/",
+      "altPoster": "",
+      "postUrl": "",
+      "tgRecordUrl": "",
+      "boostyUrl": "",
+      "youtubeUrl": "",
+      "reviewUrl": "",
+      "runtime": "1 ч 39 мин",
+      "genres": "мелодрама, драма, фэнтези",
+      "studios": "🟢 Vertigo Entertainment",
+      "budget": "40.000.000 $",
+      "revenue": "114.830.111 $",
+      "tmdbRating": "7.034",
+      "overview": "Зима 2006 года. Ощутив необходимость изменить свою жизнь, доктор Кейт Форестер покидает свой необычный дом у озера в пригороде Иллинойса и устраивается на работу в чикагскую больницу. По дороге в город Кейт оставляет в почтовом ящике письмо, которое должен получить новый обитатель дома. Когда же в него вселяется талантливый, но разочаровавшийся в жизни архитектор Алекс Уайлер, он видит этот дом совсем не таким, каким описала его в своём письме Кейт. Для Алекса это жилище имеет особое значение, поскольку оно было построено его отцом, знаменитым архитектором, который ради карьеры оставил свою семью. В итоге Алекс решает придать дому его первоначальный вид. Однажды странный случай заставляет Алекса написать ответное письмо Кейт; в процессе их переписки выясняется, что он живёт в 2004 году, а она — в 2006-м. И лишь загадочный почтовый ящик служит неким соединяющим их мостиком.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/ndkLts9nwlvhCrjCiMSaSv29SPS.jpg",
+      "tagline": "",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/cvenzPOcYthevmYvy0WX4pZ2RNp.jpg",
+      "cast": [
+        {
+          "name": "Киану Ривз",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg"
+        },
+        {
+          "name": "Сандра Буллок",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/4rfjISL3Flx16jfiusXoHbpt87X.jpg"
+        },
+        {
+          "name": "Кристофер Пламмер",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/u0YBwss0ebEUp8sjRtQKnK2wZdR.jpg"
+        },
+        {
+          "name": "Эбон Мосс-Бакрак",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/xD8GVNayMpiTZxLfahy2DseYcQq.jpg"
+        }
+      ],
+      "director": {
+        "name": "Alejandro Agresti",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/b41SE0CRRW0D1izYltdBDahSdjW.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=dnJe1Q80O3k",
+      "ageRating": "PG",
+      "keywords": "chicago, illinois, ex-boyfriend, writing, architect, remake",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-600x600.png",
+      "collection": "",
+      "id": 95,
+      "dateRequested": "06.09.2026 22:38",
       "status": "Не смотрели",
       "ourRating": "Без оценки",
       "cried": false,
