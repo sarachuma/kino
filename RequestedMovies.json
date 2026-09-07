@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "06.09.2026 22:42",
+    "lastUpdated": "07.09.2026 17:19",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -290,14 +290,15 @@
       "collection": "",
       "id": 96,
       "dateRequested": "01.09.2026 20:05",
-      "status": "Не смотрели",
+      "status": "Смотрели",
       "ourRating": "Без оценки",
       "cried": false,
       "isAuction": false,
       "isBanned": false,
       "isTheme": false,
       "isWatching": false,
-      "isMarvel": false
+      "isMarvel": false,
+      "dateWatched": "07.09.2026 17:19"
     }
   ],
   "sarachuma": [
