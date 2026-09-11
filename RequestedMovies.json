@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "11.09.2026 17:52",
+    "lastUpdated": "11.09.2026 18:05",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -354,6 +354,72 @@
       "tvStatus": "Returning Series",
       "id": 97,
       "dateRequested": "11.09.2026 17:52",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    },
+    {
+      "title": "Восемьдесят шесть",
+      "requestedSeason": 0,
+      "requestedEpisodes": 0,
+      "year": "2021",
+      "type": "Аниме",
+      "tmdbId": 100565,
+      "kinopoiskId": "4428441",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/4428441/",
+      "altPoster": "",
+      "postUrl": "",
+      "tgRecordUrl": "",
+      "boostyUrl": "",
+      "youtubeUrl": "",
+      "reviewUrl": "",
+      "runtime": "24 мин",
+      "genres": "мультфильм, Боевик и Приключения, НФ и Фэнтези, Война и Политика",
+      "studios": "🟢 A-1 Pictures, 🟢 Shirogumi, 🟢 Aniplex, 🟢 Bandai Spirits, 🟢 KADOKAWA, 🟢 Project-86",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "8.104",
+      "overview": "Долгое время республику Сан-Магнолию осаждала империя Гиадиан, создавшая серию беспилотных дронов под названием «Легион». После многих лет исследований республика разработала собственное автономное оружие, и теперь может вести войну без потерь — по крайней мере, так утверждает правительство. Однако бескровной войны не бывает. За крепостными стенами, защищающими 85 территорий республики, находится «несуществующий» 86-й сектор. Юноши и девушки этой заброшенной земли управляют «беспилотным» оружием и каждый день гибнут в битвах.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/4bVJmmqrDAVTQzzJQvQ1C3IBaqc.jpg",
+      "tagline": "",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/lSlL2CAPSDJ9gf2MZX0x2u2inKX.jpg",
+      "cast": [
+        {
+          "name": "Икуми Хасэгава",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/aHLid4WeTafrtfqDRAZSw5K7dTj.jpg"
+        },
+        {
+          "name": "Шоя Чиба",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/pF2urY77wuCYd9Fxh7dTirFYKSF.jpg"
+        },
+        {
+          "name": "Нацуми Фудзивара",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/9B9NICRp2li1SA3VF7vyIAxQ0x9.jpg"
+        },
+        {
+          "name": "Сэйитиро Ямасита",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/zym6WY3rxL4FdbHoLzG2CnqnR7.jpg"
+        }
+      ],
+      "director": {
+        "name": "Нет данных",
+        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+      },
+      "trailer": "",
+      "ageRating": "TV-MA",
+      "keywords": "based on novel or book, fight, army, racist, tragedy",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-600x600.png",
+      "collection": "",
+      "seasons": "1",
+      "episodes": "23",
+      "tvStatus": "Ended",
+      "id": 98,
+      "dateRequested": "11.09.2026 18:05",
       "status": "Не смотрели",
       "ourRating": "Без оценки",
       "cried": false,
