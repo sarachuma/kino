@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "07.09.2026 21:45",
+    "lastUpdated": "11.09.2026 17:52",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -300,6 +300,68 @@
       "isWatching": false,
       "isMarvel": false,
       "dateWatched": "07.09.2026 17:19"
+    },
+    {
+      "title": "Повелитель Тайн",
+      "requestedSeason": 1,
+      "requestedEpisodes": 0,
+      "year": "2025",
+      "type": "Аниме",
+      "tmdbId": 232230,
+      "kinopoiskId": "7983981",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/7983981/",
+      "altPoster": "",
+      "postUrl": "",
+      "tgRecordUrl": "",
+      "boostyUrl": "",
+      "youtubeUrl": "",
+      "reviewUrl": "",
+      "runtime": "35 мин",
+      "genres": "мультфильм, детектив, НФ и Фэнтези, Боевик и Приключения",
+      "studios": "🟢 B.C MAY PICTURES, 🟢 China Literature, 🟢 Tencent Video",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "8.665",
+      "overview": "Чжоу Минжуй очнулся в мире, напоминающем викторианскую Англию, где многочисленные инженерные устройства, которые используют энергию пара, соседствуют с зельями, картами таро, мантическими традициями и артефактами. Теперь его имя — Клейн Моретти, и, следуя своей судьбе, он начинает с помощью зелий развивать свои потенциально безграничные способности.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/lLeaaKdEjJUa5MHp28KPawldWRk.jpg",
+      "tagline": "",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/gdvUUqWutEulHSB4JBoWWnbsLo6.jpg",
+      "cast": [
+        {
+          "name": "Ян Кайцы",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/w9iOGuSLQf7X7TJsrNHiXP078zY.jpg"
+        },
+        {
+          "name": "Лей У",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/z1Aw5fyYAND8EOthud6gbIV22rk.jpg"
+        },
+        {
+          "name": "Цзинь Сянь",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/ieHgOyT3hFBZjZ7PM22UEZgiLe5.jpg"
+        }
+      ],
+      "director": {
+        "name": "Ai Qian Shui De Wuzei",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/35PkGrO6Im0bvPR535LBqdoRQog.jpg"
+      },
+      "trailer": "",
+      "ageRating": "TV-14",
+      "keywords": "mythology, magic, puppeteer, tarot cards, transformation",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-600x600.png",
+      "collection": "",
+      "seasons": "1",
+      "episodes": "13",
+      "tvStatus": "Returning Series",
+      "id": 97,
+      "dateRequested": "11.09.2026 17:52",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
     }
   ],
   "sarachuma": [
