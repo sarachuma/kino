@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "11.09.2026 18:05",
+    "lastUpdated": "12.09.2026 00:49",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -420,6 +420,340 @@
       "tvStatus": "Ended",
       "id": 98,
       "dateRequested": "11.09.2026 18:05",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    }
+  ],
+  "Neputeviy": [
+    {
+      "title": "Внук Нурарихёна",
+      "requestedSeason": 1,
+      "year": "2010",
+      "type": "Аниме",
+      "kinopoiskId": "584034",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/584034/",
+      "runtime": "24 мин",
+      "genres": "мультфильм, НФ и Фэнтези, Боевик и Приключения",
+      "studios": "🟢 Studio Deen, 🟢 Shueisha, 🟢 TOHO, 🟢 Yomiuri Telecasting Corporation, 🟢 Pony Canyon, 🟢 BS11, 🟢 YOMIKO Advertising, 🟢 Hakuhodo DY Media Partners",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "7.516",
+      "overview": "Nurarihyon no Mago — фэнтези-манга, созданная Хироси Сиибаси. Она публикуется в журнале Shonen Jump с 10 марта 2008 года и насчитывает на настоящий момент 24 тома",
+      "poster": "https://image.tmdb.org/t/p/w500/dBQKvnkJdqzyXdaC4lWQhuEhapn.jpg",
+      "tagline": "",
+      "backdrop": "https://image.tmdb.org/t/p/original/dIc8YQrs3fRbB7b9pGzgTqDMnpJ.jpg",
+      "cast": [
+        {
+          "name": "Дзюн Фукуяма",
+          "photo": "https://image.tmdb.org/t/p/w185/eT9eloyIaIkTvTqMmpcsAleP2hM.jpg"
+        },
+        {
+          "name": "Ая Хирано",
+          "photo": "https://image.tmdb.org/t/p/w185/zaSJKfuKhw7e4VTnTKnlHBRzjQU.jpg"
+        },
+        {
+          "name": "Ай Маэда",
+          "photo": "https://image.tmdb.org/t/p/w185/sHlbk4g55AUiAsox7sgK2mzrVmf.jpg"
+        },
+        {
+          "name": "Юи Хориэ",
+          "photo": "https://image.tmdb.org/t/p/w185/73yQlMWaiOMrhvPCNyOCbbCkILZ.jpg"
+        }
+      ],
+      "director": {
+        "name": "Нет данных",
+        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+      },
+      "trailer": "",
+      "ageRating": "TV-14",
+      "keywords": "swordplay, based on manga, battle, fighting, ghost",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
+      "collection": "",
+      "seasons": "2",
+      "episodes": "48",
+      "tvStatus": "Ended",
+      "id": 42,
+      "dateRequested": "12.02.2025 10:04",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "22.01.2026 10:52"
+    },
+    {
+      "title": "Синий Экзорцист",
+      "requestedSeason": 0,
+      "year": "2011",
+      "type": "Аниме",
+      "kinopoiskId": "574182",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/574182/",
+      "runtime": "24 мин",
+      "genres": "мультфильм, НФ и Фэнтези, детектив, Боевик и Приключения",
+      "studios": "🟢 A-1 Pictures, 🟢 Aniplex, 🟢 Shueisha, 🟢 movic, 🟢 dentsu, 🟢 MBS",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "7.8",
+      "overview": "Рин Окимура и его брат Юкио — сироты, росшие в храме священника и экзорциста Фудзимото. Рин — парень неплохой, но вспыльчивый, придурковатый и постоянно ввязывающийся в драки. Юкио же наоборот, умный, прилежный и мечтающий стать врачом (и лечение извечных ссадин брата ему в этом лишь помогает). Но в реальности разница между ними куда сильнее: на самом деле Рин — полудемон, и не просто полудемон, а сын самого Сатаны. И когда, вопреки предосторожностям Фудзимото, силы Рина прорезаются наружу, папенька находит его и пытается забрать домой, чтобы в дальнейшем использовать сына в качестве плацдарма для захвата нашего измерения. Рину удаётся избежать сей плачевной участи, но дорогой ценой — Фудзимото гибнет, защищая своего приёмного сына. И тогда Рин решает стать экзорцистом и отомстить Сатане, для чего устраивается вместе с Юкио в специальную закрытую школу.",
+      "poster": "https://image.tmdb.org/t/p/w500/g2RmOH0cDET7pptUrLnzVM6w8DJ.jpg",
+      "tagline": "",
+      "backdrop": "https://image.tmdb.org/t/p/original/wJzHFl5mq6JFbD6equTleJuzlnk.jpg",
+      "cast": [
+        {
+          "name": "Хироси Камия",
+          "photo": "https://image.tmdb.org/t/p/w185/5aAAOlQ2hW5EqEQOzk4UeroxcTN.jpg"
+        }
+      ],
+      "director": {
+        "name": "Нет данных",
+        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+      },
+      "trailer": "",
+      "ageRating": "TV-14",
+      "keywords": "vatican (holy see), shapeshifting, katana, sword, magic",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
+      "collection": "",
+      "seasons": "5",
+      "episodes": "73",
+      "tvStatus": "Ended",
+      "id": 43,
+      "dateRequested": "13.02.2025 10:04",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "02.02.2026 10:52"
+    },
+    {
+      "title": "Альдноа.Зеро",
+      "requestedSeason": 1,
+      "year": "2014",
+      "type": "Аниме",
+      "kinopoiskId": "842575",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/842575/",
+      "runtime": "24 мин",
+      "genres": "мультфильм, Боевик и Приключения, НФ и Фэнтези",
+      "studios": "🟢 TROYCA, 🟢 A-1 Pictures, 🟢 Aniplex, 🟢 Houbunsha, 🟢 Tokyo MX, 🟢 BS11, 🟢 Asahi Broadcasting Corporation, 🟢 MAGES., 🟢 Nitroplus, 🟢 movic",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "7.609",
+      "overview": "1972 год. Апполон-17 обнаружил в космосе врата, ведущие на Марс. После высадки космонавты нашли на планете сверхмощный утилит, позже названный Альдноа. Вскоре множество людей переезжает на Марс и называет себя марсианами. Так началась война между жителями обеих планет - марсианские солдаты начали спускаться с небес на стальных гигантах, намереваясь уничтожить человечество.",
+      "poster": "https://image.tmdb.org/t/p/w500/rwDgK4FqjjmAKBjJyvO2thZizxD.jpg",
+      "tagline": "",
+      "backdrop": "https://image.tmdb.org/t/p/original/bgJhgarn4MU1rfF2jE39TVTmjAF.jpg",
+      "cast": [
+        {
+          "name": "Нацуки Ханаэ",
+          "photo": "https://image.tmdb.org/t/p/w185/alTb0DlcPIbcwM08WSmxFai58sd.jpg"
+        },
+        {
+          "name": "Кэнсё Оно",
+          "photo": "https://image.tmdb.org/t/p/w185/wUYJ3HIeygHfh4rAqupE4RPoG3W.jpg"
+        },
+        {
+          "name": "Сора Амамия",
+          "photo": "https://image.tmdb.org/t/p/w185/4ZZcdFH4QgbIC8AeJ3BLG1ue7G5.jpg"
+        },
+        {
+          "name": "Микако Комацу",
+          "photo": "https://image.tmdb.org/t/p/w185/13tQEZ1tLdOmi7oGoRJ4xep1ODQ.jpg"
+        }
+      ],
+      "director": {
+        "name": "Нет данных",
+        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+      },
+      "trailer": "",
+      "ageRating": "TV-MA",
+      "keywords": "space colony, princess, space, mecha, giant robot",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
+      "collection": "",
+      "seasons": "1",
+      "episodes": "24",
+      "tvStatus": "Ended",
+      "id": 46,
+      "dateRequested": "16.02.2025 10:04",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "24.02.2026 10:53"
+    },
+    {
+      "title": "Альдноа.Зеро",
+      "requestedSeason": 2,
+      "year": "2014",
+      "type": "Аниме",
+      "kinopoiskId": "842575",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/842575/",
+      "runtime": "24 мин",
+      "genres": "мультфильм, Боевик и Приключения, НФ и Фэнтези",
+      "studios": "🟢 TROYCA, 🟢 A-1 Pictures, 🟢 Aniplex, 🟢 Houbunsha, 🟢 Tokyo MX, 🟢 BS11, 🟢 Asahi Broadcasting Corporation, 🟢 MAGES., 🟢 Nitroplus, 🟢 movic",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "7.609",
+      "overview": "1972 год. Апполон-17 обнаружил в космосе врата, ведущие на Марс. После высадки космонавты нашли на планете сверхмощный утилит, позже названный Альдноа. Вскоре множество людей переезжает на Марс и называет себя марсианами. Так началась война между жителями обеих планет - марсианские солдаты начали спускаться с небес на стальных гигантах, намереваясь уничтожить человечество.",
+      "poster": "https://image.tmdb.org/t/p/w500/rwDgK4FqjjmAKBjJyvO2thZizxD.jpg",
+      "tagline": "",
+      "backdrop": "https://image.tmdb.org/t/p/original/bgJhgarn4MU1rfF2jE39TVTmjAF.jpg",
+      "cast": [
+        {
+          "name": "Нацуки Ханаэ",
+          "photo": "https://image.tmdb.org/t/p/w185/alTb0DlcPIbcwM08WSmxFai58sd.jpg"
+        },
+        {
+          "name": "Кэнсё Оно",
+          "photo": "https://image.tmdb.org/t/p/w185/wUYJ3HIeygHfh4rAqupE4RPoG3W.jpg"
+        },
+        {
+          "name": "Сора Амамия",
+          "photo": "https://image.tmdb.org/t/p/w185/4ZZcdFH4QgbIC8AeJ3BLG1ue7G5.jpg"
+        },
+        {
+          "name": "Микако Комацу",
+          "photo": "https://image.tmdb.org/t/p/w185/13tQEZ1tLdOmi7oGoRJ4xep1ODQ.jpg"
+        }
+      ],
+      "director": {
+        "name": "Нет данных",
+        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+      },
+      "trailer": "",
+      "ageRating": "TV-MA",
+      "keywords": "space colony, princess, space, mecha, giant robot",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
+      "collection": "",
+      "seasons": "1",
+      "episodes": "24",
+      "tvStatus": "Ended",
+      "id": 53,
+      "dateRequested": "23.02.2025 10:06",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "22.03.2026 10:54"
+    },
+    {
+      "title": "Невеста чародея",
+      "requestedSeason": 0,
+      "year": "2017",
+      "type": "Аниме",
+      "kinopoiskId": "1072966",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/1072966/",
+      "runtime": "24 мин",
+      "genres": "мультфильм, драма, НФ и Фэнтези",
+      "studios": "🟢 WIT STUDIO, 🟢 FlyingDog, 🟢 Production I.G, 🟢 Shochiku, 🟢 MAG Garden, 🟢 Studio Kafka, 🟢 bilibili, 🟢 Twin Engine",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "8.361",
+      "overview": "Чисэ Хатори, 15 лет.\n\nПотерянная, без надежды и без семьи, она была куплена на аукционе – но не кем-то, а чародеем по имени Элиас, который даже не человек. Хотя она и полна сомнений, но всё же её жизнь начинается с чистого листа в роли ученицы чародея и его невесты.\n\nОна медленно, но верно привыкает к своей новой мирной жизни, пока однажды не находит среди книг, присланных ей из Лондона Анжеликой, иллюстрированную книгу на японском языке. В этой книге показана её жизнь в детстве в то время, когда она ещё была несчастной и одинокой.\n\nЭто предыстория знакомства Чисэ с Терновым Чародеем.",
+      "poster": "https://image.tmdb.org/t/p/w500/k81NYPRWQL6b38Q3rekJq7FB1LV.jpg",
+      "tagline": "Принесет ли он ей свет, в котором она так отчаянно нуждается, или погрузит ее во все более глубокие тени?",
+      "backdrop": "https://image.tmdb.org/t/p/original/KI2sFvqJHzc95WM7dcX9kM8tY1.jpg",
+      "cast": [
+        {
+          "name": "Ацуми Танэдзаки",
+          "photo": "https://image.tmdb.org/t/p/w185/6tM8GU7QvrdUCvR4kxqVUZivtvO.jpg"
+        },
+        {
+          "name": "Рёта Такэути",
+          "photo": "https://image.tmdb.org/t/p/w185/1PZIIKxOAgn6YexksH6weYnzzhh.jpg"
+        },
+        {
+          "name": "Коки Утияма",
+          "photo": "https://image.tmdb.org/t/p/w185/sllSm3iZZWVLTBrDZQRtWrZUfEj.jpg"
+        },
+        {
+          "name": "Ая Эндо",
+          "photo": "https://image.tmdb.org/t/p/w185/s59Lip4dPC7rI3cz1pHs9vSmuvf.jpg"
+        }
+      ],
+      "director": {
+        "name": "Нет данных",
+        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+      },
+      "trailer": "",
+      "ageRating": "TV-14",
+      "keywords": "mythology, magic, fairy, slavery, forbidden love",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
+      "collection": "",
+      "seasons": "2",
+      "episodes": "48",
+      "tvStatus": "Ended",
+      "id": 67,
+      "dateRequested": "10.03.2025 10:08",
+      "status": "Смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false,
+      "dateWatched": "07.06.2026 10:56"
+    },
+    {
+      "title": "Атака титанов",
+      "requestedSeason": 0,
+      "requestedEpisodes": 0,
+      "year": "2013",
+      "type": "Аниме",
+      "tmdbId": 1429,
+      "kinopoiskId": "749374",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/749374/",
+      "altPoster": "",
+      "postUrl": "",
+      "tgRecordUrl": "",
+      "boostyUrl": "",
+      "youtubeUrl": "",
+      "reviewUrl": "",
+      "runtime": "Неизвестно",
+      "genres": "мультфильм, НФ и Фэнтези, Боевик и Приключения",
+      "studios": "🟢 Production I.G, 🟢 MAPPA, 🟢 WIT STUDIO, 🟢 Pony Canyon, 🟢 Kodansha, 🟢 dentsu, 🟢 MBS, 🟢 Pony Canyon Enterprise",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "8.7",
+      "overview": "Уже многие годы человечество ведёт борьбу с титанами — огромными существами, которые не обладают особым интеллектом, зато едят людей и получают от этого удовольствие. После продолжительной борьбы остатки человечества построили высокую стену, окружившую страну людей, через которую титаны пройти не могли. С тех пор прошло сто лет, люди мирно живут под защитой стены. Но однажды подросток Эрэн и его сводная сестра Микаса становятся свидетелями страшного события — участок стены разрушается супертитаном, появившимся прямо из воздуха. Титаны нападают на город, и дети в ужасе видят, как один из монстров заживо съедает их мать. Эрэн клянётся, что убьёт всех титанов и отомстит за человечество.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/9whSxgqSW7dPIIMJyM4WG3BYVo7.jpg",
+      "tagline": "«Лик угасания человечества»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
+      "cast": [],
+      "director": {
+        "name": "Нет данных",
+        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+      },
+      "trailer": "",
+      "ageRating": "TV-MA",
+      "keywords": "fascism, dystopia, politics, revenge, gore",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
+      "collection": "",
+      "seasons": "4",
+      "episodes": "87",
+      "tvStatus": "Ended",
+      "id": 99,
+      "dateRequested": "12.09.2026 00:49",
       "status": "Не смотрели",
       "ourRating": "Без оценки",
       "cried": false,
@@ -3655,291 +3989,6 @@
       "isWatching": false,
       "isMarvel": false,
       "dateWatched": "26.06.2026 10:59"
-    }
-  ],
-  "Neputeviy": [
-    {
-      "title": "Внук Нурарихёна",
-      "requestedSeason": 1,
-      "year": "2010",
-      "type": "Аниме",
-      "kinopoiskId": "584034",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/584034/",
-      "runtime": "24 мин",
-      "genres": "мультфильм, НФ и Фэнтези, Боевик и Приключения",
-      "studios": "🟢 Studio Deen, 🟢 Shueisha, 🟢 TOHO, 🟢 Yomiuri Telecasting Corporation, 🟢 Pony Canyon, 🟢 BS11, 🟢 YOMIKO Advertising, 🟢 Hakuhodo DY Media Partners",
-      "budget": "Нет данных",
-      "revenue": "Нет данных",
-      "tmdbRating": "7.516",
-      "overview": "Nurarihyon no Mago — фэнтези-манга, созданная Хироси Сиибаси. Она публикуется в журнале Shonen Jump с 10 марта 2008 года и насчитывает на настоящий момент 24 тома",
-      "poster": "https://image.tmdb.org/t/p/w500/dBQKvnkJdqzyXdaC4lWQhuEhapn.jpg",
-      "tagline": "",
-      "backdrop": "https://image.tmdb.org/t/p/original/dIc8YQrs3fRbB7b9pGzgTqDMnpJ.jpg",
-      "cast": [
-        {
-          "name": "Дзюн Фукуяма",
-          "photo": "https://image.tmdb.org/t/p/w185/eT9eloyIaIkTvTqMmpcsAleP2hM.jpg"
-        },
-        {
-          "name": "Ая Хирано",
-          "photo": "https://image.tmdb.org/t/p/w185/zaSJKfuKhw7e4VTnTKnlHBRzjQU.jpg"
-        },
-        {
-          "name": "Ай Маэда",
-          "photo": "https://image.tmdb.org/t/p/w185/sHlbk4g55AUiAsox7sgK2mzrVmf.jpg"
-        },
-        {
-          "name": "Юи Хориэ",
-          "photo": "https://image.tmdb.org/t/p/w185/73yQlMWaiOMrhvPCNyOCbbCkILZ.jpg"
-        }
-      ],
-      "director": {
-        "name": "Нет данных",
-        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
-      },
-      "trailer": "",
-      "ageRating": "TV-14",
-      "keywords": "swordplay, based on manga, battle, fighting, ghost",
-      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
-      "collection": "",
-      "seasons": "2",
-      "episodes": "48",
-      "tvStatus": "Ended",
-      "id": 42,
-      "dateRequested": "12.02.2025 10:04",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "22.01.2026 10:52"
-    },
-    {
-      "title": "Синий Экзорцист",
-      "requestedSeason": 0,
-      "year": "2011",
-      "type": "Аниме",
-      "kinopoiskId": "574182",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/574182/",
-      "runtime": "24 мин",
-      "genres": "мультфильм, НФ и Фэнтези, детектив, Боевик и Приключения",
-      "studios": "🟢 A-1 Pictures, 🟢 Aniplex, 🟢 Shueisha, 🟢 movic, 🟢 dentsu, 🟢 MBS",
-      "budget": "Нет данных",
-      "revenue": "Нет данных",
-      "tmdbRating": "7.8",
-      "overview": "Рин Окимура и его брат Юкио — сироты, росшие в храме священника и экзорциста Фудзимото. Рин — парень неплохой, но вспыльчивый, придурковатый и постоянно ввязывающийся в драки. Юкио же наоборот, умный, прилежный и мечтающий стать врачом (и лечение извечных ссадин брата ему в этом лишь помогает). Но в реальности разница между ними куда сильнее: на самом деле Рин — полудемон, и не просто полудемон, а сын самого Сатаны. И когда, вопреки предосторожностям Фудзимото, силы Рина прорезаются наружу, папенька находит его и пытается забрать домой, чтобы в дальнейшем использовать сына в качестве плацдарма для захвата нашего измерения. Рину удаётся избежать сей плачевной участи, но дорогой ценой — Фудзимото гибнет, защищая своего приёмного сына. И тогда Рин решает стать экзорцистом и отомстить Сатане, для чего устраивается вместе с Юкио в специальную закрытую школу.",
-      "poster": "https://image.tmdb.org/t/p/w500/g2RmOH0cDET7pptUrLnzVM6w8DJ.jpg",
-      "tagline": "",
-      "backdrop": "https://image.tmdb.org/t/p/original/wJzHFl5mq6JFbD6equTleJuzlnk.jpg",
-      "cast": [
-        {
-          "name": "Хироси Камия",
-          "photo": "https://image.tmdb.org/t/p/w185/5aAAOlQ2hW5EqEQOzk4UeroxcTN.jpg"
-        }
-      ],
-      "director": {
-        "name": "Нет данных",
-        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
-      },
-      "trailer": "",
-      "ageRating": "TV-14",
-      "keywords": "vatican (holy see), shapeshifting, katana, sword, magic",
-      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
-      "collection": "",
-      "seasons": "5",
-      "episodes": "73",
-      "tvStatus": "Ended",
-      "id": 43,
-      "dateRequested": "13.02.2025 10:04",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "02.02.2026 10:52"
-    },
-    {
-      "title": "Альдноа.Зеро",
-      "requestedSeason": 1,
-      "year": "2014",
-      "type": "Аниме",
-      "kinopoiskId": "842575",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/842575/",
-      "runtime": "24 мин",
-      "genres": "мультфильм, Боевик и Приключения, НФ и Фэнтези",
-      "studios": "🟢 TROYCA, 🟢 A-1 Pictures, 🟢 Aniplex, 🟢 Houbunsha, 🟢 Tokyo MX, 🟢 BS11, 🟢 Asahi Broadcasting Corporation, 🟢 MAGES., 🟢 Nitroplus, 🟢 movic",
-      "budget": "Нет данных",
-      "revenue": "Нет данных",
-      "tmdbRating": "7.609",
-      "overview": "1972 год. Апполон-17 обнаружил в космосе врата, ведущие на Марс. После высадки космонавты нашли на планете сверхмощный утилит, позже названный Альдноа. Вскоре множество людей переезжает на Марс и называет себя марсианами. Так началась война между жителями обеих планет - марсианские солдаты начали спускаться с небес на стальных гигантах, намереваясь уничтожить человечество.",
-      "poster": "https://image.tmdb.org/t/p/w500/rwDgK4FqjjmAKBjJyvO2thZizxD.jpg",
-      "tagline": "",
-      "backdrop": "https://image.tmdb.org/t/p/original/bgJhgarn4MU1rfF2jE39TVTmjAF.jpg",
-      "cast": [
-        {
-          "name": "Нацуки Ханаэ",
-          "photo": "https://image.tmdb.org/t/p/w185/alTb0DlcPIbcwM08WSmxFai58sd.jpg"
-        },
-        {
-          "name": "Кэнсё Оно",
-          "photo": "https://image.tmdb.org/t/p/w185/wUYJ3HIeygHfh4rAqupE4RPoG3W.jpg"
-        },
-        {
-          "name": "Сора Амамия",
-          "photo": "https://image.tmdb.org/t/p/w185/4ZZcdFH4QgbIC8AeJ3BLG1ue7G5.jpg"
-        },
-        {
-          "name": "Микако Комацу",
-          "photo": "https://image.tmdb.org/t/p/w185/13tQEZ1tLdOmi7oGoRJ4xep1ODQ.jpg"
-        }
-      ],
-      "director": {
-        "name": "Нет данных",
-        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
-      },
-      "trailer": "",
-      "ageRating": "TV-MA",
-      "keywords": "space colony, princess, space, mecha, giant robot",
-      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
-      "collection": "",
-      "seasons": "1",
-      "episodes": "24",
-      "tvStatus": "Ended",
-      "id": 46,
-      "dateRequested": "16.02.2025 10:04",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "24.02.2026 10:53"
-    },
-    {
-      "title": "Альдноа.Зеро",
-      "requestedSeason": 2,
-      "year": "2014",
-      "type": "Аниме",
-      "kinopoiskId": "842575",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/842575/",
-      "runtime": "24 мин",
-      "genres": "мультфильм, Боевик и Приключения, НФ и Фэнтези",
-      "studios": "🟢 TROYCA, 🟢 A-1 Pictures, 🟢 Aniplex, 🟢 Houbunsha, 🟢 Tokyo MX, 🟢 BS11, 🟢 Asahi Broadcasting Corporation, 🟢 MAGES., 🟢 Nitroplus, 🟢 movic",
-      "budget": "Нет данных",
-      "revenue": "Нет данных",
-      "tmdbRating": "7.609",
-      "overview": "1972 год. Апполон-17 обнаружил в космосе врата, ведущие на Марс. После высадки космонавты нашли на планете сверхмощный утилит, позже названный Альдноа. Вскоре множество людей переезжает на Марс и называет себя марсианами. Так началась война между жителями обеих планет - марсианские солдаты начали спускаться с небес на стальных гигантах, намереваясь уничтожить человечество.",
-      "poster": "https://image.tmdb.org/t/p/w500/rwDgK4FqjjmAKBjJyvO2thZizxD.jpg",
-      "tagline": "",
-      "backdrop": "https://image.tmdb.org/t/p/original/bgJhgarn4MU1rfF2jE39TVTmjAF.jpg",
-      "cast": [
-        {
-          "name": "Нацуки Ханаэ",
-          "photo": "https://image.tmdb.org/t/p/w185/alTb0DlcPIbcwM08WSmxFai58sd.jpg"
-        },
-        {
-          "name": "Кэнсё Оно",
-          "photo": "https://image.tmdb.org/t/p/w185/wUYJ3HIeygHfh4rAqupE4RPoG3W.jpg"
-        },
-        {
-          "name": "Сора Амамия",
-          "photo": "https://image.tmdb.org/t/p/w185/4ZZcdFH4QgbIC8AeJ3BLG1ue7G5.jpg"
-        },
-        {
-          "name": "Микако Комацу",
-          "photo": "https://image.tmdb.org/t/p/w185/13tQEZ1tLdOmi7oGoRJ4xep1ODQ.jpg"
-        }
-      ],
-      "director": {
-        "name": "Нет данных",
-        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
-      },
-      "trailer": "",
-      "ageRating": "TV-MA",
-      "keywords": "space colony, princess, space, mecha, giant robot",
-      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
-      "collection": "",
-      "seasons": "1",
-      "episodes": "24",
-      "tvStatus": "Ended",
-      "id": 53,
-      "dateRequested": "23.02.2025 10:06",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "22.03.2026 10:54"
-    },
-    {
-      "title": "Невеста чародея",
-      "requestedSeason": 0,
-      "year": "2017",
-      "type": "Аниме",
-      "kinopoiskId": "1072966",
-      "kinopoiskUrl": "https://www.kinopoisk.ru/film/1072966/",
-      "runtime": "24 мин",
-      "genres": "мультфильм, драма, НФ и Фэнтези",
-      "studios": "🟢 WIT STUDIO, 🟢 FlyingDog, 🟢 Production I.G, 🟢 Shochiku, 🟢 MAG Garden, 🟢 Studio Kafka, 🟢 bilibili, 🟢 Twin Engine",
-      "budget": "Нет данных",
-      "revenue": "Нет данных",
-      "tmdbRating": "8.361",
-      "overview": "Чисэ Хатори, 15 лет.\n\nПотерянная, без надежды и без семьи, она была куплена на аукционе – но не кем-то, а чародеем по имени Элиас, который даже не человек. Хотя она и полна сомнений, но всё же её жизнь начинается с чистого листа в роли ученицы чародея и его невесты.\n\nОна медленно, но верно привыкает к своей новой мирной жизни, пока однажды не находит среди книг, присланных ей из Лондона Анжеликой, иллюстрированную книгу на японском языке. В этой книге показана её жизнь в детстве в то время, когда она ещё была несчастной и одинокой.\n\nЭто предыстория знакомства Чисэ с Терновым Чародеем.",
-      "poster": "https://image.tmdb.org/t/p/w500/k81NYPRWQL6b38Q3rekJq7FB1LV.jpg",
-      "tagline": "Принесет ли он ей свет, в котором она так отчаянно нуждается, или погрузит ее во все более глубокие тени?",
-      "backdrop": "https://image.tmdb.org/t/p/original/KI2sFvqJHzc95WM7dcX9kM8tY1.jpg",
-      "cast": [
-        {
-          "name": "Ацуми Танэдзаки",
-          "photo": "https://image.tmdb.org/t/p/w185/6tM8GU7QvrdUCvR4kxqVUZivtvO.jpg"
-        },
-        {
-          "name": "Рёта Такэути",
-          "photo": "https://image.tmdb.org/t/p/w185/1PZIIKxOAgn6YexksH6weYnzzhh.jpg"
-        },
-        {
-          "name": "Коки Утияма",
-          "photo": "https://image.tmdb.org/t/p/w185/sllSm3iZZWVLTBrDZQRtWrZUfEj.jpg"
-        },
-        {
-          "name": "Ая Эндо",
-          "photo": "https://image.tmdb.org/t/p/w185/s59Lip4dPC7rI3cz1pHs9vSmuvf.jpg"
-        }
-      ],
-      "director": {
-        "name": "Нет данных",
-        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
-      },
-      "trailer": "",
-      "ageRating": "TV-14",
-      "keywords": "mythology, magic, fairy, slavery, forbidden love",
-      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
-      "collection": "",
-      "seasons": "2",
-      "episodes": "48",
-      "tvStatus": "Ended",
-      "id": 67,
-      "dateRequested": "10.03.2025 10:08",
-      "status": "Смотрели",
-      "ourRating": "Без оценки",
-      "cried": false,
-      "isAuction": false,
-      "isBanned": false,
-      "isTheme": false,
-      "isWatching": false,
-      "isMarvel": false,
-      "dateWatched": "07.06.2026 10:56"
     }
   ],
   "prrsephonne": [
