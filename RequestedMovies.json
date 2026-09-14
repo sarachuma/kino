@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "12.09.2026 00:49",
+    "lastUpdated": "14.09.2026 19:05",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -239,6 +239,69 @@
       "isWatching": false,
       "isMarvel": false,
       "dateWatched": "07.09.2026 21:45"
+    },
+    {
+      "title": "Родные",
+      "requestedSeason": 0,
+      "requestedEpisodes": 0,
+      "year": "2021",
+      "type": "Фильм",
+      "tmdbId": 610351,
+      "kinopoiskId": "1274271",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/1274271/",
+      "altPoster": "",
+      "postUrl": "",
+      "tgRecordUrl": "",
+      "boostyUrl": "",
+      "youtubeUrl": "",
+      "reviewUrl": "",
+      "runtime": "1 ч 40 мин",
+      "genres": "драма, комедия",
+      "studios": "🟢 Hype Film, 🟢 Ministry of Culture of the Russian Federation",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "5.942",
+      "overview": "Однажды утром отец семейства решает исполнить мечту всей жизни: отправиться с родными на Грушинский фестиваль и выступить там со своей песней. Семья вынуждена смириться с желанием отца-самодура и пуститься в автопутешествие через всю Россию. В пути их ждут приключения, различные испытания, проверка отношений на прочность и важная встреча, которую отец ждал двадцать лет.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/lnE8wmoxg81XWI28F7l6hNBYY3x.jpg",
+      "tagline": "Будем праздновать жизнь!",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/2tO22PaSsOgqpSHZ4s3uIz7lyw4.jpg",
+      "cast": [
+        {
+          "name": "Сергей Бурунов",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/c2pbTB0BomzUMZPbTKTZ8wa7byW.jpg"
+        },
+        {
+          "name": "Ирина Пегова",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/lknzq5mxB1CaPQuU3ImobIPRnYm.jpg"
+        },
+        {
+          "name": "Семён Трескунов",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/iufRXitf1RsdOx5dGyIDyOwMk0h.jpg"
+        },
+        {
+          "name": "Елизавета Гырдымова",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/1p1Jso7VCgONiAA0jRoEV3WMReK.jpg"
+        }
+      ],
+      "director": {
+        "name": "Илья Аксенов",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/82o6xYSgPNlnK2tXuavJNaeGnPF.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=JxaMqGwBDq0",
+      "ageRating": "12+",
+      "keywords": "",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-600x600.png",
+      "collection": "",
+      "id": 100,
+      "dateRequested": "14.09.2026 19:05",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
     }
   ],
   "pel1mew1k": [
