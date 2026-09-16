@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "14.09.2026 19:05",
+    "lastUpdated": "16.09.2026 19:33",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -294,6 +294,69 @@
       "collection": "",
       "id": 100,
       "dateRequested": "14.09.2026 19:05",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    },
+    {
+      "title": "Планета Ка-Пэкс",
+      "requestedSeason": 0,
+      "requestedEpisodes": 0,
+      "year": "2001",
+      "type": "Фильм",
+      "tmdbId": 167,
+      "kinopoiskId": "723",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/723/",
+      "altPoster": "",
+      "postUrl": "",
+      "tgRecordUrl": "",
+      "boostyUrl": "",
+      "youtubeUrl": "",
+      "reviewUrl": "",
+      "runtime": "2 ч 0 мин",
+      "genres": "фантастика, драма, детектив",
+      "studios": "🟢 Intermedia Films, 🟢 Lawrence Gordon Productions, 🟢 IMF Internationale Medien und Film 3 & Produktions, 🟢 Universal Pictures, 🟢 Senator International",
+      "budget": "48.000.000 $",
+      "revenue": "50.315.140 $",
+      "tmdbRating": "7.211",
+      "overview": "В Манхэттенский психиатрический институт привозят странного человека в черных очках. Он зовет себя Протом и утверждает, что его родина — далекая планета Ка-Пэкс, откуда он мгновенно перенесся на Землю в луче света. Несмотря на все усилия, доктору Пауэллу не удается разгадать загадку таинственного пациента, который весьма убедительно доказывает всем свое внеземное происхождение. Вскоре Пауэлла, так и не сумевшего открыть тайну личности своего пациэнта, начинает тревожить невероятная мысль: может быть, Прот вовсе не сумасшедший...",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/ihonuG7ED6wOmAgIch9MTDni2y2.jpg",
+      "tagline": "«Взгляните на мир глазами загадочного незнакомца»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/v8xav2JYqqn3O14s0PR4UgWBz95.jpg",
+      "cast": [
+        {
+          "name": "Джефф Бриджес",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/xms1RAY6q7Lzp7wNeRCB0kzhucn.jpg"
+        },
+        {
+          "name": "Кевин Спейси",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/nPrUZDEbGQe6jwpVbHKJCXsMd7r.jpg"
+        },
+        {
+          "name": "Мэри МакКормак",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/e2brLtFCfgLdOp356bcEyRzQkoJ.jpg"
+        },
+        {
+          "name": "Элфри Вудард",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/erXesg092Pi7SHKEK2UHeimPPKf.jpg"
+        }
+      ],
+      "director": {
+        "name": "Iain Softley",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/p2D9UrLOGOFoiOC5pmmsEUqLOEr.jpg"
+      },
+      "trailer": "https://www.youtube.com/watch?v=BKV42eP6V80",
+      "ageRating": "Нет данных",
+      "keywords": "dreams, robbery, investigation, hypnosis, alien",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-600x600.png",
+      "collection": "",
+      "id": 101,
+      "dateRequested": "16.09.2026 19:33",
       "status": "Не смотрели",
       "ourRating": "Без оценки",
       "cried": false,
