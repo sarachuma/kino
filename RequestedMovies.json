@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "16.09.2026 20:45",
+    "lastUpdated": "16.09.2026 21:36",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -881,6 +881,72 @@
       "tvStatus": "Ended",
       "id": 99,
       "dateRequested": "12.09.2026 00:49",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    },
+    {
+      "title": "Хеллсинг OVA",
+      "requestedSeason": 0,
+      "requestedEpisodes": 0,
+      "year": "2006",
+      "type": "Аниме",
+      "tmdbId": 61752,
+      "kinopoiskId": "251883",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/251883/",
+      "altPoster": "",
+      "postUrl": "",
+      "tgRecordUrl": "",
+      "boostyUrl": "",
+      "youtubeUrl": "",
+      "reviewUrl": "",
+      "runtime": "49 мин",
+      "genres": "мультфильм, драма, НФ и Фэнтези",
+      "studios": "🟢 SATELIGHT, 🟢 Graphinica, 🟢 Geneon Entertainment, 🟢 Madhouse",
+      "budget": "Нет данных",
+      "revenue": "Нет данных",
+      "tmdbRating": "8.446",
+      "overview": "Хеллсинг, таинственная организация правительства Британии, вот уже несколько веков хранит покой людей, защищая их от существ ночи. Нынешняя глава организации, Интегра Фарбрук Уингейтс Хеллсинг руководит своей персональной армией, уничтожающей нежить. Но даже её самые умелые бойцы меркнут на фоне главного истребителя вампиров - Алукарда, который на самом деле является могущественным вампиром. Вместе с загадочным дворецким Интегры, Уолтером К. Дорнезом, и новой подчиненной Алукарда, Викторией Серас, организация Хеллсинг не только сдерживает натиск вампиров, упырей и некромантов, но и постоянно соперничает с секретным отделением Ватикана, а так же противостоит \"Милленниуму\", таинственной группе бывших военных и учёных нацистской Германии, объединившихся во время войны полвека назад.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/lCv4RUTTVO5NShI6q0Ewo8Bd4Ek.jpg",
+      "tagline": "Птица Гермеса - имя мне дали. Лишив меня крыльев свободу отняли.",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/PZEdudP5M4FBz5cPoQ4rHCejLj.jpg",
+      "cast": [
+        {
+          "name": "Дзёдзи Наката",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/wYhv4BtQnc6bZp2Qnh6GiYjmNKC.jpg"
+        },
+        {
+          "name": "Фумико Орикаса",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/f5d1J13fksa1hK8u7AS95aO8b9.jpg"
+        },
+        {
+          "name": "Ёсико Сакакибара",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/bptHqpgbAxIzEoj6OMtt3ayOjgT.jpg"
+        },
+        {
+          "name": "Нобуо Тобита",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/8p47dHvcEvr7CPYIHpxlQcpZmtm.jpg"
+        }
+      ],
+      "director": {
+        "name": "Нет данных",
+        "photo": "https://via.placeholder.com/185x278?text=No+Photo"
+      },
+      "trailer": "",
+      "ageRating": "TV-MA",
+      "keywords": "christianity, london, england, anti hero, nazi, vampire",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-600x600.png",
+      "collection": "",
+      "seasons": "1",
+      "episodes": "10",
+      "tvStatus": "Ended",
+      "id": 102,
+      "dateRequested": "16.09.2026 21:36",
       "status": "Не смотрели",
       "ourRating": "Без оценки",
       "cried": false,
