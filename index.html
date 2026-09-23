@@ -80,7 +80,7 @@
         .left-img { right: -210px; }
         .right-img { left: -77px; }
 
-        @media (max-width: 1550px) { .girl-col { display: none; } }
+       
 
         .container {
             width: 100%; max-width: 1150px; min-height: 80vh; 
@@ -100,11 +100,13 @@
             padding: 35px 30px 25px; text-align: center; position: relative;
             border-bottom: 2px solid rgba(254, 0, 0, 0.3); 
             background: radial-gradient(circle at 50% 0%, rgba(254, 0, 0, 0.15) 0%, transparent 80%);
+			z-index: 30;
         }
         .header::after {
             content: '✦'; position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%);
             color: var(--accent-main); font-size: 20px; background: var(--bg-deep); padding: 0 15px;
             border: 1px solid rgba(254, 0, 0, 0.4); text-shadow: 0 0 10px var(--accent-main);
+			z-index: 31;
         }
 
         .header-top h1 { 
@@ -167,7 +169,12 @@
 
         
         table { width: 100%; border-collapse: separate; border-spacing: 0; text-align: left; table-layout: fixed; }
-        th { text-align: center; color: #ffffff; text-shadow: 2px 2px 0px var(--accent-dark), 0 0 15px var(--accent-main); font-weight: 700; font-size: 18px; text-transform: uppercase; padding: 25px 12px 15px; border-bottom: 2px solid rgba(254, 0, 0, 0.3); font-family: var(--font-title); letter-spacing: 2px; }
+        th { 
+			text-align: center; color: #ffffff; text-shadow: 2px 2px 0px var(--accent-dark), 0 0 15px var(--accent-main); 
+			font-weight: 700; font-size: 18px; text-transform: uppercase; padding: 25px 12px 15px; 
+			border-bottom: 2px solid rgba(254, 0, 0, 0.3); font-family: var(--font-title); letter-spacing: 2px; 
+			position: sticky; top: 0; z-index: 20; background: var(--bg-deep); 
+		}
         td { padding: 20px 15px; vertical-align: top; border-bottom: 1px solid rgba(254, 0, 0, 0.15); }
         tr:last-child td { border-bottom: none; }
         td:nth-child(1), td:nth-child(3), td:nth-child(4), td:nth-child(5) { text-align: center; }
@@ -190,7 +197,7 @@
         
         .copy-btn { background: rgba(254, 0, 0, 0.1); border: 1px solid transparent; color: var(--accent-main); cursor: pointer; padding: 4px; border-radius: 2px; display: flex; align-items: center; justify-content: center; transition: all 0.3s; opacity: 0; transform: scale(0.8); position: relative; top: 2px; flex-shrink: 0; }
         tr.movie-row:hover .copy-btn { opacity: 1; transform: scale(1); }
-        .copy-btn:hover { background: var(--accent-main); color: var(--bg-deep); box-shadow: 0 0 15px rgba(254, 0, 0, 0.5); } 
+        .copy-btn:hover { background: var(--accent-main); color: #ffffff; box-shadow: 0 0 15px rgba(254, 0, 0, 0.5); } 
 
         .badges-container { display: flex; align-items: center; gap: 8px; margin: 2px 0; flex-wrap: wrap; }
         
@@ -201,10 +208,25 @@
         .movie-tagline { font-size: 14px; color: var(--text-muted); font-style: italic; border-left: 2px solid var(--accent-main); padding-left: 8px; font-family: var(--font-text); }
         .movie-studios-list { font-size: 14px; color: var(--accent-light); font-weight: 600; letter-spacing: 1px; margin-top: 2px; font-family: var(--font-title); }
 
-        .movie-overview-wrapper { margin-top: 8px; max-height: 48px; overflow: hidden; transition: max-height 0.4s ease; }
+        
+        .list-tabs-container { display: flex; gap: 8px; margin-top: 8px; margin-bottom: 4px; }
+        .list-tab-btn { background: rgba(3, 6, 36, 0.6); border: 1px dashed rgba(254, 0, 0, 0.3); color: var(--text-muted); padding: 2px 10px 2px 8px; border-radius: 2px; font-size: 10px; font-family: var(--font-title); font-weight: 700; text-transform: uppercase; cursor: pointer; transition: all 0.3s ease; }
+        .list-tab-btn:hover { border-color: var(--accent-main); color: var(--accent-light); }
+        .list-tab-btn.active { background: rgba(254, 0, 0, 0.15); border-color: var(--accent-main); border-style: solid; color: #ffffff; box-shadow: 0 0 10px rgba(254, 0, 0, 0.3); }
+
+        .movie-overview-wrapper { margin-top: 4px; max-height: 50px; overflow: hidden; transition: max-height 0.4s ease; cursor: pointer; user-select: none; }
         .movie-overview-text { font-size: 15px; line-height: 1.6; color: var(--text-muted); font-family: var(--font-text); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         tr.movie-row:has(.poster-wrapper:hover) .movie-overview-wrapper { max-height: 250px; }
         tr.movie-row:has(.poster-wrapper:hover) .movie-overview-text { -webkit-line-clamp: 20; color: var(--text-main); }
+        .movie-overview-wrapper.expanded { max-height: 1500px !important; }
+        .movie-overview-wrapper.expanded .movie-overview-text { -webkit-line-clamp: unset !important; color: var(--text-main); }
+
+        .movie-review-wrapper { margin-top: 4px; max-height: 50px; overflow: hidden; transition: max-height 0.3s ease; cursor: pointer; user-select: none; }
+        .movie-review-text { font-size: 14px; line-height: 1.5; color: var(--text-main); font-style: italic; border-left: 2px solid var(--accent-main); padding: 4px 10px; background: rgba(254, 0, 0, 0.05); border-radius: 0 4px 4px 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; transition: color 0.3s, background-color 0.3s; }
+        tr.movie-row:has(.poster-wrapper:hover) .movie-review-wrapper { max-height: 250px; }
+        tr.movie-row:has(.poster-wrapper:hover) .movie-review-text { -webkit-line-clamp: 20; color: #fff; background: rgba(254, 0, 0, 0.1); }
+        .movie-review-wrapper.expanded { max-height: 1500px !important; }
+        .movie-review-wrapper.expanded .movie-review-text { -webkit-line-clamp: unset !important; color: #fff; background: rgba(254, 0, 0, 0.15); }
 
         .requester-badge { display: flex; flex-direction: column; align-items: center; gap: 8px; cursor: pointer; transition: transform 0.3s; margin: 0 auto; }
         .requester-badge:hover .req-avatar { border-color: var(--text-main); box-shadow: 0 0 20px rgba(254, 0, 0, 0.6); }
@@ -270,10 +292,7 @@
         .card-mini-badge.rating { color: var(--accent-light); border-color: var(--accent-main); font-size: 10px; }
 
         .card-content { padding: 15px 10px; display: flex; flex-direction: column; align-items: center; text-align: center; z-index: 11; position: relative; flex-grow: 1; box-sizing: border-box; width: 100%; }
-        .card-title-container { 
-            height: 55px; 
-            display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 6px; overflow: hidden; 
-        }
+        .card-title-container { height: 55px; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 6px; overflow: hidden; }
         
         .card-title-text { 
             font-family: var(--font-title); font-size: 20px; font-weight: 700; color: #fff; letter-spacing: 1px;
@@ -311,12 +330,17 @@
 
         
         .banned-dot {
-            position: absolute; right: 13px; bottom: 10px; width: 14px; height: 14px;
+            width: 14px; height: 14px;
             background-color: var(--accent-main); border-radius: 50%; z-index: 15;
             box-shadow: 0 0 15px rgba(254, 0, 0, 0.9); border: 2px solid var(--bg-deep);
+            margin: 2px 0;
         }
+
+        
+        .card-actions-col { position: absolute; right: 8px; bottom: 8px; z-index: 16; display: flex; flex-direction: column; gap: 6px; align-items: center; }
+        .card-actions-col .card-copy-btn, .card-actions-col .card-tg-btn, .card-actions-col .card-play-btn { position: relative; right: auto; bottom: auto; margin: 0; }
+        
         .card-tg-btn {
-            position: absolute; right: 8px; z-index: 16;
             background: rgba(41, 128, 185, 0.9); border: 1px solid rgba(41, 128, 185, 0.6); color: #ffffff;
             border-radius: 2px; display: flex; align-items: center; justify-content: center;
             transition: all 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.8);
@@ -325,18 +349,40 @@
         .card-tg-btn:hover { background: rgba(41, 128, 185, 1); box-shadow: 0 0 15px rgba(41, 128, 185, 0.8); transform: scale(1.05); }
 
         .card-copy-btn {
-            position: absolute; right: 8px; z-index: 16;
             background: rgba(3, 6, 36, 0.9); border: 1px solid rgba(254, 0, 0, 0.5); color: var(--accent-main);
             cursor: pointer; border-radius: 2px; display: flex; align-items: center; justify-content: center;
             transition: all 0.3s; opacity: 0; transform: scale(0.8);
             width: 30px; height: 30px; box-sizing: border-box; padding: 0;
         }
         .card-view-item:hover .card-copy-btn { opacity: 1; transform: scale(1); }
-        .card-copy-btn:hover { background: var(--accent-main); color: var(--bg-deep); box-shadow: 0 0 15px rgba(254, 0, 0, 0.6); }
+        .card-copy-btn:hover { background: var(--accent-main); color: #ffffff; box-shadow: 0 0 15px rgba(254, 0, 0, 0.6); transform: scale(1.05); }
+
+        .card-play-btn { background: rgba(3, 6, 36, 0.9); cursor: pointer; border-radius: 2px; display: flex; align-items: center; justify-content: center; transition: all 0.3s; text-decoration: none; width: 30px; height: 30px; box-sizing: border-box; padding: 0;}
+        .card-play-btn.yt { border: 1px solid rgba(255, 74, 74, 0.4); color: #ff4a4a; }
+        .card-play-btn.yt:hover { background: #ff4a4a; color: #ffffff; box-shadow: 0 0 10px rgba(255, 74, 74, 0.5); transform: scale(1.05); }
+        .card-play-btn.boosty { border: 1px solid rgba(245, 130, 32, 0.4); color: #f58220; }
+        .card-play-btn.boosty:hover { background: #f58220; color: #ffffff; box-shadow: 0 0 10px rgba(245, 130, 32, 0.5); transform: scale(1.05); }
+        .card-play-btn.tg { border: 1px solid rgba(56, 189, 248, 0.4); color: #38bdf8; }
+        .card-play-btn.tg:hover { background: #38bdf8; color: #ffffff; box-shadow: 0 0 10px rgba(56, 189, 248, 0.5); transform: scale(1.05); }
+
 
         
-        .steam-link-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: rgba(41, 128, 185, 0.3); color: #ffffff !important; border: 1px solid rgba(41, 128, 185, 0.6); padding: 4px 10px; border-radius: 2px; text-decoration: none; font-family: var(--font-title); font-size: 11px; font-weight: 700; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.5); text-transform: uppercase; letter-spacing: 1px; width: fit-content; box-sizing: border-box; margin-top: 4px;}
-        .steam-link-btn:hover { background: rgba(41, 128, 185, 0.8); color: #ffffff !important; box-shadow: 0 0 15px rgba(41, 128, 185, 0.6); transform: translateY(-1px); }
+        .play-link-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 3px 12px 2px 10px; border-radius: 2px; text-decoration: none; font-family: var(--font-title); font-size: 13px; font-weight: 700; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.5); width: 100%; max-width: 140px !important; box-sizing: border-box; margin-top: 4px; }
+        .play-link-btn.tg-rec { background: rgba(56, 189, 248, 0.1); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
+        .play-link-btn.tg-rec:hover { background: #38bdf8; color: var(--bg-deep); box-shadow: 0 0 12px rgba(56, 189, 248, 0.5); transform: translateY(-2px); }
+        .play-link-btn.boosty { background: rgba(245, 130, 32, 0.1); color: #f58220; border: 1px solid rgba(245, 130, 32, 0.3); }
+        .play-link-btn.boosty:hover { background: #f58220; color: var(--bg-deep); box-shadow: 0 0 12px rgba(245, 130, 32, 0.5); transform: translateY(-2px); }
+        .play-link-btn.yt { background: rgba(255, 74, 74, 0.1); color: #ff4a4a; border: 1px solid rgba(255, 74, 74, 0.3); }
+        .play-link-btn.yt:hover { background: #ff4a4a; color: var(--bg-deep); box-shadow: 0 0 12px rgba(255, 74, 74, 0.5); transform: translateY(-2px); }
+
+        .play-modal-badge { display: inline-flex; align-items: center; gap: 4px; text-decoration: none; cursor: pointer; transition: all 0.3s ease; }
+        .play-modal-badge.tg-rec { color: #38bdf8; border-color: rgba(56, 189, 248, 0.5); background: rgba(56, 189, 248, 0.05); }
+        .play-modal-badge.tg-rec:hover { background: #38bdf8; color: var(--bg-deep); box-shadow: 0 0 10px rgba(56, 189, 248, 0.5); }
+        .play-modal-badge.boosty { color: #f58220; border-color: rgba(245, 130, 32, 0.5); background: rgba(245, 130, 32, 0.05); }
+        .play-modal-badge.boosty:hover { background: #f58220; color: var(--bg-deep); box-shadow: 0 0 10px rgba(245, 130, 32, 0.5); }
+        .play-modal-badge.yt { color: #ff4a4a; border-color: rgba(255, 74, 74, 0.5); background: rgba(255, 74, 74, 0.05); }
+        .play-modal-badge.yt:hover { background: #ff4a4a; color: var(--bg-deep); box-shadow: 0 0 10px rgba(255, 74, 74, 0.5); }
+
         
         .watch-online-btn {
             background: var(--accent-main); color: #ffffff; padding: 4px 12px; font-size: 13px; font-weight: 900;
@@ -391,12 +437,9 @@
         
         .modal-title-wrapper .copy-btn { opacity: 0.8; transform: scale(1); background: rgba(254, 0, 0, 0.15); border: 1px solid var(--accent-dark); color: var(--accent-main); padding: 6px; display: inline-flex; align-items: center; justify-content: center; transition: all 0.3s; cursor: pointer; border-radius: 2px; position: static; }
         .modal-title-wrapper:hover .copy-btn { opacity: 1; }
-        .modal-title-wrapper .copy-btn:hover { background: var(--accent-main); color: var(--bg-deep); box-shadow: 0 0 20px rgba(254, 0, 0, 0.6); border-color: var(--accent-main); }
+        .modal-title-wrapper .copy-btn:hover { background: var(--accent-main); color: #ffffff; box-shadow: 0 0 20px rgba(254, 0, 0, 0.6); border-color: var(--accent-main); }
         
-        .modal-meta-wrapper { display: flex; align-items: center; gap: 4px; margin-bottom: 12px; border-bottom: 1px solid rgba(254, 0, 0, 0.3); padding-bottom: 15px; flex-wrap: wrap; }
-        .tg-modal-badge { display: inline-flex; align-items: center; gap: 4px; text-decoration: none; cursor: pointer; transition: all 0.3s ease; color: #ffffff !important; }
-        .tg-modal-badge:hover { background: var(--accent-main); color: #ffffff !important; box-shadow: 0 0 15px rgba(254, 0, 0, 0.5); }
-        
+        .modal-meta-wrapper { margin-bottom: 12px; border-bottom: 1px solid rgba(254, 0, 0, 0.3); padding-bottom: 15px; }
         .modal-overview { color: var(--text-main); font-family: var(--font-text); font-size: 16px; line-height: 1.7; margin-bottom: 30px; }
 
         .modal-crew-section { display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 30px; }
@@ -458,71 +501,231 @@
         ::-webkit-scrollbar-thumb { background: var(--accent-dark); border-radius: 0; }
         ::-webkit-scrollbar-thumb:hover { background: var(--accent-main); }
 
-        @media (max-width: 1024px) {
+        
+        .media-grid { display: flex; flex-wrap: wrap; gap: 10px; padding-bottom: 5px; }
+        .media-thumb {
+            width: 110px; height: 65px; border-radius: 2px; object-fit: cover;
+            border: 2px solid rgba(254, 0, 0, 0.3); cursor: pointer;
+            transition: all 0.3s; background: var(--bg-velvet);
+            background-size: cover; background-position: center; position: relative;
+        }
+        .media-thumb:hover { border-color: var(--accent-main); transform: scale(1.05); box-shadow: 0 5px 15px rgba(0,0,0,0.5); z-index: 2; }
+        
+        .video-thumb::after {
+            content: '▶'; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            font-size: 14px; color: var(--bg-deep); background: rgba(254, 0, 0, 0.9); 
+            width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; padding-left: 2px; box-sizing: border-box; box-shadow: 0 2px 8px rgba(0,0,0,0.6); transition: all 0.3s;
+        }
+        .video-thumb:hover::after { background: #fff; transform: translate(-50%, -50%) scale(1.15); box-shadow: 0 0 15px rgba(254, 0, 0, 0.8); }
+
+        .lightbox-overlay {
+            display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(3, 6, 36, 0.95); backdrop-filter: blur(10px); z-index: 2000; 
+            justify-content: center; align-items: center; opacity: 0; transition: opacity 0.3s ease;
+        }
+        .lightbox-overlay.active { display: flex; opacity: 1; }
+        .lightbox-content { position: relative; max-width: 90vw; max-height: 90vh; display: flex; justify-content: center; align-items: center; }
+        .lightbox-img { max-width: 100%; max-height: 90vh; border-radius: 2px; border: 2px solid var(--accent-main); box-shadow: 0 15px 40px rgba(0,0,0,0.8); display: none; }
+        .lightbox-video { width: 80vw; max-width: 1200px; aspect-ratio: 16/9; border-radius: 2px; border: 2px solid var(--accent-main); box-shadow: 0 15px 40px rgba(0,0,0,0.8); display: none; outline: none; background: #000; }
+        
+        .lightbox-close {
+            position: absolute; top: -45px; right: 0px; color: var(--text-main); cursor: pointer;
+            background: rgba(3, 6, 36, 0.8); border: 1px solid var(--accent-main); width: 36px; height: 36px; border-radius: 2px;
+            display: flex; justify-content: center; align-items: center; transition: all 0.3s; z-index: 2005;
+        }
+        .lightbox-close:hover { color: var(--bg-deep); background: var(--accent-main); transform: rotate(90deg); box-shadow: 0 0 15px rgba(254, 0, 0, 0.5); }
+        
+        .lightbox-nav {
+            position: absolute; top: 50%; transform: translateY(-50%); color: var(--accent-main); font-size: 30px; cursor: pointer;
+            background: rgba(3, 6, 36, 0.6); border: 1px solid var(--accent-main); width: 50px; height: 50px; border-radius: 2px;
+            display: flex; justify-content: center; align-items: center; transition: all 0.3s; z-index: 2001; user-select: none; -webkit-user-select: none;
+        }
+        .lightbox-nav:hover { background: var(--accent-main); color: var(--bg-deep); box-shadow: 0 0 15px rgba(254, 0, 0, 0.5); }
+        .lightbox-prev { left: 20px; }
+        .lightbox-next { right: 20px; }
+        @media (max-width: 768px) { .lightbox-nav { display: none; } }
+
+        
+        #partsModalOverlay { z-index: 3000; }
+        .parts-modal-content {
+            background: var(--bg-deep); padding: 25px 20px 20px; border-radius: 4px;
+            border: 2px solid var(--accent-main); box-shadow: 0 15px 50px rgba(0,0,0,0.9);
+            width: 320px; max-width: 90vw; position: relative;
+        }
+        .part-item-btn {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 12px 15px; background: rgba(254, 0, 0, 0.05);
+            border: 1px dashed rgba(254, 0, 0, 0.3); border-radius: 2px;
+            color: var(--text-main); text-decoration: none; font-family: var(--font-title);
+            font-weight: 800; font-size: 15px; transition: all 0.3s;
+        }
+        .part-item-btn:hover {
+            background: var(--accent-main); color: var(--bg-deep);
+            box-shadow: 0 0 15px rgba(254, 0, 0, 0.4); transform: translateX(4px); border-color: transparent;
+        }
+        #partsContainer::-webkit-scrollbar { width: 6px; }
+        #partsContainer::-webkit-scrollbar-track { background: rgba(3, 6, 36, 0.5); border-radius: 0; }
+        #partsContainer::-webkit-scrollbar-thumb { background: var(--accent-dark); border-radius: 0; }
+
+        
+        #starsCanvas { display: none !important; }
+
+        @media (max-width: 1550px) { .girl-col { display: none; } }
+
+        
+        @media (min-width: 1920px) {
+            .container { max-width: 1450px; }
+            .movies-grid { grid-template-columns: repeat(7, 1fr); gap: 20px; }
+            .modal-content { max-width: 1150px; }
+            .modal-poster { width: 250px; }
+            .header-top h1 { font-size: 54px; }
+        }
+
+        @media (min-width: 2560px) {
+            .container { max-width: 1900px; }
+            .movies-grid { grid-template-columns: repeat(9, 1fr); }
+            .modal-content { max-width: 1500px; }
+            .modal-poster { width: 300px; }
+            
+            
+            body::after {
+                content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+                background: rgba(3, 6, 36, 0); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); z-index: -2; pointer-events: none;
+            }
+
+            
+            #starsCanvas { display: block !important; }
+
+            th:nth-child(1), td:nth-child(1) { width: 200px !important; min-width: 200px !important; }
+            .poster-wrapper { width: 170px !important; height: 255px !important; } 
+            
+            th:nth-child(3), td:nth-child(3) { width: 220px !important; min-width: 220px !important; }
+            th:nth-child(4), td:nth-child(4) { width: 220px !important; min-width: 220px !important; }
+            th:nth-child(5), td:nth-child(5) { width: 220px !important; min-width: 220px !important; }
+            th:nth-child(6), td:nth-child(6) { width: 220px !important; min-width: 220px !important; }
+            
+            .movie-overview-text { font-size: 16px; line-height: 1.6; }
+            .play-link-btn { width: 140px !important; max-width: 140px !important; }
+            .date-badge { white-space: nowrap !important; }
+        }
+
+        @media (max-width: 1400px) {
+            th { font-size: 11px !important; letter-spacing: 0 !important; padding-left: 5px !important; padding-right: 5px !important; }
+            
+            th:nth-child(1), td:nth-child(1) { width: 120px !important; min-width: 120px !important; padding-left: 5px !important; padding-right: 5px !important; }
+            .poster-wrapper { width: 105px !important; height: 160px !important; } 
+            
+            th:nth-child(3), td:nth-child(3) { width: 110px !important; min-width: 110px !important; padding-left: 5px !important; padding-right: 5px !important; }
+            th:nth-child(4), td:nth-child(4) { width: 140px !important; min-width: 140px !important; padding-left: 5px !important; padding-right: 5px !important; }
+            th:nth-child(5), td:nth-child(5) { width: 130px !important; min-width: 130px !important; padding-left: 5px !important; padding-right: 5px !important; }
+            th:nth-child(6), td:nth-child(6) { width: 130px !important; min-width: 130px !important; padding-left: 5px !important; padding-right: 5px !important; }
+            
+            .play-link-btn { width: 100% !important; max-width: 120px !important; font-size: 11px !important; padding: 4px !important; box-sizing: border-box !important; }
+            .time-box { white-space: nowrap !important; padding: 6px 10px !important; font-size: 13px !important; }
+            
+            .date-badge { width: 100% !important; max-width: 125px !important; font-size: 11px !important; padding: 4px 6px !important; box-sizing: border-box !important; white-space: normal !important; text-align: center !important; line-height: 1.1 !important; }
+            .badge-status { font-size: 11px !important; padding: 4px 10px !important; width: 100% !important; max-width: 125px !important; box-sizing: border-box !important; }
+        }
+
+        @media (max-width: 1279px) {
+            #viewToggleBtn { display: none !important; }
             .movies-grid { grid-template-columns: repeat(4, 1fr); }
         }
+
+        @media (max-width: 1024px) {
+            .header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; padding: 25px 20px 20px; }
+            .back-btn, .creator-badge { position: relative; top: auto; left: auto; right: auto; order: 1; }
+            .header-top { width: 100%; order: 2; margin-top: 15px; }
+            .header-top h1 { font-size: 38px; }
+            .controls-panel { width: 100%; order: 3; margin-top: 10px; }
+
+            .modal-body { padding: 0 20px 30px 20px; gap: 20px; }
+            .modal-poster { width: 180px; }
+        }
+
+        @media (max-width: 1023px) {
+            .modal-body { flex-direction: column; align-items: center; margin-top: -80px; padding: 20px; }
+            .modal-body > div:first-child { width: 100%; display: flex; justify-content: center; } 
+            .modal-poster { display: block; width: 160px; margin: 0 auto; align-self: center; }
+            .modal-info-main { width: 100%; box-sizing: border-box; }
+            #modalTagsColumn { padding-left: 25px !important; }
+        }
+
         @media (max-width: 768px) {
-            #viewToggleBtn { display: none !important; }
-        
-            th:nth-child(4), td:nth-child(4) { display: none; }
-            .movies-grid { grid-template-columns: repeat(2, 1fr); padding: 10px; gap: 10px; }
-            .modal-body { flex-direction: column; margin-top: -60px; padding: 20px; }
-            .modal-poster { width: 140px; margin: 0 auto; }
+            th:nth-child(4), td:nth-child(4) { display: none; } 
             
+            .movies-grid { grid-template-columns: repeat(2, 1fr); padding: 10px; gap: 10px; }
+            .modal-poster { width: 140px; } 
+            
+            .header { flex-direction: column; justify-content: center; align-items: center; gap: 15px; padding: 20px 15px; box-sizing: border-box; }
+            .back-btn { width: auto; margin: 0; order: 1; justify-content: center; }
+            .creator-badge { order: 2; margin: 0; }
+            .header-top { order: 3; width: 100%; margin-top: 5px; text-align: center;}
+            .header-top h1 { font-size: 28px; margin: 0 0 10px 0; text-align: center; }
+            .header-top h1::before, .header-top h1::after { display: none; }
+            .controls-panel { order: 4; flex-direction: column; align-items: center; width: 100%; gap: 10px; margin-top: 0; box-sizing: border-box; }
+            .search-box, .sort-select { width: 100%; max-width: 100%; margin: 0; box-sizing: border-box; }
+        }
+
+        @media (max-width: 767px) {
             .modal-grid { grid-template-columns: 1fr !important; }
             .grid-item.border-right { border-right: none !important; }
             .grid-item { border-bottom: 1px solid rgba(254, 0, 0, 0.3); }
-            #modalTagsColumn { grid-row: auto !important; grid-column: 1 / -1 !important; border-bottom: 1px solid rgba(254, 0, 0, 0.3); padding-left: 25px !important;}
+            
+            #modalTagsColumn { grid-row: auto !important; grid-column: 1 / -1 !important; border-bottom: 1px solid rgba(254, 0, 0, 0.3); padding: 20px 25px !important;}
             .grid-item.full-width { border-bottom: none; }
+
+            .grid-item { align-items: center !important; text-align: center; }
+            
+            #modalRequesterBlock, #modalTagsBlock, #modalDateWatched > div, .flex-col-half, #modalRow3Wrapper > div { 
+                align-items: center !important; justify-content: center !important; width: 100% !important; 
+            }
+            
+            #modalTagsBlock .modal-grid-box, #modalRequesterBlock .modal-requester-link { 
+                align-self: center !important; margin-left: auto !important; margin-right: auto !important; 
+            }
+
+            .modal-title-wrapper { flex-direction: column; align-items: center; text-align: center; }
+            .modal-title { font-size: 26px !important; white-space: normal !important; text-align: center; }
+            .modal-title-extras { justify-content: center; margin-top: 8px; }
+            
+            .modal-meta-wrapper { justify-content: center; }
+            .modal-meta-wrapper > div > div { justify-content: center !important; }
+            
+            #modalGenres { justify-content: center !important; }
+            .crew-section { justify-content: center !important; flex-wrap: wrap; }
+            .modal-crew-section { justify-content: center !important; text-align: center;}
+            .modal-crew-group { align-items: center; }
+            .modal-crew-list { justify-content: center; }
+            
+            .media-grid { justify-content: center; }
             
             .flex-row-responsive { flex-direction: column; }
             .flex-col-half.border-right-dashed { border-right: none; border-bottom: 1px solid rgba(254, 0, 0, 0.3); }
-
-            .header {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 15px; 
-                padding: 20px 10px; 
-            }
-
-            .back-btn {
-                position: relative;
-                top: 0;
-                left: 0;
-            }
-
-            .creator-badge {
-                position: relative;
-                top: 0;
-                right: 0;
-            }
-
-            .header-top h1 { 
-                font-size: 28px; 
-                margin: 5px 0 10px 0;
-            }
-            .header-top h1::before, .header-top h1::after { 
-                display: none; 
-            }
-
         }
-    
+
+        @media (max-width: 480px) {
+            .movies-grid { grid-template-columns: 1fr; } 
+            .header-top h1 { font-size: 24px; line-height: 1.2; }
+            .modal-title { font-size: 24px !important; }
+            .modal-poster { width: 120px; }
+        }
+
+
         .legendary-badge {
             box-shadow: 0 5px 15px rgba(0,0,0,0.9), inset 0 0 20px #ffd700, 0 0 30px rgba(255, 215, 0, 0.5) !important;
             border-color: #ffd700 !important; color: #130f1c !important; font-weight: 900 !important; background: #ffd700 !important;
         }
 
-        
         .text-3d-effect {
             color: #ffffff;
             text-shadow: 2px 2px 0px var(--accent-dark), 0 0 10px rgba(254, 0, 0, 0.8);
         }
 
-        
         .icon-3d-effect {
             filter: drop-shadow(2px 2px 0px var(--accent-dark)) drop-shadow(0 0 10px rgba(254, 0, 0, 0.8));
         }
+
     </style>
 </head>
 <body>
@@ -552,19 +755,25 @@
                 
                 <div class="controls-panel">
                     <input type="text" id="searchInput" class="search-box" placeholder="Поиск..." oninput="applyFilters()">
+                    
                     <select id="userFilter" class="sort-select" onchange="applyFilters()">
                         <option value="all">Все заказчики</option>
                     </select>
+
+                    <select id="typeFilter" class="sort-select" onchange="applyFilters()">
+                        <option value="all">Все типы</option>
+                        <option value="movie">Фильмы</option>
+                        <option value="cartoon">Мультфильмы</option>
+                        <option value="anime">Аниме</option>
+                        <option value="series">Сериалы</option>
+                    </select>
+
                     <select id="sortSelect" class="sort-select" onchange="applyFilters()">
                         <option value="order">По порядку</option>
                         <option value="date_asc">По дате заказов (Старые)</option>
                         <option value="newest">По дате заказов (Новые)</option>
                         <option value="waiting">В ожидании</option>
                         <option value="watched">Смотрели</option>
-						<option value="type_movie">Фильмы</option>
-						<option value="type_cartoon">Мультфильмы</option>
-						<option value="type_anime">Аниме</option>
-						<option value="type_series">Сериалы</option>
                         <option value="auction">Аукцион</option>
                         <option value="theme">Тем. неделя</option>
                         <option value="marvel">Марвел</option>
@@ -612,12 +821,19 @@
                             <div class="modal-title-extras">
                                 <span class="modal-year" id="modalYear"></span>
                                 <button class="copy-btn" id="modalCopyBtn" onclick="copyMovieNameFromModal()" title="Скопировать имя">
-                                    <svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="miter"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+                                    <svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 12.9V17.1C16 20.6 14.6 22 11.1 22H6.9C3.4 22 2 20.6 2 17.1V12.9C2 9.4 3.4 8 6.9 8H11.1C14.6 8 16 9.4 16 12.9Z"/><path d="M22 6.9V11.1C22 14.6 20.6 16 17.1 16H16V12.9C16 9.4 14.6 8 11.1 8H8V6.9C8 3.4 9.4 2 12.9 2H17.1C20.6 2 22 3.4 22 6.9Z"/></svg>
                                 </button>
                             </div>
                         </div>
                         <div class="modal-meta-wrapper" id="modalBadges"></div>
                         <div id="modalGenres" style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;"></div>
+                        
+                        <div id="modalReviewBlock" style="display: none; margin-bottom: 25px;">
+                            <div class="text-3d-effect" style="font-size: 11px; color: #ffffff; text-transform: uppercase; font-family: var(--font-title); font-weight: 800; letter-spacing: 1px; margin-bottom: 8px;">✦ Отзыв от стримера</div>
+                            <div class="modal-review-text" style="font-size: 15px; line-height: 1.6; color: #fff; font-style: italic; border-left: 3px solid var(--accent-main); padding: 12px 16px; background: rgba(254, 0, 0, 0.05); border-radius: 0 4px 4px 0;"></div>
+                        </div>
+
+                        <div class="text-3d-effect" style="font-size: 11px; color: #ffffff; text-transform: uppercase; font-family: var(--font-title); font-weight: 800; letter-spacing: 1px; margin-bottom: 8px;" id="modalOverviewLabel">♦ Описание</div>
                         <div class="modal-overview" id="modalOverview"></div>
                         <div class="modal-crew-section" id="modalCrewSection"></div>
                         
@@ -647,6 +863,13 @@
 
                             <div id="modalRow3Wrapper" class="grid-item full-width border-bottom" style="padding: 0;"></div>
 
+                            <div class="grid-item full-width border-bottom" id="modalMediaCol" style="display: none; padding: 20px 25px;">
+                                <div id="modalScreenshotsWrapper" style="display: none;">
+                                    <div class="grid-label" style="margin-bottom: 12px;">Кадры</div>
+                                    <div id="modalScreenshots" class="media-grid"></div>
+                                </div>
+                            </div>
+
                             <div class="grid-item full-width" style="border-bottom: none;">
                                 <div class="grid-label">Студии</div>
                                 <div class="grid-value" id="modalStudios" style="color: var(--text-muted); font-weight: normal; margin-top: 4px;">Архив скрыт</div>
@@ -667,12 +890,38 @@
     </div>
 </div>
 
+<div class="lightbox-overlay" id="lightboxModal" onclick="closeLightbox(event)">
+    <div class="lightbox-nav lightbox-prev" onclick="changeLightboxMedia(-1, event)">&#10094;</div>
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+        <div class="lightbox-close" onclick="closeLightbox(event)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
+        <img id="lightboxImg" class="lightbox-img" src="" alt="">
+        <video id="lightboxVideo" class="lightbox-video" controls playsinline preload="metadata"></video>
+    </div>
+    <div class="lightbox-nav lightbox-next" onclick="changeLightboxMedia(1, event)">&#10095;</div>
+</div>
+
+<div class="lightbox-overlay" id="partsModalOverlay" onclick="closePartsModal(event)">
+    <div class="parts-modal-content" onclick="event.stopPropagation()">
+        <div class="close-btn" onclick="closePartsModal(event)" style="top: -15px; right: -15px; width: 34px; height: 34px; background: var(--accent-main); color: var(--bg-deep); border-color: transparent;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
+        <div style="font-family: var(--font-title); font-size: 18px; font-weight: 900; color: #fff; text-align: center; margin-bottom: 5px; line-height: 1.2;" id="partsModalTitle">Название</div>
+        <div style="font-family: var(--font-title); font-size: 11px; color: var(--text-muted); text-align: center; margin-bottom: 15px; text-transform: uppercase; font-weight: 800; letter-spacing: 1px;" id="partsModalPlatform">ПЛАТФОРМА</div>
+        
+        <div id="partsContainer" style="display: flex; flex-direction: column; gap: 8px; max-height: 50vh; overflow-y: auto; padding-right: 5px;"></div>
+    </div>
+</div>
+
 <script>
     let rawMoviesData = []; 
     let currentViewData = []; 
     let currentModalMovie = null; 
     let viewMode = localStorage.getItem('siteViewMode') || 'grid'; 
     let isOnlineBtnVisible = true;
+    let modalMediaItems = []; 
+    let currentLightboxIndex = 0;
 
     const fallbackImage = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='185' height='278' viewBox='0 0 185 278'%3E%3Crect width='185' height='278' fill='%230C1E5B'/%3E%3Cpath d='M92.5 130c19.3 0 35-15.7 35-35s-15.7-35-35-35-35 15.7-35 35 15.7 35 35 35zm0 15c-23.3 0-70 11.7-70 35v25h140v-25c0-23.3-46.7-35-70-35z' fill='%23030624'/%3E%3C/svg%3E";
     const fallbackPoster = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='750' viewBox='0 0 500 750'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23030624'/%3E%3Cstop offset='100%25' stop-color='%23000000'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='500' height='750' fill='url(%23bg)'/%3E%3Cg transform='translate(0, -20)'%3E%3Crect x='160' y='270' width='180' height='250' rx='4' fill='%230C1E5B' stroke='%23fe0000' stroke-width='6'/%3E%3Crect x='195' y='270' width='110' height='250' fill='%23030624'/%3E%3Crect x='172' y='290' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Crect x='172' y='330' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Crect x='172' y='370' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Crect x='172' y='410' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Crect x='172' y='450' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Crect x='172' y='490' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Crect x='316' y='290' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Crect x='316' y='330' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Crect x='316' y='370' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Crect x='316' y='410' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Crect x='316' y='450' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Crect x='316' y='490' width='12' height='16' rx='0' fill='%23fe0000'/%3E%3Cpolygon points='230,365 230,425 275,395' fill='%23741511'/%3E%3Ccircle cx='345' cy='250' r='14' fill='%23741511'/%3E%3Ccircle cx='375' cy='280' r='10' fill='%23ff4d4d'/%3E%3Ccircle cx='145' cy='520' r='12' fill='%23ff4d4d'/%3E%3C/g%3E%3C/svg%3E";
@@ -718,7 +967,7 @@
         navigator.clipboard.writeText(text).then(() => {
             if (btnElement) {
                 const originalHTML = btnElement.innerHTML;
-                btnElement.innerHTML = `<svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+                btnElement.innerHTML = `<svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
                 btnElement.classList.add('copied');
                 setTimeout(() => { btnElement.innerHTML = originalHTML; btnElement.classList.remove('copied'); }, 500);
             }
@@ -732,6 +981,116 @@
             copyTextToClipboard(`${baseTitle} ${currentModalMovie.year || ''}`, document.getElementById('modalCopyBtn')); 
         }
     }
+
+    
+    window.switchListTab = function(event, btn, tabName) {
+        event.stopPropagation();
+        const container = btn.closest('.movie-info');
+        container.querySelectorAll('.list-tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        container.querySelectorAll('.movie-content-block').forEach(c => c.style.display = 'none');
+        container.querySelector(`.content-${tabName}`).style.display = 'block';
+    };
+
+    window.toggleTextExpand = function(event, element) {
+        event.stopPropagation();
+        element.classList.toggle('expanded');
+    };
+
+    
+    window.openLightbox = function(index) {
+        currentLightboxIndex = index;
+        const item = modalMediaItems[index];
+        const lightbox = document.getElementById('lightboxModal');
+        const imgEl = document.getElementById('lightboxImg');
+        const videoEl = document.getElementById('lightboxVideo');
+
+        imgEl.style.display = 'none';
+        videoEl.style.display = 'none';
+        videoEl.pause();
+
+        if (item.type === 'image') {
+            imgEl.src = item.src;
+            imgEl.style.display = 'block';
+        } else if (item.type === 'video') {
+            videoEl.style.display = 'block';
+            videoEl.src = item.src;
+            videoEl.play().catch(e => console.log(e));
+        }
+        lightbox.classList.add('active');
+    };
+
+    window.closeLightbox = function(event) {
+        if (event && event.stopPropagation) event.stopPropagation();
+        document.getElementById('lightboxModal').classList.remove('active');
+        const videoEl = document.getElementById('lightboxVideo');
+        videoEl.pause(); videoEl.removeAttribute('src'); videoEl.load();
+    };
+
+    window.changeLightboxMedia = function(dir, event) {
+        if (event && event.stopPropagation) event.stopPropagation();
+        let newIndex = currentLightboxIndex + dir;
+        if (newIndex < 0) newIndex = modalMediaItems.length - 1;
+        if (newIndex >= modalMediaItems.length) newIndex = 0;
+        openLightbox(newIndex);
+    };
+
+    
+    window.getMediaButtonHtml = function(movie, baseKey, label, cssClass, svgIcon, styleType) {
+        let parts = [];
+        if (movie[baseKey]) parts.push({ part: 1, url: movie[baseKey] });
+        let i = 2;
+        while (movie[baseKey + i]) { parts.push({ part: i, url: movie[baseKey + i] }); i++; }
+        
+        if (parts.length === 0) return '';
+        
+        const safeTitle = escapeHTML(movie.title || 'Фильм').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        const partsJson = encodeURIComponent(JSON.stringify(parts));
+        
+        if (styleType === 'table') {
+            if (parts.length === 1) return `<a href="${parts[0].url}" target="_blank" class="play-link-btn ${cssClass}" onclick="event.stopPropagation();">${svgIcon} ${label}</a>`;
+            return `<div class="play-link-btn ${cssClass}" onclick="openPartsModal(event, '${label}', '${safeTitle}', '${partsJson}', '${cssClass}')" style="border-style: dashed; cursor: pointer;">${svgIcon} ${label}</div>`;
+        }
+        if (styleType === 'grid') {
+            if (parts.length === 1) return `<a href="${parts[0].url}" target="_blank" class="card-play-btn ${cssClass}" onclick="event.stopPropagation();" title="${label}">${svgIcon}</a>`;
+            return `<div class="card-play-btn ${cssClass}" onclick="openPartsModal(event, '${label}', '${safeTitle}', '${partsJson}', '${cssClass}')" title="${label} (Несколько частей)" style="cursor: pointer; border-style: dashed;">${svgIcon}</div>`;
+        }
+        if (styleType === 'modal') {
+            if (parts.length === 1) return `<a href="${parts[0].url}" target="_blank" class="outline-badge play-modal-badge ${cssClass}" onclick="event.stopPropagation();">${svgIcon} ${label}</a>`;
+            return `<div class="outline-badge play-modal-badge ${cssClass}" onclick="openPartsModal(event, '${label}', '${safeTitle}', '${partsJson}', '${cssClass}')" style="cursor: pointer; border-style: dashed;">${svgIcon} ${label}</div>`;
+        }
+        return '';
+    };
+
+    window.openPartsModal = function(event, platform, title, partsJson, cssClass) {
+        event.stopPropagation();
+        const parts = JSON.parse(decodeURIComponent(partsJson));
+        
+        let color = 'var(--accent-main)';
+        let beautifulPlatformName = 'ЗАПИСИ ПРОСМОТРА';
+        
+        if (cssClass === 'yt') { color = '#ff4a4a'; beautifulPlatformName = 'ЗАПИСИ НА YOUTUBE'; } 
+        else if (cssClass === 'boosty') { color = '#f58220'; beautifulPlatformName = 'ЗАПИСИ НА BOOSTY'; } 
+        else if (cssClass === 'tg' || cssClass === 'tg-rec') { color = '#38bdf8'; beautifulPlatformName = 'ЗАПИСИ В TELEGRAM'; }
+        
+        document.getElementById('partsModalTitle').textContent = title;
+        document.getElementById('partsModalPlatform').textContent = beautifulPlatformName;
+        document.getElementById('partsModalPlatform').style.color = color;
+        
+        document.getElementById('partsContainer').innerHTML = parts.map(p => `
+            <a href="${p.url}" target="_blank" class="part-item-btn" onclick="event.stopPropagation()">
+                <span style="color: ${color};">ЧАСТЬ ${p.part}</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+            </a>
+        `).join('');
+        
+        document.getElementById('partsModalOverlay').classList.add('active');
+    };
+
+    window.closePartsModal = function(event) {
+        if (event && event.stopPropagation) event.stopPropagation();
+        document.getElementById('partsModalOverlay').classList.remove('active');
+    };
 
     async function loadCreatorAvatars() {
         try {
@@ -749,11 +1108,7 @@
         if (!rating) return 'var(--accent-main)';
         const r = parseFloat(rating);
         if (isNaN(r)) return 'var(--accent-main)';
-        
-        
         const rounded = Math.round(r);
-
-        
         if (rounded >= 10) return '#00d708'; 
         if (rounded === 9) return '#32cd32'; 
         if (rounded === 8) return '#80ff00'; 
@@ -764,11 +1119,18 @@
         if (rounded === 3) return '#ff7300'; 
         if (rounded === 2) return '#ff4500'; 
         if (rounded <= 1)  return '#ff1f1f'; 
-        
         return 'var(--accent-main)';
     }
 
     function getInitials(name) { return (name || '??').replace('@', '').trim().substring(0, 1).toUpperCase(); }
+
+    function getEpisodeWord(count) {
+        let mod10 = count % 10;
+        let mod100 = count % 100;
+        if (mod10 === 1 && mod100 !== 11) return count + ' СЕРИЯ';
+        if ([2, 3, 4].includes(mod10) && ![12, 13, 14].includes(mod100)) return count + ' СЕРИИ';
+        return count + ' СЕРИЙ';
+    }
 
     function parseDateObj(dateStr) {
         if (!dateStr || typeof dateStr !== 'string') return 0;
@@ -805,10 +1167,17 @@
         const searchQuery = document.getElementById('searchInput').value.toLowerCase();
         const sortMode = document.getElementById('sortSelect').value;
         const userFilterVal = document.getElementById('userFilter').value;
+        const typeFilterVal = document.getElementById('typeFilter') ? document.getElementById('typeFilter').value : 'all';
         localStorage.setItem('movieSortMode', sortMode);
         
         let filtered = [...rawMoviesData];
         if (userFilterVal !== 'all') filtered = filtered.filter(m => m.requestedBy.toLowerCase() === userFilterVal);
+        
+        if (typeFilterVal === 'movie') filtered = filtered.filter(m => m.type && m.type.toLowerCase() === 'фильм');
+        else if (typeFilterVal === 'cartoon') filtered = filtered.filter(m => m.type && m.type.toLowerCase().includes('мульт'));
+        else if (typeFilterVal === 'anime') filtered = filtered.filter(m => m.type && m.type.toLowerCase().includes('аниме'));
+        else if (typeFilterVal === 'series') filtered = filtered.filter(m => m.type && m.type.toLowerCase().includes('сериал'));
+
         if (searchQuery.trim() !== '') filtered = filtered.filter(m => (m.title && m.title.toLowerCase().includes(searchQuery)) || (m.requestedBy && m.requestedBy.toLowerCase().includes(searchQuery)));
 
         const sortByOrder = (a, b) => { 
@@ -848,12 +1217,12 @@
         else if (sortMode === 'marvel') { filtered = filtered.filter(m => m.isMarvel === true).sort(sortByOrder); }
         else if (sortMode === 'banned') { filtered = filtered.filter(m => m.isBanned === true).sort(sortByOrder); }
         else if (sortMode === 'cried') { filtered = filtered.filter(m => m.cried === true).sort(sortByOrder); }
-		
-		else if (sortMode === 'type_movie') { filtered = filtered.filter(m => m.type === 'Фильм').sort(sortByOrder); }
+        
+        else if (sortMode === 'type_movie') { filtered = filtered.filter(m => m.type === 'Фильм').sort(sortByOrder); }
         else if (sortMode === 'type_cartoon') { filtered = filtered.filter(m => m.type === 'Мультфильм').sort(sortByOrder); }
         else if (sortMode === 'type_anime') { filtered = filtered.filter(m => m.type === 'Аниме').sort(sortByOrder); }
         else if (sortMode === 'type_series') { filtered = filtered.filter(m => m.type === 'Сериал').sort(sortByOrder); }
-		
+        
         else if (sortMode === 'newest') { filtered.sort((a, b) => b.parsedDate - a.parsedDate); }
         else if (sortMode === 'date_asc') { filtered.sort((a, b) => a.parsedDate - b.parsedDate); }
         else { filtered.sort(sortByOrder); }
@@ -870,11 +1239,9 @@
             return;
         }
 
-        
-        if (window.innerWidth <= 768) {
+        if (window.innerWidth < 1280) {
             renderGridMode(renderArea);
         } else {
-            
             if (viewMode === 'list') renderTableMode(renderArea);
             else renderGridMode(renderArea);
         }
@@ -889,6 +1256,7 @@
                         <th style="width: 100%; text-transform: uppercase;">Описание</th>
                         <th style="width: 145px; min-width: 145px; text-transform: uppercase;">Заказчик</th>
                         <th style="width: 170px; min-width: 170px; text-transform: uppercase;">Длительность</th>
+                        <th style="width: 150px; min-width: 150px; text-transform: uppercase;">Ссылки</th>
                         <th style="width: 120px; min-width: 120px; text-transform: uppercase;">Статус</th>
                     </tr>
                 </thead>
@@ -909,7 +1277,7 @@
                 if ((prevMovie.status === 'Не смотрели' || prevMovie.isWatching === true) && movie.status === 'Смотрели') {
                     const dividerTr = document.createElement('tr');
                     dividerTr.innerHTML = `
-                        <td colspan="5" style="padding: 30px 15px; cursor: default; border-bottom: 1px solid rgba(254, 0, 0, 0.3);">
+                        <td colspan="6" style="padding: 30px 15px; cursor: default; border-bottom: 1px solid rgba(254, 0, 0, 0.3);">
                             <div style="display: flex; align-items: center; justify-content: center;">
                                 <div style="flex-grow: 1; height: 2px; background: linear-gradient(to right, transparent, var(--accent-main)); opacity: 0.5;"></div>
                                 <span style="padding: 0 20px; font-family: var(--font-title); font-size: 24px; font-weight: 700; color: #ffffff; text-shadow: 0 0 15px rgba(254, 0, 0, 0.8); text-transform: uppercase; letter-spacing: 2px;">✦ Просмотрено ✦</span>
@@ -942,11 +1310,6 @@
                 watchedDetails += `<div class="date-badge" style="margin-top: 0; width: fit-content;"><span class="text-3d-effect">${movie.dateWatched.split(' ')[0]}</span></div>`;
             }
 
-            const telegramLink = movie.postUrl;
-            if (telegramLink) {
-                watchedDetails += `<a href="${escapeHTML(telegramLink)}" target="_blank" class="steam-link-btn" style="background: rgba(41, 128, 185, 0.3); border-color: rgba(41, 128, 185, 0.6); margin-top: 4px;" onclick="event.stopPropagation();"><svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"></path><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg> ТГ ПОСТ </a>`;
-            }
-
             if (isWatched && movie.ourRating && movie.ourRating !== "Без оценки") {
                 const parsedRating = parseFloat(movie.ourRating);
                 if (parsedRating === 1000) watchedDetails += `<div class="date-badge legendary-badge" style="margin-top: 4px; width: fit-content; flex-direction: column; gap: 2px; padding: 4px 14px; line-height: 1.1;"><span style="font-size: 9px; text-transform: uppercase; opacity: 0.9;">Оценка:</span><span style="font-size: 14px; font-family: var(--font-title);">1000</span></div>`;
@@ -962,6 +1325,7 @@
 
             const tmdbBadge = movie.tmdbRating ? `<span class="tmdb-badge text-3d-effect">TMDB ${movie.tmdbRating}</span>` : '';
             const ageRating = (movie.ageRating && movie.ageRating !== "Нет данных") ? `<span class="outline-badge text-3d-effect">${movie.ageRating}</span>` : '';
+            const kpIdBadge = movie.kinopoiskId ? `<span class="outline-badge text-3d-effect">ID №${movie.kinopoiskId}</span>` : '';
             
             let displayType = escapeHTML(movie.type || 'Фильм');
             if (displayType.toLowerCase() === 'мультфильм') displayType = 'Мульт';
@@ -993,22 +1357,81 @@
             
             const auctionHTML = movie.isAuction ? `<div class="date-badge" style="margin-top: 8px; color: var(--warm-star); border-color: var(--warm-star); background: rgba(3, 6, 36, 0.9); font-size: 11px; text-transform: uppercase; letter-spacing: 2px; font-weight: 900;">✦ Аукцион ✦</div>` : '';
             const seasonHTML = movie.requestedSeason > 0 ? `<div class="date-badge" style="margin-top: 8px; color: #fff; border-color: var(--accent-main); font-size: 12px;">${movie.requestedSeason} сезон</div>` : '';
+            const epsCount = movie.requestedEpisodes || 0;
+            const episodesHTML = epsCount > 0 ? `<div class="date-badge" style="margin-top: 8px; color: #fff; border-color: var(--accent-main); font-size: 12px;">${getEpisodeWord(epsCount)}</div>` : '';
+
+            
+            const playIcon = `<svg class="icon-3d-effect" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>`;
+            let tgRecButtonHTML = getMediaButtonHtml(movie, 'tgRecordUrl', 'ТГ ЗАПИСЬ', 'tg-rec', playIcon, 'table');
+            let boostyButtonHTML = getMediaButtonHtml(movie, 'boostyUrl', 'BOOSTY', 'boosty', playIcon, 'table');
+            let ytButtonHTML = getMediaButtonHtml(movie, 'youtubeUrl', 'YOUTUBE', 'yt', playIcon, 'table');
+            
+            let tgButtonHTML = '';
+            if (movie.postUrl) {
+                tgButtonHTML += `<a href="${escapeHTML(movie.postUrl)}" target="_blank" class="play-link-btn tg-rec" onclick="event.stopPropagation();"><svg class="icon-3d-effect" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg> ТГ ПОСТ</a>`;
+            }
+            if (movie.reviewUrl) {
+                tgButtonHTML += `<a href="${escapeHTML(movie.reviewUrl)}" target="_blank" class="play-link-btn tg-rec" onclick="event.stopPropagation();"><svg class="icon-3d-effect" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg> ТГ ПОСТ</a>`;
+            }
+
+            let allLinksHTML = tgButtonHTML + tgRecButtonHTML + boostyButtonHTML + ytButtonHTML;
+            if (!allLinksHTML) {
+                allLinksHTML = `
+                    <div style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 5px 12px; background: rgba(139, 157, 195, 0.05); border: 1px dashed rgba(139, 157, 195, 0.4); border-radius: 2px; font-family: var(--font-title); font-size: 11px; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; opacity: 0.8; width: 100%; max-width: 140px; box-sizing: border-box;">
+                        <svg class="icon-3d-effect" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="4" y1="4" x2="20" y2="20"></line>
+                            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                        </svg>
+                        Нет ссылок
+                    </div>`;
+            }
 
             tr.innerHTML = `
                 <td><div class="poster-wrapper"><img src="${posterUrl}" onerror="handlePosterError(this)" alt=""></div></td>
                 <td>
                     <div class="movie-info">
-                        <div class="movie-header"><span class="movie-title">${cleanTitle}</span><div class="movie-meta-box"><span class="movie-year text-3d-effect">${movie.year || '----'}</span><button class="copy-btn" onclick="copyMovieNameFromTable(event, '${safeTitleForCopy}', '${movie.year || ''}', this)" title="Скопировать"><svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg></button></div></div>
-                        <div class="badges-container">${typeLabel} ${tmdbBadge} ${ageRating} <span class="outline-badge text-3d-effect">ID №${movie.id || 0}</span></div>
+                        <div class="movie-header"><span class="movie-title">${cleanTitle}</span><div class="movie-meta-box"><span class="movie-year text-3d-effect">${movie.year || '----'}</span><button class="copy-btn" onclick="copyMovieNameFromTable(event, '${safeTitleForCopy}', '${movie.year || ''}', this)" title="Скопировать"><svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 12.9V17.1C16 20.6 14.6 22 11.1 22H6.9C3.4 22 2 20.6 2 17.1V12.9C2 9.4 3.4 8 6.9 8H11.1C14.6 8 16 9.4 16 12.9Z"/><path d="M22 6.9V11.1C22 14.6 20.6 16 17.1 16H16V12.9C16 9.4 14.6 8 11.1 8H8V6.9C8 3.4 9.4 2 12.9 2H17.1C20.6 2 22 3.4 22 6.9Z"/></svg></button></div></div>
+                        <div class="badges-container">${typeLabel} ${tmdbBadge} ${ageRating} ${kpIdBadge}</div>
                         <div class="movie-genres">${escapeHTML(movie.genres || '')}</div>
                         ${movie.tagline ? `<div class="movie-tagline">«${escapeHTML(movie.tagline)}»</div>` : ''}
                         ${movie.studios && movie.studios !== "Нет данных" ? `<div class="movie-studios-list text-3d-effect">${escapeHTML(movie.studios)}</div>` : ''}
-                        <div class="movie-overview-wrapper"><div class="movie-overview-text">${escapeHTML(movie.overview || '')}</div></div>
+                        ${(function(){
+                            const hasReview = movie.reviewText && movie.reviewText.trim() !== "";
+                            const cleanReview = hasReview ? escapeHTML(movie.reviewText).replace(/\n/g, '<br>') : "";
+                            const cleanOverview = escapeHTML(movie.overview || 'Содержимое утеряно во времени...').replace(/&amp;quot;/g, '&quot;');
+                            
+                            let tabsHTML = '<div class="list-tabs-container">';
+                            if (hasReview) tabsHTML += `<button class="list-tab-btn text-3d-effect active" onclick="switchListTab(event, this, 'review')">✦ Отзыв</button>`;
+                            tabsHTML += `<button class="list-tab-btn text-3d-effect ${!hasReview ? 'active' : ''}" onclick="switchListTab(event, this, 'overview')">♦ Описание</button></div>`;
+                            
+
+                            let reviewBlock = hasReview ? `
+                                <div class="movie-content-block content-review" style="display: block;">
+                                    <div class="movie-review-wrapper" onclick="toggleTextExpand(event, this)" title="Нажмите, чтобы развернуть/свернуть">
+                                        <div class="movie-review-text">«${cleanReview}»</div>
+                                    </div>
+                                </div>` : '';
+                                
+                            let overviewBlock = `
+                                <div class="movie-content-block content-overview" style="display: ${hasReview ? 'none' : 'block'};">
+                                    <div class="movie-overview-wrapper" style="margin-top: 4px;" onclick="toggleTextExpand(event, this)" title="Нажмите, чтобы развернуть/свернуть">
+                                        <div class="movie-overview-text">${cleanOverview}</div>
+                                    </div>
+                                </div>`;
+                                
+                            return tabsHTML + reviewBlock + overviewBlock;
+                        })()}
                         <div class="crew-section">${directorHtml}${castHtml}</div>
                     </div>
                 </td>
-                <td style="vertical-align: top;"><div style="display: flex; flex-direction: column; align-items: center;"><div class="requester-badge" onclick="window.open('https://twitch.tv/${cleanNick}', '_blank'); event.stopPropagation();">${avatarMarkup}<span class="req-name resize-list-username text-3d-effect" style="display: block; max-width: 115px; white-space: nowrap; overflow: hidden; text-overflow: clip;">${cleanNick}</span></div>${movie.dateRequested ? `<div class="date-badge"><span class="text-3d-effect">${movie.dateRequested.split(' ')[0]}</span></div>` : ''}${auctionHTML}${seasonHTML}</div></td>
+                <td style="vertical-align: top;"><div style="display: flex; flex-direction: column; align-items: center;"><div class="requester-badge" onclick="window.open('https://twitch.tv/${cleanNick}', '_blank'); event.stopPropagation();">${avatarMarkup}<span class="req-name resize-list-username text-3d-effect" style="display: block; max-width: 115px; white-space: nowrap; overflow: hidden; text-overflow: clip;">${cleanNick}</span></div>${movie.dateRequested ? `<div class="date-badge"><span class="text-3d-effect">${movie.dateRequested.split(' ')[0]}</span></div>` : ''}${auctionHTML}${seasonHTML}${episodesHTML}</div></td>
                 <td style="vertical-align: top;">${runtimeDisplay}</td>
+                <td style="vertical-align: top;">
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 4px; height: 100%;">
+                        ${allLinksHTML}
+                    </div>
+                </td>
                 <td style="vertical-align: top;"><div style="display: flex; flex-direction: column; align-items: center;">${statusText}${watchedDateHTML}</div></td>
             `;
             tbody.appendChild(tr);
@@ -1066,7 +1489,6 @@
             }
             
             let bottomBadges = '';
-            
             if (isWatched && movie.ourRating && movie.ourRating !== "Без оценки") {
                 const rColor = getRatingColor(movie.ourRating);
                 if (parseFloat(movie.ourRating) === 1000) {
@@ -1080,31 +1502,42 @@
             if (movie.isMarvel) bottomBadges += `<div class="card-mini-badge" style="color: #fff; background: rgba(230, 36, 41, 0.9); border-color: #e62429;">MARVEL</div>`;
             if (isWatched && movie.cried) bottomBadges += `<div class="card-mini-badge cried" style="color: var(--text-main); border-color: var(--accent-main);"><svg class="icon-3d-effect" width="12" height="12" viewBox="0 0 24 24" fill="var(--text-main)" stroke="var(--text-main)" stroke-width="1"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg> СЛЁЗЫ</div>`;
             if (movie.isBanned) bottomBadges += `<div class="card-mini-badge" style="color: #fff; background: rgba(230, 36, 41, 0.9); border-color: #e62429;">🚫 БАН</div>`;
+            
+            const epsCount = movie.requestedEpisodes || 0;
+            if (epsCount > 0) bottomBadges += `<div class="card-mini-badge" style="color: #fff; border-color: var(--accent-main);">${getEpisodeWord(epsCount)}</div>`;
             if (movie.requestedSeason && movie.requestedSeason > 0) bottomBadges += `<div class="card-mini-badge" style="color: #fff; border-color: var(--accent-main);">СЕЗОН ${movie.requestedSeason}</div>`;
 
             let avatarMarkup = movie.userAvatar && movie.userAvatar.startsWith('http') ? `<img src="${movie.userAvatar}" class="card-user-avatar" alt="">` : `<div class="card-user-avatar" style="background-color: var(--bg-deep); color: var(--text-main);">${getInitials(cleanNick)}</div>`;
 
+            const hasPost = !!movie.postUrl;
+            let tgBtnMarkup = hasPost ? `
+                <a href="${escapeHTML(movie.postUrl)}" target="_blank" class="card-tg-btn" onclick="event.stopPropagation();" title="Открыть пост в Telegram">
+                    <svg class="icon-3d-effect" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </a>
+            ` : '';
+
+            let tgReviewBtnMarkup = movie.reviewUrl ? `
+                <a href="${escapeHTML(movie.reviewUrl)}" target="_blank" class="card-tg-btn" onclick="event.stopPropagation();" title="Читать отзыв в Telegram">
+                    <svg class="icon-3d-effect" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </a>
+            ` : '';
+
             const hasBannedStudios = movie.studios && movie.studios.includes('🔴');
-            const bannedDotMarkup = hasBannedStudios ? `<div class="banned-dot" title="Запрещенная студия!"></div>` : '';
+            const bannedDotMarkup = hasBannedStudios ? `
+                <div title="Запрещенная студия!" style="background: rgba(3, 6, 36, 0.9); border: 1px solid rgba(254, 0, 0, 0.4); width: 30px; height: 30px; border-radius: 2px; display: flex; align-items: center; justify-content: center; margin: 0; box-sizing: border-box;">
+                    <div style="width: 14px; height: 14px; background-color: var(--accent-main); border-radius: 50%; box-shadow: 0 0 10px var(--accent-main);"></div>
+                </div>
+            ` : '';
             
-            let baseBottom = hasBannedStudios ? 32 : 8;
-
-            const telegramLink = movie.postUrl;
-            const tgButtonMarkup = telegramLink ? `<a href="${escapeHTML(telegramLink)}" target="_blank" class="card-tg-btn" title="Telegram Пост" onclick="event.stopPropagation();" style="bottom: ${baseBottom}px;">
-                <svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-            </a>` : '';
-
-            let copyBtnBottom = telegramLink ? baseBottom + 38 : baseBottom;
-
-            const copyBtnMarkup = `<button class="card-copy-btn" onclick="copyMovieNameFromTable(event, '${safeTitleForCopy}', '${movie.year || ''}', this)" title="Скопировать название" style="bottom: ${copyBtnBottom}px;">
-                <svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
-            </button>`;
-
             let displayType = escapeHTML(movie.type || 'Фильм');
             if (displayType.toLowerCase().includes('мульт')) displayType = 'Мульт';
-            
             let movieGenres = escapeHTML(movie.genres || 'Нет жанра').toLowerCase();
             let runtimeText = movie.runtime && movie.runtime !== 'Неизвестно' ? escapeHTML(movie.runtime) : '?? МИН';
+
+            const playIconGrid = `<svg class="icon-3d-effect" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>`;
+            let ytGridBtn = getMediaButtonHtml(movie, 'youtubeUrl', 'YOUTUBE', 'yt', playIconGrid, 'grid');
+            let boostyGridBtn = getMediaButtonHtml(movie, 'boostyUrl', 'BOOSTY', 'boosty', playIconGrid, 'grid');
+            let tgRecGridBtn = getMediaButtonHtml(movie, 'tgRecordUrl', 'ТГ ЗАПИСЬ', 'tg', playIconGrid, 'grid');
 
             const card = document.createElement('div');
             card.className = 'card-view-item';
@@ -1113,9 +1546,18 @@
             card.innerHTML = `
                 <div class="card-top">
                     <img src="${posterUrl}" class="card-poster" onerror="handlePosterError(this)" alt="">
-                    ${bannedDotMarkup}
-                    ${tgButtonMarkup}
-                    ${copyBtnMarkup}
+                    <div class="card-actions-col">
+                        <button class="card-copy-btn" onclick="copyMovieNameFromTable(event, '${safeTitleForCopy}', '${movie.year || ''}', this)" title="Скопировать название">
+                            <svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 12.9V17.1C16 20.6 14.6 22 11.1 22H6.9C3.4 22 2 20.6 2 17.1V12.9C2 9.4 3.4 8 6.9 8H11.1C14.6 8 16 9.4 16 12.9Z"/><path d="M22 6.9V11.1C22 14.6 20.6 16 17.1 16H16V12.9C16 9.4 14.6 8 11.1 8H8V6.9C8 3.4 9.4 2 12.9 2H17.1C20.6 2 22 3.4 22 6.9Z"/></svg>
+                        </button>
+                        ${ytGridBtn}
+                        ${boostyGridBtn}
+                        ${tgRecGridBtn}
+                        ${tgBtnMarkup}
+                        ${tgReviewBtnMarkup}
+                        ${bannedDotMarkup}
+                    </div>
+                    
                     <div class="card-overlay">
                         <div class="card-badges-top">
                             <div class="card-type-badge">${displayType}</div>
@@ -1158,8 +1600,6 @@
 
     function autoResizeTitles() {
         setTimeout(() => {
-            
-            
             document.querySelectorAll('.movie-row .movie-title').forEach(titleEl => {
                 let currentSize = 28; 
                 titleEl.style.fontSize = currentSize + "px"; 
@@ -1176,7 +1616,7 @@
                     titleEl.style.display = '-webkit-box'; 
                     titleEl.style.webkitLineClamp = '2'; 
                     titleEl.style.webkitBoxOrient = 'vertical'; 
-                    titleEl.style.overflow = 'hidden'; 
+                    titleEl.style.overflow = 'hidden';
                 } else {
                     titleEl.style.whiteSpace = 'nowrap';
                     titleEl.style.textOverflow = 'ellipsis';
@@ -1184,7 +1624,6 @@
                 }
             });
 
-            
             document.querySelectorAll('.card-title-container').forEach(container => {
                 let titleEl = container.querySelector('.resize-title');
                 if (!titleEl) return;
@@ -1195,7 +1634,6 @@
                 
                 let currentSize = 20;
                 titleEl.style.fontSize = currentSize + "px";
-                
                 
                 while ((titleEl.scrollHeight > container.clientHeight || titleEl.scrollWidth > container.clientWidth) && currentSize > 9) {
                     currentSize -= 0.5;
@@ -1231,9 +1669,9 @@
     }
 
     window.addEventListener('resize', () => {
-		autoResizeTitles();
-		renderView(); 
-	});
+        autoResizeTitles();
+        renderView(); 
+    });
 
     function openModal(index) {
         const movie = currentViewData[index]; currentModalMovie = movie; 
@@ -1268,45 +1706,50 @@
         
         document.getElementById('modalYear').textContent = movie.year || '----';
         
-        let badgesHtml = '';
+        let badgesTopRow = '';
         let displayType = escapeHTML(movie.type || 'Фильм');
         if (displayType.toLowerCase().includes('мульт')) displayType = 'Мульт';
-        
-        badgesHtml += `<span class="content-type-badge" style="background: var(--accent-main); color: #ffffff; border: none; box-shadow: 0 0 10px rgba(254,0,0,0.5); text-transform: uppercase;">${displayType}</span>`;
+        badgesTopRow += `<span class="content-type-badge text-3d-effect" style="background: var(--accent-main); color: #ffffff; border: none; box-shadow: 0 0 10px rgba(254,0,0,0.5); text-transform: uppercase;">${displayType}</span>`;
 
         if (movie.runtime && movie.runtime !== "Неизвестно" && movie.runtime !== "Нет данных") {
-            badgesHtml += `<span class="outline-badge">${escapeHTML(movie.runtime)}</span>`;
+            badgesTopRow += `<span class="outline-badge text-3d-effect">${escapeHTML(movie.runtime)}</span>`;
         }
 
-        if (movie.tmdbRating) badgesHtml += `<span class="tmdb-badge">TMDB ${movie.tmdbRating}</span>`;
-        if (movie.ageRating && movie.ageRating !== "Нет данных") badgesHtml += `<span class="outline-badge">${movie.ageRating}</span>`;
-        badgesHtml += `<span class="outline-badge">ID №${movie.id || 0}</span>`;
+        if (movie.tmdbRating) badgesTopRow += `<span class="tmdb-badge text-3d-effect">TMDB ${movie.tmdbRating}</span>`;
+        if (movie.ageRating && movie.ageRating !== "Нет данных") badgesTopRow += `<span class="outline-badge text-3d-effect">${movie.ageRating}</span>`;
+        if (movie.kinopoiskId) badgesTopRow += `<span class="outline-badge text-3d-effect">ID №${movie.kinopoiskId}</span>`;
         
-		
-		
-		let nextLineBadges = '';
-        const telegramLink = movie.postUrl;
-        const hasOnlineBtn = movie.kinopoiskId && isOnlineBtnVisible;
-        
-        
-        if (hasOnlineBtn) {
-            nextLineBadges += `<a href="https://kinomix.web.app/movie/${movie.kinopoiskId}" target="_blank" class="watch-online-btn" onclick="event.stopPropagation();">Смотреть Онлайн</a>`;
+        let badgesBottomRow = '';
+        if (movie.kinopoiskId && isOnlineBtnVisible) {
+            badgesBottomRow += `<a href="https://kinomix.web.app/movie/${movie.kinopoiskId}" target="_blank" class="watch-online-btn" style="margin-left: 0;" onclick="event.stopPropagation();">Смотреть Онлайн</a>`;
         }
-        
-        
-        if (telegramLink) {
-            
-            const marginLeft = hasOnlineBtn ? 'margin-left: 6px;' : '';
-            nextLineBadges += `<a href="${escapeHTML(telegramLink)}" target="_blank" class="outline-badge tg-modal-badge" style="background: rgba(41, 128, 185, 0.3); border-color: rgba(41, 128, 185, 0.6); ${marginLeft}"><svg class="icon-3d-effect" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:2px;"><path d="M22 2L11 13"></path><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg> ТГ ПОСТ </a>`;
+        if (movie.postUrl) {
+            badgesBottomRow += `
+            <a href="${escapeHTML(movie.postUrl)}" target="_blank" class="outline-badge play-modal-badge tg-rec" onclick="event.stopPropagation();" title="Перейти к посту">
+                <svg class="icon-3d-effect" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                ТГ ПОСТ
+            </a>`;
+        }
+        if (movie.reviewUrl) {
+            badgesBottomRow += `
+            <a href="${escapeHTML(movie.reviewUrl)}" target="_blank" class="outline-badge play-modal-badge tg-rec" onclick="event.stopPropagation();" title="Перейти к отзыву">
+                <svg class="icon-3d-effect" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                ТГ ПОСТ
+            </a>`;
         }
 
-        if (nextLineBadges !== '') {
-            badgesHtml += `<div style="flex-basis: 100%; height: 0; margin: 2px 0;"></div>` + nextLineBadges;
-        }
-		
-		
-		
-        document.getElementById('modalBadges').innerHTML = badgesHtml;
+        const playIconModal = `<svg class="icon-3d-effect" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>`;
+        badgesBottomRow += getMediaButtonHtml(movie, 'youtubeUrl', 'YOUTUBE', 'yt', playIconModal, 'modal');
+        badgesBottomRow += getMediaButtonHtml(movie, 'boostyUrl', 'BOOSTY', 'boosty', playIconModal, 'modal');
+        badgesBottomRow += getMediaButtonHtml(movie, 'tgRecordUrl', 'ТГ ЗАПИСЬ', 'tg-rec', playIconModal, 'modal');
+        
+        let finalBadgesHTML = `
+            <div style="display: flex; flex-direction: column; gap: 8px; width: 100%;">
+                <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">${badgesTopRow}</div>
+                ${badgesBottomRow ? `<div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">${badgesBottomRow}</div>` : ''}
+            </div>
+        `;
+        document.getElementById('modalBadges').innerHTML = finalBadgesHTML;
         
         let genresHtml = '';
         if (movie.genres && movie.genres !== "Нет данных") {
@@ -1319,7 +1762,15 @@
         }
         document.getElementById('modalGenres').innerHTML = genresHtml;
 
-        document.getElementById('modalOverview').textContent = movie.overview || 'Содержимое утеряно во времени...';
+        const reviewBlock = document.getElementById('modalReviewBlock');
+        if (movie.reviewText && movie.reviewText.trim() !== "") {
+            reviewBlock.style.display = 'block';
+            reviewBlock.querySelector('.modal-review-text').innerHTML = escapeHTML(movie.reviewText).replace(/\n/g, '<br>');
+        } else {
+            reviewBlock.style.display = 'none';
+        }
+
+        document.getElementById('modalOverview').innerHTML = escapeHTML(movie.overview || 'Содержимое утеряно во времени...').replace(/\n/g, '<br>');
         
         const isWatched = movie.status === "Смотрели";
         
@@ -1327,7 +1778,6 @@
         if (movie.isWatching) {
             statusTextHTML = `<span class="badge-status" style="background: #ffd700; color: #130f1c; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4); margin:0; padding:6px 12px; font-size: 14px; text-transform: uppercase;">СМОТРИМ</span>`;
         } else if (isWatched) {
-            
             statusTextHTML = `<span class="badge-status" style="margin:0; padding:6px 12px; font-size: 14px; background: var(--accent-main); color: #ffffff; border: 1px solid var(--accent-main); box-shadow: 0 0 10px rgba(254,0,0,0.5); text-transform: uppercase;">СМОТРЕЛИ</span>`;
         } else {
             statusTextHTML = `<span class="badge-status" style="background: rgba(12, 30, 91, 0.9); color: #ffffff; border: 1px solid rgba(254, 0, 0, 0.5); box-shadow: 0 4px 15px rgba(0,0,0,0.6); margin:0; padding:6px 12px; font-size: 14px; text-transform: uppercase;">В ОЧЕРЕДИ</span>`;
@@ -1365,7 +1815,7 @@
         if (isWatched && movie.cried) tagsHtml += `<div class="modal-grid-box" style="margin-top: 0; color: var(--text-main); border-color: var(--accent-main); padding: 5px 11px;"><svg class="icon-3d-effect" width="16" height="16" viewBox="0 0 24 24" fill="var(--text-main)" stroke="var(--text-main)" stroke-width="1" style="margin-right: 4px;"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg> СЛЁЗЫ</div>`;
         if (movie.isTheme) tagsHtml += `<div class="modal-grid-box" style="margin-top: 0; color: #fff; border-color: #e056fd; background: rgba(224, 86, 253, 0.4); padding: 4px 6px; font-size: 12px;">Тем. неделя</div>`;
         if (movie.isMarvel) tagsHtml += `<div class="modal-grid-box" style="margin-top: 0; color: #fff; border-color: #e62429; background: rgba(230, 36, 41, 0.4); padding: 4px 10px;">MARVEL</div>`;
-        if (movie.isBanned) tagsHtml += `<div class="modal-grid-box" style="margin-top: 0; color: #fff; border-color: #e62429; background: rgba(230, 36, 41, 0.4); padding: 4px 10px;">🚫 БАН</div>`;
+        if (movie.isBanned) tagsHtml += `<div class="modal-grid-box" style="margin-top: 0; color: #fff; border-color: #e74c3c; background: rgba(231, 76, 60, 0.2); font-size: 13px; padding: 4px 10px 5px 7px;">🚫 Получили БАН</div>`;
         
         const tagsCol = document.getElementById('modalTagsColumn');
         if (tagsHtml === '') {
@@ -1380,7 +1830,7 @@
             statusCol.classList.add('border-right');
             dateWatchedCol.classList.add('border-right');
         }
-
+        
         let financesValue = (movie.budget || movie.revenue) ? `<div class="modal-grid-box" style="margin-top: 4px;">${movie.budget || '0 $'} / ${movie.revenue || '0 $'}</div>` : `<div class="grid-value" style="color: var(--text-muted); font-weight: normal; margin-top: 4px;">0 $ / 0 $</div>`;
         let isSeries = movie.seasons && movie.episodes && String(movie.seasons) !== "0" && String(movie.episodes) !== "0";
         
@@ -1408,23 +1858,47 @@
             `;
         }
         document.getElementById('modalRow3Wrapper').innerHTML = row3Html;
-
+        
         const cleanNick = movie.requestedBy.replace('@', '').trim();
         const userColor = stringToColor(cleanNick);
         let avatarMarkup = movie.userAvatar && movie.userAvatar.startsWith('http') ? `<img src="${movie.userAvatar}" class="req-avatar" style="width:32px; height:32px; border-width:2px; border-radius:2px; object-fit:cover; margin-right:10px;" alt="">` : `<div class="req-avatar" style="width:32px; height:32px; font-size:16px; font-family: var(--font-title); border-width:2px; background-color: var(--bg-deep); border-color: var(--accent-main); border-radius:2px; display:flex; align-items:center; justify-content:center; margin-right:10px; color:var(--text-main); font-weight:800;">${getInitials(cleanNick)}</div>`;
         
         let reqInner = `<div class="modal-requester-link hover-active" onclick="window.open('https://twitch.tv/${cleanNick}', '_blank')" style="display:flex; align-items:center; margin-bottom: 8px;">${avatarMarkup}<span class="name-text">${cleanNick}</span></div>`;
-        if (movie.isAuction) reqInner += `<div class="modal-grid-box" style="margin-top: 0; margin-bottom: 6px; color: var(--warm-star); border-color: var(--warm-star); background: rgba(3, 6, 36, 0.9); font-size: 13px; text-transform: uppercase; letter-spacing: 2px; font-weight: 900;">✦ Аукцион ✦</div>`;
-        if (movie.requestedSeason > 0) reqInner += `<div class="modal-grid-box" style="margin-top: 0; color: #fff; border-color: var(--accent-main); font-size: 14px;">${movie.requestedSeason} сезон</div>`;
+        if (movie.isAuction) reqInner += `<div class="modal-grid-box" style="margin-top: 0; margin-bottom: 6px; color: var(--warm-star); border-color: var(--warm-star); background: rgba(3, 6, 36, 0.9); font-size: 11px; text-transform: uppercase; letter-spacing: 2px; font-weight: 900;">✦ Аукцион ✦</div>`;
+        if (movie.requestedSeason > 0) reqInner += `<div class="modal-grid-box" style="margin-top: 0; margin-bottom: 6px; color: #fff; border-color: var(--accent-main); font-size: 14px;">${movie.requestedSeason} сезон</div>`;
+        
+        const epsCount = movie.requestedEpisodes || 0;
+        if (epsCount > 0) reqInner += `<div class="modal-grid-box" style="margin-top: 0; color: #fff; border-color: var(--accent-main); font-size: 13px;">${getEpisodeWord(epsCount)}</div>`;
         
         document.getElementById('modalRequesterBlock').innerHTML = reqInner;
-
+        
         let dirHtml = '', castHtml = '';
         if (movie.director && movie.director.name && movie.director.name !== "Нет данных") dirHtml = `<div class="modal-crew-group"><div class="grid-label">Творец</div><div class="crew-card director"><img src="${getSafePhoto(movie.director.photo)}" alt=""><span>${escapeHTML(movie.director.name)}</span></div></div>`;
         if (Array.isArray(movie.cast) && movie.cast.length > 0) castHtml = `<div class="modal-crew-group"><div class="grid-label">Актёры</div><div class="modal-crew-list">${movie.cast.map(a => `<div class="crew-card"><img src="${getSafePhoto(a.photo)}" alt=""><span>${escapeHTML(a.name || '')}</span></div>`).join('')}</div></div>`;
         document.getElementById('modalCrewSection').innerHTML = dirHtml + castHtml;
         document.getElementById('modalStudios').textContent = movie.studios === "Нет данных" || !movie.studios ? "Архив скрыт" : movie.studios;
 
+        const mediaCol = document.getElementById('modalMediaCol');
+        const screenshotsWrapper = document.getElementById('modalScreenshotsWrapper');
+        const screenshotsContainer = document.getElementById('modalScreenshots');
+
+        modalMediaItems = []; 
+
+        let screenshotsHtml = '';
+        if (movie.frames && Array.isArray(movie.frames) && movie.frames.length > 0) {
+            movie.frames.forEach(src => {
+                const index = modalMediaItems.length;
+                modalMediaItems.push({ type: 'image', src: src });
+                screenshotsHtml += `<img src="${src}" class="media-thumb" onclick="openLightbox(${index})" alt="Кадр">`;
+            });
+            screenshotsContainer.innerHTML = screenshotsHtml;
+            screenshotsWrapper.style.display = 'block';
+        } else {
+            screenshotsWrapper.style.display = 'none';
+        }
+
+        mediaCol.style.display = modalMediaItems.length > 0 ? 'block' : 'none';
+        
         const trailerWrapper = document.getElementById('trailerWrapper'); const trailerIframe = document.getElementById('modalTrailer');
         if (movie.trailer && movie.trailer.includes('youtube.com/watch?v=')) { trailerIframe.src = `https://www.youtube.com/embed/${movie.trailer.split('v=')[1].split('&')[0]}?color=white`; trailerWrapper.style.display = 'block'; } else { trailerIframe.src = ""; trailerWrapper.style.display = 'none'; }
 
@@ -1440,9 +1914,79 @@
         if (arg === true || (arg && arg.target && arg.target.id === 'movieModal')) {
             document.getElementById('movieModal').classList.remove('active'); document.body.style.overflow = ''; 
             setTimeout(() => { document.getElementById('modalTrailer').src = ""; }, 300);
+            if (typeof closeLightbox === "function") closeLightbox(); 
         }
     }
     loadMovies();
 </script>
+
+<script>
+    
+    const canvas = document.createElement('canvas');
+    canvas.id = 'starsCanvas';
+    canvas.style.position = 'fixed';
+    canvas.style.top = '0';
+    canvas.style.left = '0';
+    canvas.style.width = '100%';
+    canvas.style.height = '100%';
+    canvas.style.zIndex = '-1'; 
+    canvas.style.pointerEvents = 'none';
+    document.body.appendChild(canvas);
+
+    const ctx = canvas.getContext('2d');
+    let width, height, stars = [];
+
+    function initStars() {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+        stars = [];
+        
+        const numStars = Math.floor((width * height) / 4000); 
+        for (let i = 0; i < numStars; i++) {
+            stars.push({
+                x: Math.random() * width,
+                y: Math.random() * height,
+                radius: Math.random() * 1.5 + 0.3, 
+                velocity: Math.random() * 0.4 + 0.1, 
+                alpha: Math.random(), 
+                twinkleSpeed: (Math.random() * 0.02) + 0.005, 
+                fadeDir: Math.random() > 0.5 ? 1 : -1 
+            });
+        }
+    }
+
+    function drawStars() {
+        ctx.clearRect(0, 0, width, height);
+        
+        stars.forEach(star => {
+            ctx.beginPath();
+            ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
+            ctx.fill();
+            
+            star.y -= star.velocity;
+            
+            if (star.y < 0) {
+                star.y = height;
+                star.x = Math.random() * width;
+            }
+
+            star.alpha += star.twinkleSpeed * star.fadeDir;
+            if (star.alpha <= 0.1) {
+                star.alpha = 0.1;
+                star.fadeDir = 1;
+            } else if (star.alpha >= 1) {
+                star.alpha = 1;
+                star.fadeDir = -1;
+            }
+        });
+        requestAnimationFrame(drawStars);
+    }
+    
+    initStars();
+    drawStars();
+    window.addEventListener('resize', initStars);
+</script>
+
 </body>
 </html>
