@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "23.09.2026 20:23",
+    "lastUpdated": "24.09.2026 20:31",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -357,6 +357,69 @@
       "collection": "",
       "id": 101,
       "dateRequested": "16.09.2026 19:33",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
+    },
+    {
+      "title": "Семь жизней",
+      "requestedSeason": 0,
+      "requestedEpisodes": 0,
+      "year": "2008",
+      "type": "Фильм",
+      "tmdbId": 11321,
+      "kinopoiskId": "",
+      "kinopoiskUrl": "",
+      "altPoster": "",
+      "postUrl": "",
+      "tgRecordUrl": "",
+      "boostyUrl": "",
+      "youtubeUrl": "",
+      "reviewUrl": "",
+      "runtime": "1 ч 58 мин",
+      "genres": "драма",
+      "studios": "🔴 Columbia Pictures | 🟢 Escape Artists, 🟢 Relativity Media, 🟢 Overbrook Entertainment",
+      "budget": "55.000.000 $",
+      "revenue": "168.167.691 $",
+      "tmdbRating": "7.601",
+      "overview": "Пытаясь исправить ошибки прошлого, агент налоговой службы Бен отправляется в необычное путешествие в искупление фатального поступка своей жизни. В ходе своей поездки он встречает семерых незнакомцев, включая смертельно больную Эмили, которая называет себя девушкой с подбитыми крыльями. Бен неожиданно влюбляется в нее, что сильно усложняет его первоначальный план. Сможет ли он разгадать послание судьбы?",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/2IAcP7JfPYUYI3OwldqOdXqJweR.jpg",
+      "tagline": "«Они не знакомы. У них разные судьбы. Но у них одна тайна»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/mDu3nkdjzkJ9loy3QyppGcLjaI7.jpg",
+      "cast": [
+        {
+          "name": "Уилл Смит",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/8TlKqbXYgHmmaEoPBJ7djJ8Rxxa.jpg"
+        },
+        {
+          "name": "Розарио Доусон",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/siTzOI810a0K46wv1TORXMw5N7J.jpg"
+        },
+        {
+          "name": "Вуди Харрельсон",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg"
+        },
+        {
+          "name": "Майкл Или",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/rOaJMKiy2JcwhRuJZ977kOvFQRS.jpg"
+        }
+      ],
+      "director": {
+        "name": "Gabriele Muccino",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/5Q1ZsgR07XhNU7dHMXMDGyGD3s8.jpg"
+      },
+      "trailer": "",
+      "ageRating": "PG-13",
+      "keywords": "sadness, vegetarian, tax collector, blind, pianist",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-600x600.png",
+      "collection": "",
+      "id": 103,
+      "dateRequested": "24.09.2026 20:31",
       "status": "Не смотрели",
       "ourRating": "Без оценки",
       "cried": false,
