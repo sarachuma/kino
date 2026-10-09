@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "02.10.2026 19:22",
+    "lastUpdated": "09.10.2026 18:25",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -822,14 +822,15 @@
       "tvStatus": "Ended",
       "id": 102,
       "dateRequested": "16.09.2026 21:36",
-      "status": "Не смотрели",
+      "status": "Смотрели",
       "ourRating": "Без оценки",
       "cried": false,
       "isAuction": false,
       "isBanned": false,
       "isTheme": false,
       "isWatching": false,
-      "isMarvel": false
+      "isMarvel": false,
+      "dateWatched": "09.10.2026 18:25"
     }
   ],
   "pel1mew1k": [
