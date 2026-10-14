@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "09.10.2026 18:25",
+    "lastUpdated": "14.10.2026 18:54",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -430,6 +430,69 @@
       "isWatching": false,
       "isMarvel": false,
       "dateWatched": "02.10.2026 19:22"
+    },
+    {
+      "title": "Пробуждение",
+      "requestedSeason": 0,
+      "requestedEpisodes": 0,
+      "year": "1990",
+      "type": "Фильм",
+      "tmdbId": 11005,
+      "kinopoiskId": "2950",
+      "kinopoiskUrl": "https://www.kinopoisk.ru/film/2950/",
+      "altPoster": "",
+      "postUrl": "",
+      "tgRecordUrl": "",
+      "boostyUrl": "",
+      "youtubeUrl": "",
+      "reviewUrl": "",
+      "runtime": "2 ч 1 мин",
+      "genres": "драма",
+      "studios": "🟢 Parkes/Lasker productions",
+      "budget": "31.000.000 $",
+      "revenue": "52.096.475 $",
+      "tmdbRating": "7.8",
+      "overview": "Доктор Малколм Сэйер, застенчивый врач и ученый, использует экспериментальные препараты, чтобы «пробуждать» обездвиженных жертв редкого заболевания.",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/mwhqs0kBGIYzd5rijPrLPlpacus.jpg",
+      "tagline": "«Открыв глаза на мир одному человеку... он открыл и свои собственные»",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/tRKTlMoTsAhYpuq19V8Wk3RFY4O.jpg",
+      "cast": [
+        {
+          "name": "Роберт Де Ниро",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
+        },
+        {
+          "name": "Робин Уильямс",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/iYdeP6K0qz44Wg2Nw9LPJGMBkQ5.jpg"
+        },
+        {
+          "name": "Джон Хёрд",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/zjhcxrCFK4q0C1gtVmeN8FeqCw0.jpg"
+        },
+        {
+          "name": "Джулия Кавнер",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/87kSPYlWcHvqOVEkhdqxysiAf6w.jpg"
+        }
+      ],
+      "director": {
+        "name": "Penny Marshall",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/vzRgjy7Lsc6edyJ21Ab4QbF2CUT.jpg"
+      },
+      "trailer": "",
+      "ageRating": "Нет данных",
+      "keywords": "coma, experiment, based on novel or book, hope, miracle",
+      "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-600x600.png",
+      "collection": "",
+      "id": 104,
+      "dateRequested": "14.10.2026 18:54",
+      "status": "Не смотрели",
+      "ourRating": "Без оценки",
+      "cried": false,
+      "isAuction": false,
+      "isBanned": false,
+      "isTheme": false,
+      "isWatching": false,
+      "isMarvel": false
     }
   ],
   "Neputeviy": [
