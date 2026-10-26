@@ -1,7 +1,7 @@
 {
   "_metadata_": {
     "streamer": "sarachuma",
-    "lastUpdated": "14.10.2026 21:31",
+    "lastUpdated": "26.10.2026 18:15",
     "isOnlineBtnVisible": true
   },
   "puf_98": [
@@ -62,12 +62,11 @@
       "dateWatched": "18.08.2026 14:42"
     },
     {
-      "title": "Дом у озера",
+      "title": "Пока не сыграл в ящик",
       "requestedSeason": 0,
       "requestedEpisodes": 0,
-      "year": "2006",
+      "year": "2007",
       "type": "Фильм",
-      "tmdbId": 2044,
       "kinopoiskId": "102130",
       "kinopoiskUrl": "https://www.kinopoisk.ru/film/102130/",
       "altPoster": "",
@@ -76,41 +75,41 @@
       "boostyUrl": "",
       "youtubeUrl": "",
       "reviewUrl": "",
-      "runtime": "1 ч 39 мин",
-      "genres": "мелодрама, драма, фэнтези",
-      "studios": "🟢 Vertigo Entertainment",
-      "budget": "40.000.000 $",
-      "revenue": "114.830.111 $",
-      "tmdbRating": "7.034",
-      "overview": "Зима 2006 года. Ощутив необходимость изменить свою жизнь, доктор Кейт Форестер покидает свой необычный дом у озера в пригороде Иллинойса и устраивается на работу в чикагскую больницу. По дороге в город Кейт оставляет в почтовом ящике письмо, которое должен получить новый обитатель дома. Когда же в него вселяется талантливый, но разочаровавшийся в жизни архитектор Алекс Уайлер, он видит этот дом совсем не таким, каким описала его в своём письме Кейт. Для Алекса это жилище имеет особое значение, поскольку оно было построено его отцом, знаменитым архитектором, который ради карьеры оставил свою семью. В итоге Алекс решает придать дому его первоначальный вид. Однажды странный случай заставляет Алекса написать ответное письмо Кейт; в процессе их переписки выясняется, что он живёт в 2004 году, а она — в 2006-м. И лишь загадочный почтовый ящик служит неким соединяющим их мостиком.",
-      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/ndkLts9nwlvhCrjCiMSaSv29SPS.jpg",
-      "tagline": "",
-      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/cvenzPOcYthevmYvy0WX4pZ2RNp.jpg",
+      "runtime": "1 ч 37 мин",
+      "genres": "драма, комедия",
+      "studios": "🟢 Two Ton Films, 🟢 Zadan / Meron Productions, 🟢 Reiner / Greisman Productions",
+      "budget": "45.000.000 $",
+      "revenue": "175.400.000 $",
+      "tmdbRating": "7.196",
+      "overview": "Именно так решили два больных раком соседа по больничной палате, когда услышали свой приговор. Один из них вспыльчивый миллиардер, а второй эрудированный автомеханик. Они составляют список дел, которые необходимо сделать прежде, чем они сыграют в ящик, и отправляются в кругосветное путешествие, путешествие всей своей жизни. Прыжки с парашютом? Посмотрим. Гонки на раритетных автомобилях? Сделано. Посмотреть на пирамиды? Отлично. Открыть радость жизни прежде, чем станет слишком поздно? Точно!",
+      "poster": "https://wsrv.nl/?url=image.tmdb.org/t/p/w500/wOgd3KgFq2ceo8hIgrxjiB8cVYz.jpg",
+      "tagline": "Оторвись напоследок",
+      "backdrop": "https://wsrv.nl/?url=image.tmdb.org/t/p/original/6OpluXPGIE8hfVrhpeygR7p4XwR.jpg",
       "cast": [
         {
-          "name": "Киану Ривз",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg"
+          "name": "Джек Николсон",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/6h12pZsgj3WWjMtykUgfLkLEBWz.jpg"
         },
         {
-          "name": "Сандра Буллок",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/4rfjISL3Flx16jfiusXoHbpt87X.jpg"
+          "name": "Морган Фримен",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/905k0RFzH0Kd6gx8oSxRdnr6FL.jpg"
         },
         {
-          "name": "Кристофер Пламмер",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/u0YBwss0ebEUp8sjRtQKnK2wZdR.jpg"
+          "name": "Шон Хейс",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/31TI5l5QvcZHN4fh0NpejZyJtP.jpg"
         },
         {
-          "name": "Эбон Мосс-Бакрак",
-          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/xD8GVNayMpiTZxLfahy2DseYcQq.jpg"
+          "name": "Беверли Тодд",
+          "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/yrs5xVDJmCfeurMQmXn0MuqHIod.jpg"
         }
       ],
       "director": {
-        "name": "Alejandro Agresti",
-        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/b41SE0CRRW0D1izYltdBDahSdjW.jpg"
+        "name": "Роб Райнер",
+        "photo": "https://wsrv.nl/?url=image.tmdb.org/t/p/w185/2nxxxj3aIU35eCOUEFBD0ireEhZ.jpg"
       },
-      "trailer": "https://www.youtube.com/watch?v=dnJe1Q80O3k",
-      "ageRating": "PG",
-      "keywords": "chicago, illinois, ex-boyfriend, writing, architect, remake",
+      "trailer": "https://www.youtube.com/watch?v=duUyrXcuDKs",
+      "ageRating": "PG-13",
+      "keywords": "dying and death, friendship, husband wife relationship, himalaya mountain range, parent child relationship",
       "userAvatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-600x600.png",
       "collection": "",
       "id": 95,
@@ -122,7 +121,8 @@
       "isBanned": false,
       "isTheme": false,
       "isWatching": false,
-      "isMarvel": false
+      "isMarvel": false,
+      "tmdbId": 7350
     },
     {
       "title": "Поцелуй навылет",
